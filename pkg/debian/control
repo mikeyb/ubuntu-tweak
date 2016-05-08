@@ -29,6 +29,7 @@ Depends: gksu,
  gir1.2-notify-0.7,
  gir1.2-webkit-3.0,
  gir1.2-soup-2.4,
+ gnome-panel,
  ${misc:Depends},
  ${python:Depends}
 Description: Ubuntu Tweak
