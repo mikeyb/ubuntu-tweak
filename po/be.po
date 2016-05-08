@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-19 14:32+0800\n"
-"PO-Revision-Date: 2012-10-02 05:47+0000\n"
-"Last-Translator: Maksim Tomkowicz <quendimax@gmail.com>\n"
+"PO-Revision-Date: 2015-05-05 22:08+0000\n"
+"Last-Translator: Siamion Šachalevič <semen.shah@gmail.com>\n"
 "Language-Team: Belarusian <be@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Launchpad-Export-Date: 2014-06-30 13:01+0000\n"
-"X-Generator: Launchpad (build 17077)\n"
+"X-Launchpad-Export-Date: 2016-05-08 10:25+0000\n"
+"X-Generator: Launchpad (build 18025)\n"
 
 #: ../data/script-worker:57
 #, c-format
@@ -90,11 +90,11 @@ msgstr ""
 
 #: ../data/ui/window.ui.h:1
 msgid "Left"
-msgstr ""
+msgstr "Леваруч"
 
 #: ../data/ui/window.ui.h:2
 msgid "Right"
-msgstr ""
+msgstr "Праваруч"
 
 #: ../data/ui/preferences.ui.h:1
 msgid "Preferences"
@@ -211,11 +211,11 @@ msgstr ""
 
 #: ../data/ui/brokenmodule.ui.h:4 ../data/ui/traceback.ui.h:5
 msgid "Error Message"
-msgstr ""
+msgstr "Паведамленне пра памылку"
 
 #: ../data/ui/brokenmodule.ui.h:5 ../data/ui/traceback.ui.h:1
 msgid "_Report"
-msgstr ""
+msgstr "_Справаздача"
 
 #: ../data/ui/loginsettings.ui.h:1
 msgid "Click the button to change the login screen logo"
@@ -255,15 +255,15 @@ msgstr ""
 
 #: ../data/ui/filetypemanager.ui.h:1
 msgid "Add Application"
-msgstr ""
+msgstr "Дадаць прыкладанне"
 
 #: ../data/ui/filetypemanager.ui.h:2
 msgid "Select an application to view its description."
-msgstr ""
+msgstr "Абярыце праграму для прагляду яго апісання."
 
 #: ../data/ui/filetypemanager.ui.h:3
 msgid "_Browse..."
-msgstr ""
+msgstr "_Агляд..."
 
 #: ../data/ui/filetypemanager.ui.h:4
 msgid "_Use a custom command"
@@ -271,7 +271,7 @@ msgstr ""
 
 #: ../data/ui/filetypemanager.ui.h:5
 msgid "Edit Type"
-msgstr ""
+msgstr "Рэдагаваць тып"
 
 #: ../data/ui/sourceeditor.ui.h:2
 msgid "Save this source"
@@ -319,7 +319,7 @@ msgstr ""
 
 #: ../data/ui/updatemanager.ui.h:1
 msgid "_Install Update"
-msgstr ""
+msgstr "_Устанавіць абнаўленне"
 
 #: ../data/ui/janitorpage.ui.h:2
 msgid "<big><b>Cool! Your system is clean!</b></big>"
@@ -335,7 +335,7 @@ msgstr ""
 
 #: ../data/ui/traceback.ui.h:2
 msgid "<big><b>Oops... an error occured</b></big>"
-msgstr ""
+msgstr "<big><b>Ой ... паўстала памылка</b></big>"
 
 #: ../data/ui/traceback.ui.h:3
 msgid ""
@@ -343,10 +343,13 @@ msgid ""
 "Please choose <i>Report</i> to file a new bug report. Make sure to include "
 "the error message below:"
 msgstr ""
+"Калі вы хочаце дапамагчы ў вырашэнні гэтай праблемы,\n"
+"націсніце <i>Справаздача</i> для адпраўкі справаздачы пра памылку. Не "
+"забудзьцеся прымацаваць наступнае паведамленне пра памылку:"
 
 #: ../data/ui/traceback.ui.h:6
 msgid "<big><b>Oops... a fatal error occured</b></big>"
-msgstr ""
+msgstr "<big><b>Ой ... паўстала неадольная памылка</b></big>"
 
 #: ../data/ui/traceback.ui.h:7
 msgid ""
@@ -355,6 +358,10 @@ msgid ""
 "Please choose <i>Report</i> to file a new bug report. Make sure to include "
 "the error message below:"
 msgstr ""
+"Ubuntu Tweak вымушана завяршыць працу.\n"
+"Калі вы хочаце дапамагчы ў вырашэнні гэтай праблемы,\n"
+"націсніце <i>Справаздача</i> для адпраўкі справаздачы пра памылку. Не "
+"забудзьцеся прымацаваць наступнае паведамленне пра памылку:"
 
 #: ../data/ui/mainwindow.ui.h:1
 msgid ""
@@ -385,9 +392,11 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
+"  Define https://launchpad.net/~daylidaes\n"
 "  Ding Zhou https://launchpad.net/~tualatrix\n"
 "  Maksim Tomkowicz https://launchpad.net/~quendimax\n"
 "  Mikhail S. Pobolovets https://launchpad.net/~styx-mp\n"
+"  Siamion Šachalevič https://launchpad.net/~arsien-bajan\n"
 "  Voishalk https://launchpad.net/~uglikdv"
 
 #: ../data/ui/mainwindow.ui.h:7
@@ -1944,7 +1953,7 @@ msgstr ""
 
 #: ../ubuntutweak/tweaks/loginsettings.py:37
 msgid "Login Settings"
-msgstr ""
+msgstr "Наладкі Ўвахода ў Сістэму"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:38
 msgid "Control the appearance and behaviour of your login screen"

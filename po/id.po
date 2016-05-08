@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-19 14:32+0800\n"
-"PO-Revision-Date: 2014-04-25 09:49+0000\n"
-"Last-Translator: Fattah Rizki H L <galamarv@gmail.com>\n"
+"PO-Revision-Date: 2015-03-11 16:06+0000\n"
+"Last-Translator: Ade Malsasa Akbar <teknoloid@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-06-30 13:01+0000\n"
-"X-Generator: Launchpad (build 17077)\n"
+"X-Launchpad-Export-Date: 2016-05-08 10:24+0000\n"
+"X-Generator: Launchpad (build 18025)\n"
 
 #: ../data/script-worker:57
 #, c-format
@@ -409,6 +409,7 @@ msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  Abu Azzam https://launchpad.net/~ordinarydot\n"
+"  Ade Malsasa Akbar https://launchpad.net/~rockmania52\n"
 "  Adi Nugroho https://launchpad.net/~adi88nugroho\n"
 "  Adnan Kashogi https://launchpad.net/~vmlokal\n"
 "  Arief Setiadi Wibowo https://launchpad.net/~q-thrynx\n"
@@ -2296,27 +2297,27 @@ msgstr ""
 
 #: ../ubuntutweak/tweaks/unity.py:147
 msgid "Always"
-msgstr ""
+msgstr "Selalu"
 
 #: ../ubuntutweak/tweaks/unity.py:156
 msgid "Automatic"
-msgstr ""
+msgstr "Otomatis"
 
 #: ../ubuntutweak/tweaks/unity.py:156
 msgid "Netbook"
-msgstr ""
+msgstr "Netbook"
 
 #: ../ubuntutweak/tweaks/unity.py:163
 msgid "No blur"
-msgstr ""
+msgstr "Tanpa blur"
 
 #: ../ubuntutweak/tweaks/unity.py:164
 msgid "Static blur"
-msgstr ""
+msgstr "Blur Statis"
 
 #: ../ubuntutweak/tweaks/unity.py:165
 msgid "Active blur"
-msgstr ""
+msgstr "Blur Aktif"
 
 #: ../ubuntutweak/tweaks/unity.py:214
 msgid "Intellihide"
@@ -2344,7 +2345,7 @@ msgstr ""
 
 #: ../ubuntutweak/tweaks/lovewallpaperhd.py:21
 msgid "Browse online gallery and find your wallpaper"
-msgstr ""
+msgstr "Ramban galeri daring dan temukan walpaper Anda"
 
 #: ../ubuntutweak/tweaks/lovewallpaperhd.py:48
 msgid "I'm Feeling Lucky"
@@ -2360,7 +2361,7 @@ msgstr ""
 
 #: ../ubuntutweak/apps/__init__.py:107
 msgid "Update"
-msgstr ""
+msgstr "Perbarui"
 
 #: ../ubuntutweak/apps/__init__.py:108
 msgid "Installing"

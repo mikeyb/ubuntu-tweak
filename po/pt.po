@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-19 14:32+0800\n"
-"PO-Revision-Date: 2013-11-01 11:49+0000\n"
-"Last-Translator: Tiago Carrondo <tiago@ubuntu-pt.org>\n"
+"PO-Revision-Date: 2015-03-06 14:36+0000\n"
+"Last-Translator: Ivo Xavier <ivoxavier.8@gmail.com>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-06-30 13:01+0000\n"
-"X-Generator: Launchpad (build 17077)\n"
+"X-Launchpad-Export-Date: 2016-05-08 10:24+0000\n"
+"X-Generator: Launchpad (build 18025)\n"
 
 #: ../data/script-worker:57
 #, c-format
@@ -37,7 +37,7 @@ msgstr "Escolha um diretório"
 
 #: ../data/script-worker:224
 msgid "Please select a target (files or folders)."
-msgstr "Por favor escolha o destino (ficheiros ou diretórios)"
+msgstr "Por favor, escolha o destino (ficheiros ou diretórios)"
 
 #: ../data/ubuntu-tweak.desktop.in.h:1
 msgid "Tweak ubuntu to what you like"
@@ -414,6 +414,7 @@ msgstr ""
 "  Ding Zhou https://launchpad.net/~tualatrix\n"
 "  Eduardo Siemann https://launchpad.net/~eduardosiemann\n"
 "  Filipe André Pinho https://launchpad.net/~pinhoadas\n"
+"  Ivo Xavier https://launchpad.net/~ivoxavier\n"
 "  Marco da Silva https://launchpad.net/~igama\n"
 "  Ricardo Filipe Moreira https://launchpad.net/~ricardofavmoreira\n"
 "  Ricardo Rodrigues https://launchpad.net/~rj-rodrigues-gmail\n"
@@ -819,7 +820,7 @@ msgstr "Reposição efetuada!"
 #: ../ubuntutweak/admins/desktoprecovery.py:563
 #: ../ubuntutweak/admins/sourceeditor.py:422
 msgid "Please enter a new name for your backup:"
-msgstr "Por favor indique o nome da cópia de segurança:"
+msgstr "Por favor, indique o nome da cópia de segurança:"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:595
 msgid "Backup Successful!"
@@ -910,7 +911,7 @@ msgid ""
 "%s is enabled now, Please click the refresh button to update the application "
 "cache."
 msgstr ""
-"%s está ativo. Por favor clique no botão Recarregar para atualizar a cache "
+"%s está ativo. Por favor, clique no botão Recarregar para atualizar a cache "
 "das aplicações"
 
 #: ../ubuntutweak/admins/sourcecenter.py:921
@@ -1013,7 +1014,7 @@ msgid ""
 "Network Error, Please check your network connection or the remote server is "
 "down."
 msgstr ""
-"Erro de rede. Por favor verifique se a ligação de rede ou servidor estão "
+"Erro de rede. Por favor, verifique se a ligação de rede ou servidor estão "
 "desligados."
 
 #: ../ubuntutweak/admins/sourcecenter.py:1184
@@ -1195,7 +1196,7 @@ msgid ""
 "Please reset it to a location within your Home Folder."
 msgstr ""
 "O caminho dos modelos está incorreto. O caminho aponta para \"%s\"\n"
-"Por favor reponha o caminho para a sua pasta pessoal"
+"Por favor, reponha o caminho para a sua pasta pessoal"
 
 #: ../ubuntutweak/admins/templates.py:137
 msgid "Go And Set"
@@ -1211,7 +1212,7 @@ msgstr "Reconstruir sistema de modelos"
 
 #: ../ubuntutweak/admins/templates.py:182
 msgid "The templates path is still incorrect, please reset it!"
-msgstr "O caminho dos modelos ainda é inválido, Por favor corrija!"
+msgstr "O caminho dos modelos ainda é inválido, por favor, corrija!"
 
 #: ../ubuntutweak/admins/templates.py:194
 msgid ""
@@ -1883,7 +1884,7 @@ msgstr "Utilizar barra de localização em vez da barra de caminho"
 
 #: ../ubuntutweak/tweaks/nautilus.py:34
 msgid "Enable Recursive Search"
-msgstr ""
+msgstr "Ativar pesquisa recursiva"
 
 #: ../ubuntutweak/tweaks/nautilus.py:35
 msgid "Automatically mount media:"
@@ -2227,7 +2228,7 @@ msgstr "Ícone \"Mostrar ambiente de trabalho\":"
 
 #: ../ubuntutweak/tweaks/unity.py:51
 msgid "Launcher click to minimize app:"
-msgstr ""
+msgstr "Launcher toque para minimizar aplicação:"
 
 #: ../ubuntutweak/tweaks/unity.py:52
 msgid "Disable \"Show Desktop\" in the switcher:"
@@ -2507,7 +2508,7 @@ msgstr "Repor definições para os valores de origem: %s"
 
 #: ../ubuntutweak/gui/widgets.py:464
 msgid "Please press the new key combination"
-msgstr "Por favor escolha a nova combinação de teclas"
+msgstr "Por favor, escolha a nova combinação de teclas"
 
 #: ../ubuntutweak/gui/widgets.py:516
 msgid "Disabled"
@@ -2570,7 +2571,7 @@ msgstr "O filtro \"<b>%s</b>\" não coincide com quaisquer itens"
 
 #: ../ubuntutweak/main.py:400
 msgid "Please wait a moment..."
-msgstr "Por favor aguarde um pouco..."
+msgstr "Por favor, aguarde um pouco..."
 
 #: ../ubuntutweak/main.py:509
 #, python-format
@@ -2579,7 +2580,7 @@ msgstr "O módulo \"%s\" não existe"
 
 #: ../ubuntutweak/main.py:510
 msgid "Please ensure you have entered the correct module name."
-msgstr "Por favor certifique-se que indicou o nome correto"
+msgstr "Por favor, certifique-se que indicou o nome correto."
 
 #: ../ubuntutweak/main.py:568
 msgid "Computer Janitor"

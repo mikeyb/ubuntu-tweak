@@ -1,4 +1,5 @@
 ar
+ast
 be
 bg
 bn
@@ -14,6 +15,7 @@ en_CA
 en_GB
 eo
 es
+et
 fa
 fi
 fil
@@ -24,6 +26,7 @@ ga
 gl
 he
 hi
+hr
 hu
 id
 is
@@ -32,6 +35,8 @@ ja
 jv
 ka
 kk
+km
+kn
 ko
 lt
 mk
@@ -47,15 +52,19 @@ pt
 pt_BR
 ro
 ru
+si
 sk
 sl
 sq
 sr
 sv
+ta
 te
 th
 tr
+ug
 uk
 vi
 zh_CN
+zn_HK
 zh_TW

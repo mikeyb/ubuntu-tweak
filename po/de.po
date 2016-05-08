@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Ubuntu Tweak 0.2.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-19 14:32+0800\n"
-"PO-Revision-Date: 2014-06-26 19:12+0000\n"
+"PO-Revision-Date: 2015-10-01 01:08+0000\n"
 "Last-Translator: Tobias Bannert <Unknown>\n"
 "Language-Team: LL <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-06-30 13:01+0000\n"
-"X-Generator: Launchpad (build 17077)\n"
+"X-Launchpad-Export-Date: 2016-05-08 10:24+0000\n"
+"X-Generator: Launchpad (build 18025)\n"
 "X-Poedit-Country: GERMANY\n"
 "X-Poedit-Language: German\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -173,7 +173,7 @@ msgstr "Beschreibung"
 
 #: ../data/ui/sourcecenter.ui.h:1
 msgid "<b>Homepage</b>"
-msgstr "<b>Webseite</b>"
+msgstr "<b>Internetseite</b>"
 
 #: ../data/ui/sourcecenter.ui.h:2
 msgid "<b>Source URL</b>"
@@ -380,7 +380,7 @@ msgstr ""
 
 #: ../data/ui/mainwindow.ui.h:2
 msgid "Ubuntu Tweak Website"
-msgstr "Ubuntu Tweak-Webseite"
+msgstr "Ubuntu-Tweak-Internetseite"
 
 #: ../data/ui/mainwindow.ui.h:3
 msgid ""
@@ -425,7 +425,8 @@ msgstr ""
 "  Ding Zhou https://launchpad.net/~tualatrix\n"
 "  DrFaNaTiC https://launchpad.net/~drfanatic\n"
 "  Georg Engelmann https://launchpad.net/~georg-engelmann\n"
-"  Gerjet Kleine-Weischede https://launchpad.net/~gerjet-deactivatedaccount\n"
+"  Gerjet Kleine-Weischede https://launchpad.net/~gerjet-deactivatedaccount-"
+"deactivatedaccount\n"
 "  Ghenrik https://launchpad.net/~ghenrik-deactivatedaccount\n"
 "  Henry Wünsche https://launchpad.net/~cr4ct-1\n"
 "  Jakob Kramer https://launchpad.net/~jakobk\n"
@@ -442,13 +443,14 @@ msgstr ""
 "  MartinGruen https://launchpad.net/~mhr-gmx\n"
 "  Matthias Fasching https://launchpad.net/~fasmat\n"
 "  Matthias Niess https://launchpad.net/~mniess\n"
-"  Max https://launchpad.net/~mr-ravioli\n"
+"  Max https://launchpad.net/~mr-ravioli-deactivatedaccount-"
+"deactivatedaccount\n"
 "  Maximilian Mühlbauer https://launchpad.net/~scirocco22\n"
 "  Merlin Schumacher https://launchpad.net/~merlin-schumacher\n"
 "  Nico Isenbeck https://launchpad.net/~nico-isenbeck\n"
 "  Patrick Middelhoff https://launchpad.net/~patrick-middelhoff\n"
 "  Phillip Sz https://launchpad.net/~phillip-sz\n"
-"  Protector https://launchpad.net/~protector1981-deactivatedaccount\n"
+"  Protector https://launchpad.net/~protector1981\n"
 "  RichardLancelot https://launchpad.net/~richardlancelot\n"
 "  Simon https://launchpad.net/~simon-pad\n"
 "  SpaceCafé https://launchpad.net/~spacecafe\n"
@@ -505,7 +507,7 @@ msgstr "GNOME Classic"
 
 #: ../ubuntutweak/system/__init__.py:45 ../ubuntutweak/system/__init__.py:46
 msgid "GNOME Fallback"
-msgstr "GNOME Rückfallmodus"
+msgstr "GNOME-Rückfallmodus"
 
 #: ../ubuntutweak/system/__init__.py:57
 #, python-format
@@ -583,11 +585,11 @@ msgid ""
 "If you want to help developers debugging, try to run \"<b>sudo "
 "/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
 msgstr ""
-"Der »Ubuntu Tweak«-Dienst startete nicht korrekt. Dies bedeutet, dass einige "
+"Der Ubuntu-Tweak-Dienst startete nicht richtig. Das bedeutet, dass einige "
 "erweiterte Funktionen möglicherweise nicht funktionieren.\n"
-"Wenn Sie den Entwicklern bei der Fehlerbehebung helfen möchten, versuchen "
-"Sie folgenden Befehl »<b>sudo /usr/share/ubuntu-tweak/ubuntu-tweak-"
-"daemon</b>« in einem Terminal auszuführen."
+"Wenn Sie den Entwicklern bei der Fehlerbehebung helfen möchten, bitte den "
+"folgenden Befehl in einem Terminal auszuführen\n"
+"»<b>sudo /usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>«"
 
 #: ../ubuntutweak/common/debug.py:59
 msgid "Error message has been copied"
@@ -630,7 +632,7 @@ msgstr "Opera-Zwischenspeicher"
 
 #: ../ubuntutweak/janitor/googleearth_plugin.py:5
 msgid "Google Earth Cache"
-msgstr "Google Earth-Zwischenspeicher"
+msgstr "Google-Earth-Zwischenspeicher"
 
 #: ../ubuntutweak/janitor/thumbnailcache_plugin.py:5
 msgid "Thumbnail cache"
@@ -638,7 +640,7 @@ msgstr "Bildvorschauzwischenspeicher"
 
 #: ../ubuntutweak/janitor/softwarecenter_plugin.py:4
 msgid "Software Center Cache"
-msgstr "Software Center-Zwischenspeicher"
+msgstr "Software-Center-Zwischenspeicher"
 
 #: ../ubuntutweak/janitor/mozilla_plugin.py:37
 msgid "Firefox Cache"
@@ -1868,7 +1870,7 @@ msgstr "Einstellungen der Fensterverwaltung verwalten"
 
 #: ../ubuntutweak/tweaks/window.py:50
 msgid "Window control button position:"
-msgstr "Position der Fensterkontrollknöpfe:"
+msgstr "Position der Fenstersteuerknöpfe:"
 
 #: ../ubuntutweak/tweaks/window.py:51
 msgid "\"Close\" button only"
@@ -1923,11 +1925,11 @@ msgstr "Menü"
 
 #: ../ubuntutweak/tweaks/window.py:99 ../ubuntutweak/tweaks/window.py:114
 msgid "Maximize Horizontally"
-msgstr "Horizontal vergrößern"
+msgstr "Waagerecht vergrößern"
 
 #: ../ubuntutweak/tweaks/window.py:100 ../ubuntutweak/tweaks/window.py:115
 msgid "Maximize Vertically"
-msgstr "Vertikal vergrößern"
+msgstr "Senkrecht vergrößern"
 
 #: ../ubuntutweak/tweaks/nautilus.py:27
 msgid "File Manager"
@@ -2032,11 +2034,11 @@ msgstr "Ränder-Auslöseverzögerung (ms):"
 
 #: ../ubuntutweak/tweaks/workspace.py:145
 msgid "Horizontal workspace:"
-msgstr "Horizontale Arbeitsfläche:"
+msgstr "Waagerechte Arbeitsfläche:"
 
 #: ../ubuntutweak/tweaks/workspace.py:146
 msgid "Vertical workspace:"
-msgstr "Vertikale Arbeitsfläche:"
+msgstr "Senkrechte Arbeitsfläche:"
 
 #: ../ubuntutweak/tweaks/sound.py:29
 msgid "Sound"
@@ -2595,7 +2597,7 @@ msgstr "Deaktiviert"
 
 #: ../ubuntutweak/gui/dialogs.py:208
 msgid "Could not authenticate"
-msgstr "Authentifizierung fehlgeschlagen"
+msgstr "Legitimierung fehlgeschlagen"
 
 #: ../ubuntutweak/gui/dialogs.py:209
 msgid "An unexpected error has occurred."
@@ -2734,7 +2736,7 @@ msgstr "»%s« ist keine Hausmeistererweiterung"
 
 #: ../ubuntutweak/preferences.py:201
 msgid "Ubuntu Tweak Extension (*.py, *.tar.gz)"
-msgstr "Ubuntu Tweak-Erweiterung (*.py, *.tar.gz)"
+msgstr "Ubuntu-Tweak-Erweiterung (*.py, *.tar.gz)"
 
 #: ../ubuntutweak/preferences.py:232
 msgid "Would you like to remove it then install again?"

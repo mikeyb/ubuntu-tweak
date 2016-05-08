@@ -8,29 +8,29 @@ msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-04-19 14:32+0800\n"
-"PO-Revision-Date: 2012-10-02 06:01+0000\n"
-"Last-Translator: Ding Zhou <tualatrix@gmail.com>\n"
+"PO-Revision-Date: 2015-12-14 19:58+0000\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-06-30 13:01+0000\n"
-"X-Generator: Launchpad (build 17077)\n"
+"X-Launchpad-Export-Date: 2016-05-08 10:24+0000\n"
+"X-Generator: Launchpad (build 18025)\n"
 
 #: ../data/script-worker:57
 #, c-format
 msgid "You don't have permission to write in %s"
-msgstr "Nemate dozvolu pisati u %s"
+msgstr "Nemate dozvolu pisanja u %s"
 
 #: ../data/script-worker:158 ../data/script-worker:171
 msgid "Enter your password to perform the administrative tasks"
-msgstr "Unesite svoju lozinku za obavljanje administrativnih zadataka"
+msgstr "Upišite svoju lozinku za obavljanje administrativnih zadataka"
 
 #: ../data/script-worker:165
 msgid "Coudn't find any text editor in your system!"
-msgstr "Ne mogu pronaći nijedan uređivač teksta na vašem sustavu!"
+msgstr "Nemoguće je pronaći uređivač teksta na vašem sustavu!"
 
 #: ../data/script-worker:194
 msgid "Select a folder"
@@ -38,55 +38,55 @@ msgstr "Odaberi mapu"
 
 #: ../data/script-worker:224
 msgid "Please select a target (files or folders)."
-msgstr "Molim odaberite odredište (datoteke ili mape)"
+msgstr "Odaberite odredište (datoteke ili mape)"
 
 #: ../data/ubuntu-tweak.desktop.in.h:1
 msgid "Tweak ubuntu to what you like"
-msgstr "Podesite Ubuntu kako želite"
+msgstr "Prilagodite Ubuntu prema vašoj želji"
 
 #: ../data/ubuntu-tweak.desktop.in.h:2 ../data/ui/preferences.ui.h:9
 msgid "Overview"
-msgstr ""
+msgstr "Pregled"
 
 #: ../data/ubuntu-tweak.desktop.in.h:3 ../ubuntutweak/janitor/__init__.py:889
 msgid "Apps"
-msgstr ""
+msgstr "Aplikacije"
 
 #: ../data/ubuntu-tweak.desktop.in.h:4 ../data/ui/preferences.ui.h:13
 msgid "Tweaks"
-msgstr ""
+msgstr "Prilagodbe"
 
 #: ../data/ubuntu-tweak.desktop.in.h:5 ../data/ui/preferences.ui.h:17
 msgid "Admins"
-msgstr ""
+msgstr "Administrator"
 
 #: ../data/ubuntu-tweak.desktop.in.h:6 ../data/ui/preferences.ui.h:22
 msgid "Janitor"
-msgstr ""
+msgstr "Čistač"
 
 #: ../data/com.ubuntu-tweak.daemon.policy.in.h:1
 msgid "Tweak all kinds of settings"
-msgstr ""
+msgstr "Prilagodite sve vrste postavki"
 
 #: ../data/com.ubuntu-tweak.daemon.policy.in.h:2
 msgid "To tweak the settings, you need to authenticate."
-msgstr ""
+msgstr "Za prilagodbu postavki potrebna je ovjera."
 
 #: ../data/com.ubuntu-tweak.daemon.policy.in.h:3
 msgid "Clean user and system cruft"
-msgstr ""
+msgstr "Očisti nepotrebna podešvanja i datoteke korisnika i sustava"
 
 #: ../data/com.ubuntu-tweak.daemon.policy.in.h:4
 msgid "To clean the cruft, you need to authenticate."
-msgstr ""
+msgstr "Za čišćenje nepotrebnih podešavanja i datoteka, potrebna je ovjera."
 
 #: ../data/com.ubuntu-tweak.daemon.policy.in.h:5
 msgid "Edit the Software Sources lists"
-msgstr ""
+msgstr "Uredite popis repozitorija softvera"
 
 #: ../data/com.ubuntu-tweak.daemon.policy.in.h:6
 msgid "To edit the software sources, you need to authenticate."
-msgstr ""
+msgstr "Za uređivanje repozitorija softvera potrebna je ovjera."
 
 #: ../data/ui/window.ui.h:1
 msgid "Left"
@@ -94,77 +94,77 @@ msgstr "Lijevo"
 
 #: ../data/ui/window.ui.h:2
 msgid "Right"
-msgstr "Desno:"
+msgstr "Desno"
 
 #: ../data/ui/preferences.ui.h:1
 msgid "Preferences"
-msgstr ""
+msgstr "Osobitosti"
 
 #. Please make sure the "<b>xxx</b>" is ok
 #: ../data/ui/preferences.ui.h:3
 msgid "<b>Clip Management</b>"
-msgstr ""
+msgstr "<b>Upravljanje prikazom</b>"
 
 #: ../data/ui/preferences.ui.h:4
 msgid "Manage the clip view in the Overview"
-msgstr ""
+msgstr "Upravljanje prikazom u pregledu"
 
 #: ../data/ui/preferences.ui.h:5 ../data/ui/appspage.ui.h:1
 #: ../data/ui/quicklists.ui.h:1 ../data/ui/sourceeditor.ui.h:1
 #: ../data/ui/janitorpage.ui.h:1
 msgid "column"
-msgstr ""
+msgstr "stupac"
 
 #: ../data/ui/preferences.ui.h:6
 msgid "Move Up"
-msgstr ""
+msgstr "Pomakni gore"
 
 #: ../data/ui/preferences.ui.h:7
 msgid "Move Down"
-msgstr ""
+msgstr "Pomakni dolje"
 
 #: ../data/ui/preferences.ui.h:8 ../ubuntutweak/apps/__init__.py:105
 msgid "Install"
-msgstr ""
+msgstr "Instaliraj"
 
 #. Please make sure the "<b>xxx</b>" is ok
 #: ../data/ui/preferences.ui.h:11
 msgid "<b>Tweaks Extensions</b>"
-msgstr ""
+msgstr "<b>Proširenja prilagodbe</b>"
 
 #: ../data/ui/preferences.ui.h:12
 msgid "Tweaks Extensions Management"
-msgstr ""
+msgstr "Upravljanje proširenjima prilagodbe"
 
 #. Please make sure the "<b>xxx</b>" is ok
 #: ../data/ui/preferences.ui.h:15
 msgid "<b>Admins Extensions</b>"
-msgstr ""
+msgstr "<b>Administratorska proširenja</b>"
 
 #: ../data/ui/preferences.ui.h:16
 msgid "Admins Extensions Management"
-msgstr ""
+msgstr "Upravljanje administratorskim proširenjima"
 
 #: ../data/ui/preferences.ui.h:18
 msgid "<b>Generic</b>"
-msgstr ""
+msgstr "<b>Osnovno</b>"
 
 #. Please make sure the "<b>xxx</b>" is ok
 #: ../data/ui/preferences.ui.h:20
 msgid "<b>Janitor Extensions</b>"
-msgstr ""
+msgstr "<b>Proširenja čistača</b>"
 
 #: ../data/ui/preferences.ui.h:21
 msgid "Janitor Extensions Management"
-msgstr ""
+msgstr "Upravljanje proširenjima čistača"
 
 #: ../data/ui/uturl.ui.h:1
 msgid "Ubuntu Tweak"
-msgstr ""
+msgstr "Ubuntu prilagoditelj"
 
 #: ../data/ui/uturl.ui.h:2
 msgid "_Install"
-msgstr ""
+msgstr "_Instaliraj"
 
 #: ../data/ui/uturl.ui.h:3
 msgid "Description"
@@ -172,19 +172,19 @@ msgstr "Opis"
 
 #: ../data/ui/sourcecenter.ui.h:1
 msgid "<b>Homepage</b>"
-msgstr ""
+msgstr "<b>Početna stranica</b>"
 
 #: ../data/ui/sourcecenter.ui.h:2
 msgid "<b>Source URL</b>"
-msgstr ""
+msgstr "<b>URL izvora</b>"
 
 #: ../data/ui/sourcecenter.ui.h:3
 msgid "<b>Description</b>"
-msgstr ""
+msgstr "<b>Opis</b>"
 
 #: ../data/ui/sourcecenter.ui.h:4
 msgid "http://ubuntu-tweak.com"
-msgstr ""
+msgstr "http://ubuntu-tweak.com"
 
 #: ../data/ui/sourcecenter.ui.h:5 ../ubuntutweak/admins/sourcecenter.py:1118
 msgid "Description is here"
@@ -192,15 +192,15 @@ msgstr "Opis je ovdje"
 
 #: ../data/ui/sourcecenter.ui.h:6 ../ubuntutweak/gui/dialogs.py:195
 msgid "Details"
-msgstr "Detalji"
+msgstr "Pojedinosti"
 
 #: ../data/ui/sourcecenter.ui.h:7
 msgid "Purge PPA"
-msgstr ""
+msgstr "Ukloni PPA"
 
 #: ../data/ui/brokenmodule.ui.h:1
 msgid "<big><b>This module encountered an error while loading.</b></big>"
-msgstr ""
+msgstr "<big><b>Ovaj modul je naišao na grešku tijekom učitavanja.</b></big>"
 
 #: ../data/ui/brokenmodule.ui.h:2
 msgid ""
@@ -208,10 +208,13 @@ msgid ""
 "Please choose <i>Report</i> to file a new bug report. Make sure to include "
 "the error message below:"
 msgstr ""
+"Ako nam želite pomoći popraviti problem,\n"
+"Molimo odaberite <i>Prijavi</i> za prijavu novog izvještaja greške. Obavezno "
+"priložite donju poruku greške:"
 
 #: ../data/ui/brokenmodule.ui.h:4 ../data/ui/traceback.ui.h:5
 msgid "Error Message"
-msgstr "Poruka o grešci"
+msgstr "Poruka greške"
 
 #: ../data/ui/brokenmodule.ui.h:5 ../data/ui/traceback.ui.h:1
 msgid "_Report"
@@ -219,47 +222,47 @@ msgstr "_Prijavi"
 
 #: ../data/ui/loginsettings.ui.h:1
 msgid "Click the button to change the login screen logo"
-msgstr "Kliknite na gumb za promjenu loga zaslona prijave"
+msgstr "Kliknite na tipku za promjenu logotipa zaslona prijave"
 
 #: ../data/ui/loginsettings.ui.h:2
 msgid "Click the button to change the login screen background"
-msgstr "Kliknite na gumb za promjenu pozadine zaslona prijave"
+msgstr "Kliknite na tipku za promjenu pozadine zaslona prijave"
 
 #: ../data/ui/loginsettings.ui.h:3
 msgid "Set the same background as the current desktop background"
-msgstr ""
+msgstr "Postavi istu pozadinu kao trenutnu pozadinu radne površine"
 
 #: ../data/ui/quicklists.ui.h:2
 msgid "Active"
-msgstr ""
+msgstr "Aktivno"
 
 #: ../data/ui/quicklists.ui.h:3
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: ../data/ui/quicklists.ui.h:4
 msgid "Command line"
-msgstr ""
+msgstr "Naredbeni redak"
 
 #: ../data/ui/quicklists.ui.h:5
 msgid "Command:"
-msgstr ""
+msgstr "Naredba:"
 
 #: ../data/ui/quicklists.ui.h:6
 msgid "Name:"
-msgstr ""
+msgstr "Naziv:"
 
 #: ../data/ui/clippage.ui.h:1
 msgid "<b>Recently Used</b>"
-msgstr ""
+msgstr "<b>Nedavno korišteno</b>"
 
 #: ../data/ui/filetypemanager.ui.h:1
 msgid "Add Application"
-msgstr "Dodaj Aplikaciju"
+msgstr "Dodaj aplikaciju"
 
 #: ../data/ui/filetypemanager.ui.h:2
 msgid "Select an application to view its description."
-msgstr "Odaberite aplikaciju da vidite njezin opis."
+msgstr "Odaberite aplikaciju kako bi vidjeli njezin opis."
 
 #: ../data/ui/filetypemanager.ui.h:3
 msgid "_Browse..."
@@ -267,7 +270,7 @@ msgstr "_Pregledaj..."
 
 #: ../data/ui/filetypemanager.ui.h:4
 msgid "_Use a custom command"
-msgstr "_Upotrijebi posebnu naredbu"
+msgstr "_Koristi prilagođenu naredbu"
 
 #: ../data/ui/filetypemanager.ui.h:5
 msgid "Edit Type"
@@ -275,63 +278,63 @@ msgstr "Uredi vrstu"
 
 #: ../data/ui/sourceeditor.ui.h:2
 msgid "Save this source"
-msgstr ""
+msgstr "Spremi ovaj izvor"
 
 #: ../data/ui/sourceeditor.ui.h:3
 msgid "toolbutton1"
-msgstr ""
+msgstr "alatna-tipka1"
 
 #: ../data/ui/sourceeditor.ui.h:4
 msgid "Redo this source"
-msgstr ""
+msgstr "Obnovi ovaj izvor"
 
 #: ../data/ui/sourceeditor.ui.h:5
 msgid "toolbutton2"
-msgstr ""
+msgstr "alatna-tipka2"
 
 #: ../data/ui/sourceeditor.ui.h:6
 msgid "Delete this source"
-msgstr ""
+msgstr "Obriši ovaj izvor"
 
 #: ../data/ui/sourceeditor.ui.h:7
 msgid "toolbutton3"
-msgstr ""
+msgstr "alatna-tipka3"
 
 #: ../data/ui/sourceeditor.ui.h:8 ../data/ui/desktoprecovery.ui.h:2
 msgid "Backup History:"
-msgstr ""
+msgstr "Povijest sigurnosnog kopiranja:"
 
 #: ../data/ui/sourceeditor.ui.h:9
 msgid "Auto Backup"
-msgstr ""
+msgstr "Automatski sigurnosno kopiraj"
 
 #: ../data/ui/sourceeditor.ui.h:10 ../data/ui/desktoprecovery.ui.h:3
 msgid "_Recover"
-msgstr ""
+msgstr "_Obnovi"
 
 #: ../data/ui/sourceeditor.ui.h:11 ../data/ui/desktoprecovery.ui.h:4
 msgid "_Backup"
-msgstr ""
+msgstr "_Sigurnosno kopiraj"
 
 #: ../data/ui/sourceeditor.ui.h:12
 msgid "U_pdate"
-msgstr ""
+msgstr "N_adopuni"
 
 #: ../data/ui/updatemanager.ui.h:1
 msgid "_Install Update"
-msgstr "_instalirajte nadogradnju"
+msgstr "_Instaliraj nadopunu"
 
 #: ../data/ui/janitorpage.ui.h:2
 msgid "<big><b>Cool! Your system is clean!</b></big>"
-msgstr ""
+msgstr "<big><b>Super! Vaš sustav je očišćen!</b></big>"
 
 #: ../data/ui/janitorpage.ui.h:3
 msgid "_Scan"
-msgstr ""
+msgstr "_Pretraži"
 
 #: ../data/ui/janitorpage.ui.h:4
 msgid "_Clean"
-msgstr ""
+msgstr "_Očisti"
 
 #: ../data/ui/traceback.ui.h:2
 msgid "<big><b>Oops... an error occured</b></big>"
@@ -343,13 +346,13 @@ msgid ""
 "Please choose <i>Report</i> to file a new bug report. Make sure to include "
 "the error message below:"
 msgstr ""
-"Ako nam želite pomoći da popravimo problem, \n"
-"Molimo izaberite <i>Report</i> kako biste poslali novo izvješće o propustu. "
-"Pobrinite se da dolje uključite poruku o grešci:"
+"Ako nam želite pomoći u popravku problema, \n"
+"Odaberite <i>Prijavi</i> kako bi ispunili novo izvješće greške. Ne "
+"zaboravite uključiti poruku greške ispod:"
 
 #: ../data/ui/traceback.ui.h:6
 msgid "<big><b>Oops... a fatal error occured</b></big>"
-msgstr "<big><b>Ups... dogodila se fatalna pogreška</b></big>"
+msgstr "<big><b>Ups... dogodila se kobna greška</b></big>"
 
 #: ../data/ui/traceback.ui.h:7
 msgid ""
@@ -358,22 +361,22 @@ msgid ""
 "Please choose <i>Report</i> to file a new bug report. Make sure to include "
 "the error message below:"
 msgstr ""
-"Ubuntu Tweak se mora ugasiti.\n"
-"Ako nam želite pomoći da popravimo problem, \n"
-"Molimo izaberite <i>Report</i> kako biste poslali novo izvješće o propustu. "
-"Pobrinite se da dolje uključite poruku o grešci:"
+"Ubuntu prilagoditelj se mora ugasiti.\n"
+"Ako nam želite pomoći u popravku problema, \n"
+"Odaberite <i>Prijavi</i> kako bi ispunili novo izvješće greške. Ne "
+"zaboravite uključiti poruku greške ispod:"
 
 #: ../data/ui/mainwindow.ui.h:1
 msgid ""
 "Ubuntu Tweak is a tool for Ubuntu that makes it easy to configure your "
 "system and desktop settings."
 msgstr ""
-"Ubuntu Tweak je alat za Ubuntu koji omogućava lako podešavanje vašeg sustava "
-"i postavki radne površine"
+"Ubuntu prilagoditelj je alat za Ubuntu koji omogućuje lakšu prilagodbu vašeg "
+"sustava i postavki radne površine."
 
 #: ../data/ui/mainwindow.ui.h:2
 msgid "Ubuntu Tweak Website"
-msgstr "Ubuntu Tweak Web stranica"
+msgstr "Ubuntu prilagoditelj web stranica"
 
 #: ../data/ui/mainwindow.ui.h:3
 msgid ""
@@ -389,6 +392,16 @@ msgid ""
 "Ubuntu Tweak; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr ""
+"Ubuntu prilagoditelj je slobodan software; možete ga redistribuirati i/ili "
+"mijenjati pod uvjetima GNU Opće javne licence objavljene od Fundacije "
+"slobodnog softvera; ili inačice 2 Licence ili (po vašemu mišljenju) svaka "
+"kasnija inačica.\n"
+"Ubuntu prilagoditelj je distribuiran u nadi da će biti koristan ali BEZ "
+"IKAKVOG JAMSTVA; čak i bez podrazumjevanog jamstva ili POGODNOSTI ZA "
+"ODREĐENU NAMJENU. Pogledajte GNU Opću javnu licencu za više informacija.\n"
+"Trebali ste dobiti primjerak GNU Opće javne licence uz Ubuntu prilagoditelj; "
+"ako niste, pišite na adresu Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301, USA"
 
 #: ../data/ui/mainwindow.ui.h:6
 msgid "translator-credits"
@@ -402,52 +415,52 @@ msgstr ""
 
 #: ../data/ui/mainwindow.ui.h:7
 msgid "Search... <Ctrl+F>"
-msgstr ""
+msgstr "Pretraži... <Ctrl+F>"
 
 #: ../data/ui/mainwindow.ui.h:8
 msgid "_Overview"
-msgstr ""
+msgstr "_Pregled"
 
 #: ../data/ui/mainwindow.ui.h:9
 msgid "_Apps"
-msgstr ""
+msgstr "_Aplikacije"
 
 #: ../data/ui/mainwindow.ui.h:10
 msgid "_Tweaks"
-msgstr ""
+msgstr "_Prilagodbe"
 
 #: ../data/ui/mainwindow.ui.h:11
 msgid "_Admins"
-msgstr ""
+msgstr "_Administrator"
 
 #: ../data/ui/mainwindow.ui.h:12
 msgid "_Janitor"
-msgstr ""
+msgstr "_Čistač"
 
 #: ../data/ui/mainwindow.ui.h:13
 msgid "<big><b>No matches found</b></big>"
-msgstr ""
+msgstr "<big><b>Nema pronađenih podudaranja</b></big>"
 
 #: ../data/ui/desktoprecovery.ui.h:1
 msgid "Setting Name:"
-msgstr ""
+msgstr "Naziv postavke:"
 
 #: ../data/ui/desktoprecovery.ui.h:5
 msgid "R_eset"
-msgstr ""
+msgstr "P_oništi"
 
 #: ../ubuntutweak/system/__init__.py:43
 msgid "GNOME Classic"
-msgstr ""
+msgstr "GNOME klasično"
 
 #: ../ubuntutweak/system/__init__.py:45 ../ubuntutweak/system/__init__.py:46
 msgid "GNOME Fallback"
-msgstr ""
+msgstr "GNOME zastarjelo"
 
 #: ../ubuntutweak/system/__init__.py:57
 #, python-format
 msgid "Unknown (%s)"
-msgstr ""
+msgstr "Nepoznato (%s)"
 
 #: ../ubuntutweak/system/__init__.py:59
 #: ../ubuntutweak/clips/hardwareinfo.py:16
@@ -456,16 +469,16 @@ msgstr "Nepoznato"
 
 #: ../ubuntutweak/network/downloadmanager.py:97
 msgid "Connecting to server"
-msgstr "Spajanje na poslužitelj"
+msgstr "Povezivanje s poslužiteljem"
 
 #: ../ubuntutweak/network/downloadmanager.py:143
 #, python-format
 msgid "Downloading...%d"
-msgstr "Skidanje...%d"
+msgstr "Preuzimanje...%d"
 
 #: ../ubuntutweak/network/downloadmanager.py:148
 msgid "Downloaded!"
-msgstr "Skinuto!"
+msgstr "Preuzeto!"
 
 #: ../ubuntutweak/network/downloadmanager.py:155
 msgid "Error happened!"
@@ -524,101 +537,110 @@ msgid ""
 "If you want to help developers debugging, try to run \"<b>sudo "
 "/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
 msgstr ""
+"Ubuntu prilagoditeljev pozadinski program nije se ispravno pokrenuo. To "
+"znači da neke napredne mogućnosti možda neće raditi.\n"
+"Ako želite pomoći razvijateljima popraviti grešku, pokušajte pokrenuti "
+"\"<b>sudo /usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" u terminalu."
 
 #: ../ubuntutweak/common/debug.py:59
 msgid "Error message has been copied"
-msgstr ""
+msgstr "Poruka greške je kopirana"
 
 #: ../ubuntutweak/common/debug.py:60
 msgid ""
 "Now click \"Report\" to enter the bug report website. Make sure to attach "
 "the error message in \"Further information\"."
 msgstr ""
+"Sada kliknite \"Prijavi\" kako bi otvorili web stranicu prijavka greške. "
+"Priložite poruku greške u \"Dodatne informacije\"."
 
 #: ../ubuntutweak/common/debug.py:81
 msgid "Copy Error Message"
-msgstr ""
+msgstr "Kopiraj poruku greške"
 
 #: ../ubuntutweak/common/debug.py:121
 msgid "Sorry, your distribution is not supported by Ubuntu Tweak"
-msgstr ""
+msgstr "Nažalost, vaša distribucija nije podržana Ubuntu prilagoditeljem"
 
 #: ../ubuntutweak/common/debug.py:122
 msgid ""
 "You can't file bug for this issue. Please only use Ubuntu Tweak on Ubuntu. "
 "Or it may kill your cat."
 msgstr ""
+"Ne možete ispuniti izvješće za ovu grešku. Koristite samo Ubuntu "
+"prilagoditelja na Ubuntuu. Ili može ubiti vašu mačku."
 
 #: ../ubuntutweak/janitor/gwibber_plugin.py:4
 msgid "Gwibber Cache"
-msgstr ""
+msgstr "Gwibber predmemorija"
 
 #: ../ubuntutweak/janitor/opera_plugin.py:4
 msgid "Opera Cache"
-msgstr ""
+msgstr "Opera predmemorija"
 
 #: ../ubuntutweak/janitor/googleearth_plugin.py:5
 msgid "Google Earth Cache"
-msgstr ""
+msgstr "Google Earth predmemorija"
 
 #: ../ubuntutweak/janitor/thumbnailcache_plugin.py:5
 msgid "Thumbnail cache"
-msgstr ""
+msgstr "Predmemorija minijatura"
 
 #: ../ubuntutweak/janitor/softwarecenter_plugin.py:4
 msgid "Software Center Cache"
-msgstr ""
+msgstr "Predmemorija Centra softvera"
 
 #: ../ubuntutweak/janitor/mozilla_plugin.py:37
 msgid "Firefox Cache"
-msgstr ""
+msgstr "Firefox predmemorija"
 
 #: ../ubuntutweak/janitor/mozilla_plugin.py:43
 msgid "Thunderbird Cache"
-msgstr ""
+msgstr "Thunderbird predmemorija"
 
 #: ../ubuntutweak/janitor/chrome_plugin.py:4
 msgid "Chrome Cache"
-msgstr ""
+msgstr "Chrome predmemorija"
 
 #: ../ubuntutweak/janitor/chrome_plugin.py:11
 msgid "Chromium Cache"
-msgstr ""
+msgstr "Chromium predmemorija"
 
 #: ../ubuntutweak/janitor/empathy_plugin.py:4
 msgid "Empathy Cache"
-msgstr ""
+msgstr "Empathy predmemorija"
 
 #: ../ubuntutweak/janitor/autoremoval_plugin.py:14
 msgid "Unneeded Packages"
-msgstr ""
+msgstr "Nepotrebni paketi"
 
 #: ../ubuntutweak/janitor/autoremoval_plugin.py:53
 msgid "Unneeded Packages (No package to be removed)"
-msgstr ""
+msgstr "Nepotrebni paketi (Nema paketa za uklanjanje)"
 
 #: ../ubuntutweak/janitor/aptcache_plugin.py:10
 msgid "Apt Cache"
-msgstr ""
+msgstr "Apt predmemorija"
 
 #: ../ubuntutweak/janitor/__init__.py:278
 msgid "No cache to be cleaned"
-msgstr ""
+msgstr "Nema predmemorije za uklanjanje"
 
 #: ../ubuntutweak/janitor/__init__.py:576
 #, python-format
 msgid "Scanning cruft for \"%s\"..."
-msgstr ""
+msgstr "Pretraživanje nepotrebnih podešavanja i datoteka \"%s\"..."
 
 #: ../ubuntutweak/janitor/__init__.py:698
 #, python-format
 msgid "Scan error for \"%s\", double-click to see details"
 msgstr ""
+"Greška pretraživanja za \"%s\", dvostruko kliknite za više pojedinosti"
 
 #: ../ubuntutweak/janitor/__init__.py:763
 #, python-format
 msgid "Cleaning cruft for \"%s\"..."
-msgstr ""
+msgstr "Čišćenje nepotrebnih podešavanja i datoteka \"%s\"..."
 
 #: ../ubuntutweak/janitor/__init__.py:844
 #: ../ubuntutweak/admins/desktoprecovery.py:81
@@ -633,19 +655,19 @@ msgstr "Osobno"
 
 #: ../ubuntutweak/janitor/packageconfigs_plugin.py:30
 msgid "Package Configs"
-msgstr ""
+msgstr "Podešavanja paketa"
 
 #: ../ubuntutweak/janitor/packageconfigs_plugin.py:73
 msgid "Packages Configs (No package config to be removed)"
-msgstr ""
+msgstr "Podešavanja paketa (Nema podešavanja paketa za uklanjanje)"
 
 #: ../ubuntutweak/janitor/oldkernel_plugin.py:16
 msgid "Old Kernel"
-msgstr ""
+msgstr "Stari kerneli"
 
 #: ../ubuntutweak/janitor/oldkernel_plugin.py:105
 msgid "Old Kernel Packages (No old kernel package to be removed)"
-msgstr ""
+msgstr "PAketi starih kernela (Nema paketa starih kernela za uklanjanje)"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:79
 #: ../ubuntutweak/modules/__init__.py:29
@@ -665,34 +687,37 @@ msgstr "Kategorija"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:147
 msgid "Setting"
-msgstr ""
+msgstr "Postavke"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:188
 msgid "Backup Name:"
-msgstr ""
+msgstr "Naziv sigurnosne kopije:"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:217
 msgid "Backing up..."
-msgstr ""
+msgstr "Sigurnosno kopiranje..."
 
 #: ../ubuntutweak/admins/desktoprecovery.py:242
 #, python-format
 msgid "Backing up...%s"
-msgstr ""
+msgstr "Sigurnosno kopiranje... %s"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:266
 msgid "Desktop Recovery"
-msgstr ""
+msgstr "Oporavak radne površine"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:267
 msgid ""
 "Backup and recover your desktop and application settings with ease.\n"
 "You can also use \"Reset\" to reset to the system default settings."
 msgstr ""
+"Sigurnosno kopirajte i obnovite vašu radnu površinu i postavke aplikacija s "
+"lakoćom.\n"
+"Isto tako možete koristiti \"Vrati\" kako bi vratili zadane postavke sustava."
 
 #: ../ubuntutweak/admins/desktoprecovery.py:348
 msgid "No Backup Yet"
-msgstr ""
+msgstr "Još nema sigurnosnih kopija"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:383
 #, python-format
@@ -700,6 +725,8 @@ msgid ""
 "Backup all settings under \"<b>%s</b>\"\n"
 "Would you like to continue?"
 msgstr ""
+"Sigurnosno kopirajte sve postavke od \"<b>%s</b>\"\n"
+"Želite li nastaviti?"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:404
 #, python-format
@@ -707,11 +734,13 @@ msgid ""
 "Backup settings under \"<b>%s</b>\"\n"
 "Would you like to continue?"
 msgstr ""
+"Sigurnosno kopirajte postavke od \"<b>%s</b>\"\n"
+"Želite li nastaviti?"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:447
 #, python-format
 msgid "Would you like to delete the backup \"<b>%s/%s</b>\"?"
-msgstr ""
+msgstr "Želite li obrisati sigurnosnu kopiju \"<b>%s/%s</b>\"?"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:451
 #, python-format
@@ -719,11 +748,13 @@ msgid ""
 "Would you like to delete the backup of all \"<b>%(setting_name)s</b>\" "
 "settings named \"<b>%(backup_name)s</b>\"?"
 msgstr ""
+"Želite li obrisati \"<b>%(backup_name)s</b>\" sigurnosne kopije naziva "
+"postavki \"<b>%(setting_name)s</b>\"?"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:473
 #, python-format
 msgid "Would you like to recover the backup \"<b>%s/%s</b>\"?"
-msgstr ""
+msgstr "Želite li obnoviti sigurnosnu kopiju \"<b>%s/%s</b>\"?"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:476
 #, python-format
@@ -731,59 +762,67 @@ msgid ""
 "Would you like to recover the backup of all \"<b>%(setting_name)s</b>\" "
 "settings named \"<b>%(backup_name)s</b>\"?"
 msgstr ""
+"Želite li obnoviti \"<b>%(backup_name)s</b>\" sigurnosne kopije naziva "
+"postavki \"<b>%(setting_name)s</b>\"?"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:481
 msgid ""
 "<b>NOTES</b>: While recovering, your desktop may be unresponsive for a "
 "moment."
 msgstr ""
+"<b>NAPOMENA</b>: tijekom obnove, vaša radna površina možda neće reagirati na "
+"trenutak."
 
 #: ../ubuntutweak/admins/desktoprecovery.py:498
 msgid "Recovery Successful!"
-msgstr ""
+msgstr "Uspješno obnovljeno!"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:499
 #: ../ubuntutweak/admins/desktoprecovery.py:535
 msgid "You may need to restart your desktop for changes to take effect"
 msgstr ""
+"Možda trebate ponovno pokrenuti radnu površinu kako bi se promjene "
+"primijenile"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:504
 msgid "_Logout"
-msgstr ""
+msgstr "_Odjava"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:517
 #, python-format
 msgid "Would you like to reset settings for \"<b>%s</b>\"?"
-msgstr ""
+msgstr "Želite li vratiti zadane postavke za \"<b>%s</b>\"?"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:519
 #, python-format
 msgid "Would you like to reset all settings under \"<b>%s</b>\"?"
-msgstr ""
+msgstr "Želite li vratiti početne postavke za \"<b>%s</b>\"?"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:521
 msgid ""
 "<b>NOTES</b>: Whilst resetting, your desktop may be unresponsive for a "
 "moment."
 msgstr ""
+"<b>NAPOMENA</b>: tijekom vraćanja, vaša radna površina možda neće reagirati "
+"na trenutak."
 
 #: ../ubuntutweak/admins/desktoprecovery.py:534
 msgid "Reset Successful!"
-msgstr ""
+msgstr "Vraćeno upješno!"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:563
 #: ../ubuntutweak/admins/sourceeditor.py:422
 msgid "Please enter a new name for your backup:"
-msgstr ""
+msgstr "Upišite novi naziv vaše sigurnosne kopije:"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:595
 msgid "Backup Successful!"
-msgstr ""
+msgstr "Sigurnosno kopirano uspješno!"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:598
 #: ../ubuntutweak/admins/sourceeditor.py:398
 msgid "Backup Failed!"
-msgstr ""
+msgstr "Sigurnosno kopirano neuspješno!"
 
 #: ../ubuntutweak/admins/sourcecenter.py:301
 msgid "Package"
@@ -791,31 +830,31 @@ msgstr "Paket"
 
 #: ../ubuntutweak/admins/sourcecenter.py:309
 msgid "Previous Version"
-msgstr ""
+msgstr "Prijašnja inačica"
 
 #: ../ubuntutweak/admins/sourcecenter.py:318
 msgid "System Version"
-msgstr ""
+msgstr "Inačica sustava"
 
 #: ../ubuntutweak/admins/sourcecenter.py:457
 #, python-format
 msgid "%d New Application Available"
 msgid_plural "%d New Applications Available"
-msgstr[0] "%d Nova aplikacija je dostupna"
-msgstr[1] "%d Nova aplikacija je dostupna"
-msgstr[2] "%d Nove aplikacije su dostupne"
+msgstr[0] "Dostupna je %d nova aplikacija"
+msgstr[1] "Dostupne su %d nove aplikacije"
+msgstr[2] "Dostupno je %d novih aplikacija"
 
 #: ../ubuntutweak/admins/sourcecenter.py:475
 #, python-format
 msgid "%d Package Update Available"
 msgid_plural "%d Package Updates Available"
-msgstr[0] "%d Dostupna je nadogradnja paketa"
-msgstr[1] "%d Dostupna je nadogradnja paketa"
-msgstr[2] "%d Dostupne su nadogradnje paketa"
+msgstr[0] "Dostupna je %d nadopuna paketa"
+msgstr[1] "Dostupne su %d nadopune paketa"
+msgstr[2] "Dostupno je %d nadopuna paketa"
 
 #: ../ubuntutweak/admins/sourcecenter.py:513
 msgid "No Available Package Updates"
-msgstr "Nema dostupnih nadogradnji paketa"
+msgstr "Nema dostupnih nadopuna paketa"
 
 #: ../ubuntutweak/admins/sourcecenter.py:603
 #: ../ubuntutweak/admins/sourcecenter.py:1103
@@ -843,7 +882,7 @@ msgid ""
 "To enable this Source, You need to enable <b>\"%s\"</b> at first.\n"
 "Do you wish to continue?"
 msgstr ""
-"Da biste omogućili ovaj izvor, morate prvo omogućiti <b>\"%s\"</b>.\n"
+"Kako bi omogućili ovaj izvor, morate prvo omogućiti <b>\"%s\"</b>.\n"
 "Želite li nastaviti?"
 
 #: ../ubuntutweak/admins/sourcecenter.py:817
@@ -867,12 +906,12 @@ msgid ""
 "%s is enabled now, Please click the refresh button to update the application "
 "cache."
 msgstr ""
-"%s je sada omogućen, molimo kliknite na gumb \"Osvježi\" radi ažuriranja "
-"predmemorije aplikacija."
+"%s je sada omogućen, kliknite na tipku \"Osvježi\" kako bi nadopunili "
+"predmemoriju aplikacija."
 
 #: ../ubuntutweak/admins/sourcecenter.py:921
 msgid "Enabled PPAs"
-msgstr ""
+msgstr "Omogućeni PPA repozitoriji"
 
 #: ../ubuntutweak/admins/sourcecenter.py:924
 msgid "Source Center"
@@ -883,15 +922,17 @@ msgid ""
 "A collection of software sources to ensure your applications are always up-"
 "to-date."
 msgstr ""
+"Kolekcija izvora softvera koji osiguravaju da su vaše aplikacije uvijek "
+"najnovije inačice."
 
 #: ../ubuntutweak/admins/sourcecenter.py:928
 msgid "Visit online Source Center"
-msgstr "Posjeti online Centar izvora"
+msgstr "Posjetite mrežni Centar izvora"
 
 #: ../ubuntutweak/admins/sourcecenter.py:937
 #: ../ubuntutweak/admins/appcenter.py:505
 msgid "_Sync"
-msgstr "_Sync"
+msgstr "_Uskladi"
 
 #: ../ubuntutweak/admins/sourcecenter.py:974
 msgid "Warning"
@@ -902,27 +943,27 @@ msgid ""
 "It is a possible security risk to use packages from Third-Party Sources.\n"
 "Please be careful and use only sources you trust."
 msgstr ""
-"Postoji sigurnosni rizik kod korištenja paketa od izvora treće strane.\n"
-"Molimo budite pažljivi i koristite samo izvore kojima vjerujete."
+"Postoji sigurnosni rizik pri korištenju paketa izvora treće strane.\n"
+"Budite oprezni i koristite samo izvore kojima vjerujete."
 
 #: ../ubuntutweak/admins/sourcecenter.py:979
 msgid "Never show this dialog"
-msgstr "Nikada ne pokazuj ovaj dijalog"
+msgstr "Nikada ne prikazuj ovaj dijalog"
 
 #. the "%s" is in front, some is the end, so just return the long one
 #: ../ubuntutweak/admins/sourcecenter.py:1009
 #, python-format
 msgid "disabled on upgrade to %s"
-msgstr "onemogućeno kod nadogradnje na %s"
+msgstr "onemogućeno pri nadopuni na %s"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1014
 #: ../ubuntutweak/admins/appcenter.py:545
 msgid "Last synced:"
-msgstr "Zadnje sinkronizirano:"
+msgstr "Zadnje usklađeno:"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1019
 msgid "Upgrade Third Party Sources"
-msgstr "Nadogradi Izvore od treće srtrane"
+msgstr "Nadogradi Izvore treće srtrane"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1020
 msgid ""
@@ -930,9 +971,10 @@ msgid ""
 "will be disabled by default.\n"
 "Would you like to re-enable any sources disabled by Update Manager?"
 msgstr ""
-"Nakon uspješne nadogradnje distribucije, bilo koji izvori od treće strane "
-"koje koristite će biti onemogućeni po zadanim postavkama.\n"
-"Želite li ponovno omogućiti neke izvore u Upravitelju nadogradnjama?"
+"Nakon uspješne nadogradnje distribucije, prema zadanom svi izvori treće "
+"strane koje koristite će biti onemogućeni.\n"
+"Želite li ponovno omogućiti određene izvore koje je onemogućio Nadopunitelj "
+"softvera?"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1029
 msgid "Upgrade Successful!"
@@ -940,59 +982,65 @@ msgstr "Nadogradnja uspješna!"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1031
 msgid "Upgrade Failed!"
-msgstr "Nadogradnja nije uspjela!"
+msgstr "Nadogradnja neuspjela!"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1038
 msgid "New source data available, would you like to update?"
-msgstr "Novi podaci o izvorima su dostupni, želite li nadograditi?"
+msgstr "Novi podaci izvora su dostupni, želite li nadopuniti?"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1099
 msgid ""
 "All enabled PPAs (Select and click \"Purge PPA\" can safely downgrade "
 "packages)"
 msgstr ""
+"Svi omogućeni PPA repozitoriji (Odaberite i kliknite \"Ukloni PPA\" može "
+"sigurnio vratiti pakete na prijašnju inačicu)"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1155
 msgid "An error occurred whilst downloading the file"
-msgstr "Dogodila se greška tijekom skidanja datoteke."
+msgstr "Dogodila se greška pri preuzimanju datoteke"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1171
 msgid "Update available, Would you like to update?"
-msgstr "Nadogradnja dostupna, želite li nadograditi?"
+msgstr "Nadopuna dostupna, želite li nadopuniti?"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1180
 msgid ""
 "Network Error, Please check your network connection or the remote server is "
 "down."
 msgstr ""
-"Mrežna greška, molimo provjerite vašu mrežnu vezu ili je udaljeni "
+"Mrežna greška, provjerite vaše mrežno povezivanje ili je udaljeni "
 "poslužitelj nedostupan."
 
 #: ../ubuntutweak/admins/sourcecenter.py:1184
 #: ../ubuntutweak/admins/appcenter.py:664
 msgid "No update available."
-msgstr "Nema dostupnih ažuriranja."
+msgstr "Nema dostupnih nadopuna."
 
 #: ../ubuntutweak/admins/sourcecenter.py:1209
 msgid "It's safe to purge the PPA, no packages need to be downgraded."
 msgstr ""
+"Sigurno možete ukloniti PPA repozitorij, nijedan paket nije potrebno vratiti "
+"na stariju inačicu."
 
 #: ../ubuntutweak/admins/sourcecenter.py:1212
 msgid "To safely purge the PPA, the following packages must be downgraded."
 msgstr ""
+"Kako bi sigurno uklonili PPA repozitorij, sljedeći paketi moraju biti "
+"vraćeni na prijašnju inačicu."
 
 #: ../ubuntutweak/admins/sourcecenter.py:1216
 #, python-format
 msgid "You're going to purge \"%s\":"
-msgstr ""
+msgstr "Ukloniti ćete \"%s\":"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1253
 msgid "PPA has been purged"
-msgstr ""
+msgstr "PPA repozitorij je uklonjen"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1254
 msgid "It is highly recommend to do a \"Refresh\" source operation."
-msgstr ""
+msgstr "Strogo je preporučljivo da pokrenete \"Osvježi\" radnju izvora."
 
 #: ../ubuntutweak/admins/sourceeditor.py:172
 msgid "Source Editor"
@@ -1000,7 +1048,7 @@ msgstr "Uređivač izvora"
 
 #: ../ubuntutweak/admins/sourceeditor.py:173
 msgid "Manually edit your software sources to suit your needs."
-msgstr ""
+msgstr "Ručno uredite repozitorije softvera prema vašim potrebama."
 
 #: ../ubuntutweak/admins/sourceeditor.py:212
 #, python-format
@@ -1008,18 +1056,20 @@ msgid ""
 "You're viewing the backup \"<b>%(backup_name)s</b>\" for "
 "\"<b>%(list_name)s</b>\""
 msgstr ""
+"Pregledavate sigurnosnu kopiju \"<b>%(backup_name)s</b>\" za "
+"\"<b>%(list_name)s</b>\""
 
 #: ../ubuntutweak/admins/sourceeditor.py:283
 msgid "No backup yet"
-msgstr ""
+msgstr "Još nema sigurnosne kopije"
 
 #: ../ubuntutweak/admins/sourceeditor.py:323
 msgid "Please check the permission of the sources.list file"
-msgstr "Molimo provjerite dozvolu popisa izvora"
+msgstr "Provjerite dozvolu sources.list datoteke"
 
 #: ../ubuntutweak/admins/sourceeditor.py:325
 msgid "Save failed!"
-msgstr "Spremanje nije uspjelo!"
+msgstr "Spremanje neuspešno!"
 
 #: ../ubuntutweak/admins/sourceeditor.py:343
 #, python-format
@@ -1027,33 +1077,35 @@ msgid ""
 "Would you like to recover the backup \"<b>%(backup_name)s</b>\" for "
 "\"<b>%(list_name)s</b>\"?"
 msgstr ""
+"Želite li obnoviti sigurnosnu kopiju \"<b>%(backup_name)s</b>\" za "
+"\"<b>%(list_name)s</b>\"?"
 
 #: ../ubuntutweak/admins/sourceeditor.py:354
 msgid "Recovery Failed!"
-msgstr ""
+msgstr "Neuspješna obnova!"
 
 #: ../ubuntutweak/admins/sourceeditor.py:355
 msgid "You may need to check the permission of source list."
-msgstr ""
+msgstr "Morate provjeriti dozvole za source list."
 
 #: ../ubuntutweak/admins/sourceeditor.py:387
 msgid "Please enter the name for your backup:"
-msgstr ""
+msgstr "Upišite naziv vaše sigurnosne kopije:"
 
 #: ../ubuntutweak/admins/sourceeditor.py:400
 #: ../ubuntutweak/admins/sourceeditor.py:433
 msgid "Please only use alphanumeric characters and \"_\" and \"-\"."
-msgstr ""
+msgstr "Koristite samo slovno-brojčane znakove i \"_\" and \"-\"."
 
 #: ../ubuntutweak/admins/sourceeditor.py:402
 #: ../ubuntutweak/admins/sourceeditor.py:435
 msgid "Backup name is invalid"
-msgstr ""
+msgstr "Neispravan naziv sigurnosne kopije"
 
 #: ../ubuntutweak/admins/sourceeditor.py:408
 #, python-format
 msgid "Would you like to delete the backup \"<b>%s</b>\"?"
-msgstr ""
+msgstr "Želite li obrisati sigurnosnu kopiju \"<b>%s</b>\"?"
 
 #: ../ubuntutweak/admins/sourceeditor.py:438
 msgid ""
@@ -1065,7 +1117,7 @@ msgstr ""
 
 #: ../ubuntutweak/admins/sourceeditor.py:456
 msgid "You can't delete sources.list!"
-msgstr "Ne možete izbrisati popis izvora!"
+msgstr "Ne možete obrisati sources.list datoteku!"
 
 #: ../ubuntutweak/admins/sourceeditor.py:458
 #, python-format
@@ -1082,23 +1134,23 @@ msgstr "HTML dokument"
 
 #: ../ubuntutweak/admins/templates.py:66
 msgid "ODB Database"
-msgstr "ODB Baza podataka"
+msgstr "ODB baza podataka"
 
 #: ../ubuntutweak/admins/templates.py:67
 msgid "ODS Spreadsheet"
-msgstr "ODS Proračunska tablica"
+msgstr "ODS proračunska tablica"
 
 #: ../ubuntutweak/admins/templates.py:68
 msgid "ODT Document"
-msgstr "ODT Dokument"
+msgstr "ODT dokument"
 
 #: ../ubuntutweak/admins/templates.py:69
 msgid "Plain text document"
-msgstr "Jednostavan tekstni dokument"
+msgstr "Običan tekstovni dokument"
 
 #: ../ubuntutweak/admins/templates.py:70
 msgid "ODP Presentation"
-msgstr "ODP Prezentacija"
+msgstr "ODP prezentacija"
 
 #: ../ubuntutweak/admins/templates.py:71
 msgid "Python script"
@@ -1106,7 +1158,7 @@ msgstr "Python skripta"
 
 #: ../ubuntutweak/admins/templates.py:72
 msgid "Pygtk Example"
-msgstr "Pygtk Primjer"
+msgstr "Pygtk primjer"
 
 #: ../ubuntutweak/admins/templates.py:73
 msgid "Shell script"
@@ -1131,6 +1183,10 @@ msgid ""
 "You can then create new documents based on these templates from the Nautilus "
 "right-click menu."
 msgstr ""
+"Ovdje možete upravljati predlošcima dokumenata.\n"
+"Možete dodati datoteke kao predloške povlačenjem u ovaj prozor.\n"
+"Nakon toga možete stvoriti nove dokumente temeljene na ovim predlošcima iz "
+"Nautilusovog izbornika desnim klikom miša."
 
 #: ../ubuntutweak/admins/templates.py:128
 #, python-format
@@ -1138,6 +1194,8 @@ msgid ""
 "The templates path is incorrect! The current path points to \"%s\".\n"
 "Please reset it to a location within your Home Folder."
 msgstr ""
+"Putanja predložaka je nispravna! Trenutna putanja upućuje na \"%s\".\n"
+"Postavite lokaciju do vaše Osobne mape."
 
 #: ../ubuntutweak/admins/templates.py:137
 msgid "Go And Set"
@@ -1149,11 +1207,11 @@ msgstr "Ponovno pokreni ovaj modul"
 
 #: ../ubuntutweak/admins/templates.py:167
 msgid "Rebuild System Templates"
-msgstr "Remontiraj predloške sustava"
+msgstr "Ponovno izgradi predloške sustava"
 
 #: ../ubuntutweak/admins/templates.py:182
 msgid "The templates path is still incorrect, please reset it!"
-msgstr ""
+msgstr "Putanja predložaka je neispravna, ispravite ju!"
 
 #: ../ubuntutweak/admins/templates.py:194
 msgid ""
@@ -1165,15 +1223,15 @@ msgstr ""
 
 #: ../ubuntutweak/admins/appcenter.py:187
 msgid "Installed Apps"
-msgstr ""
+msgstr "Instalirane aplikacije"
 
 #: ../ubuntutweak/admins/appcenter.py:454
 msgid "Checking update..."
-msgstr "Provjeravanje nadogradnji..."
+msgstr "Provjeravanje nadopuna..."
 
 #: ../ubuntutweak/admins/appcenter.py:489
 msgid "Fetching online data..."
-msgstr "Prikupljanje online podataka..."
+msgstr "Preuzimanje mrežnih podataka..."
 
 #: ../ubuntutweak/admins/appcenter.py:494
 msgid "Application Center"
@@ -1183,34 +1241,36 @@ msgstr "Centar aplikacija"
 msgid ""
 "A simple but efficient way for finding and installing popular applications."
 msgstr ""
+"Jednostavan i učinkovit način za pretraživanje i instalaciju popularnih "
+"aplikacija."
 
 #: ../ubuntutweak/admins/appcenter.py:498
 msgid "Visit Online Application Center"
-msgstr "Posjeti Online Centar aplikacija"
+msgstr "Posjetite Online Centar aplikacija"
 
 #: ../ubuntutweak/admins/appcenter.py:552
 msgid "New application data available, would you like to update?"
-msgstr "Novi podaci o aplikacijama su dostupni, želite li ažurirati?"
+msgstr "Novi podaci o aplikacijama su dostupni, želite li ih nadopuniti?"
 
 #: ../ubuntutweak/admins/appcenter.py:651
 msgid "Update available, would you like to update?"
-msgstr "Ažuriranje dostupno, želite li ažurirati?"
+msgstr "Nadopuna dostupna, želite li nadopuniti?"
 
 #: ../ubuntutweak/admins/appcenter.py:660
 msgid ""
 "Network Error, please check your network connection - or the remote server "
 "may be down."
 msgstr ""
-"Mrežna greška, molimo provjerite svoju mrežnu vezu - ili udaljeni "
+"Mrežna greška, provjerite svoje mrežno povezivanje - ili udaljeni "
 "poslužitelj nije dostupan."
 
 #: ../ubuntutweak/admins/appcenter.py:677
 msgid "An error occurred while downloading the file."
-msgstr "Dogodila se greška kod skidanja datoteke."
+msgstr "Dogodila se greška preuzimanja datoteke."
 
 #: ../ubuntutweak/admins/userdir.py:35
 msgid "Download"
-msgstr "Preuzmi"
+msgstr "Preuzimanja"
 
 #: ../ubuntutweak/admins/userdir.py:37
 msgid "Public"
@@ -1218,7 +1278,7 @@ msgstr "Javno"
 
 #: ../ubuntutweak/admins/userdir.py:38
 msgid "Document"
-msgstr "Dokument"
+msgstr "Dokumenti"
 
 #: ../ubuntutweak/admins/userdir.py:39
 msgid "Music"
@@ -1230,11 +1290,11 @@ msgstr "Slike"
 
 #: ../ubuntutweak/admins/userdir.py:41
 msgid "Videos"
-msgstr "Video snimke"
+msgstr "Snimke"
 
 #: ../ubuntutweak/admins/userdir.py:154
 msgid "Choose a folder"
-msgstr "Odaberite mapu"
+msgstr "Odaberi mapu"
 
 #: ../ubuntutweak/admins/userdir.py:171
 msgid ""
@@ -1242,6 +1302,9 @@ msgid ""
 "However, you must move your files back into place manually.\n"
 "Do you wish to continue?"
 msgstr ""
+"Ubuntu prilagoditelj će vratiti odabranu mapu na njenu zadanu lokaciju.\n"
+"Međutim, morate ručno premjestiti vaše datoteke nazad na mjesto.\n"
+"Želite li nastaviti?"
 
 #: ../ubuntutweak/admins/userdir.py:204
 msgid "Directory"
@@ -1253,15 +1316,15 @@ msgstr "Putanja"
 
 #: ../ubuntutweak/admins/userdir.py:225
 msgid "Change"
-msgstr "Promjeni"
+msgstr "Promijeni"
 
 #: ../ubuntutweak/admins/userdir.py:229
 msgid "Restore to default"
-msgstr "Vrati na zadane postavke"
+msgstr "Vrati zadane postavke"
 
 #: ../ubuntutweak/admins/userdir.py:237
 msgid "User Folder"
-msgstr ""
+msgstr "Osobna mapa"
 
 #: ../ubuntutweak/admins/userdir.py:238
 msgid ""
@@ -1269,6 +1332,9 @@ msgid ""
 "Don't change the location of your desktop folder unless you know what you "
 "are doing."
 msgstr ""
+"Ovdje možete promijeniti putanje zadanih direktorija.\n"
+"Nemojte mijenjati mjesto vašeg direktorija radne površine osim ako znate što "
+"radite."
 
 #: ../ubuntutweak/admins/userdir.py:261
 msgid "_Restore"
@@ -1280,71 +1346,73 @@ msgstr "_Promijeni"
 
 #: ../ubuntutweak/admins/quicklists.py:211
 msgid "QuickLists Editor"
-msgstr ""
+msgstr "Uređivač brzog popisa"
 
 #: ../ubuntutweak/admins/quicklists.py:212
 msgid "Unity Launcher QuickLists Editor"
-msgstr ""
+msgstr "Uređivač brzog popisa Unity pokretača"
 
 #: ../ubuntutweak/admins/quicklists.py:230
 msgid "Running Apps"
-msgstr ""
+msgstr "Pokrenute aplikacije"
 
 #: ../ubuntutweak/admins/quicklists.py:231
 msgid "Workspace Switcher"
-msgstr ""
+msgstr "Mjenjač radnih površina"
 
 #: ../ubuntutweak/admins/quicklists.py:232
 msgid "Devices"
-msgstr ""
+msgstr "Uređaji"
 
 #: ../ubuntutweak/admins/quicklists.py:426
 #, python-format
 msgid "Would you like to reset \"%s\"?"
-msgstr ""
+msgstr "Želite li vratiti na zadano \"%s\"?"
 
 #: ../ubuntutweak/admins/quicklists.py:427
 #, python-format
 msgid "If you continue, the actions of %s will be set to default."
-msgstr ""
+msgstr "Ako nastavite, %s radnje će biti vraćene na zadano."
 
 #: ../ubuntutweak/admins/quicklists.py:440
 msgid "Would you like to reset the launcher items?"
-msgstr ""
+msgstr "Želite li vratit zadane stavke pokretača?"
 
 #: ../ubuntutweak/admins/quicklists.py:441
 msgid ""
 "If you continue, launcher will be set to default and all your current items "
 "will be lost."
 msgstr ""
+"Ako nastavite, pokretač će biti vraćen na zadane postavke i sve vaše "
+"trenutne stavke će biti izgubljene."
 
 #: ../ubuntutweak/admins/scripts.py:49
 msgid "Create Launcher ..."
-msgstr "Stvori pokretač ..."
+msgstr "Stvori pokretač..."
 
 #: ../ubuntutweak/admins/scripts.py:50
 msgid "Copy to ..."
-msgstr "Kopiraj u ..."
+msgstr "Kopiraj u..."
 
 #: ../ubuntutweak/admins/scripts.py:51
 msgid "Copy to Desktop"
-msgstr "Kopiraj na radnu površinu"
+msgstr "Kopiraj na Radnu površinu"
 
 #: ../ubuntutweak/admins/scripts.py:52
 msgid "Copy to Download"
-msgstr "Kopiraj u Download"
+msgstr "Kopiraj u Preuzimanja"
 
 #: ../ubuntutweak/admins/scripts.py:53
 msgid "Copy to Home"
-msgstr "Kopiraj u Home"
+msgstr "Kopiraj u Osobnu mapu"
 
 #: ../ubuntutweak/admins/scripts.py:54
 msgid "Check md5 sum"
-msgstr "Provjeri md5 sum"
+msgstr "Provjeri md5 jedinstvenu vrijednost"
 
 #: ../ubuntutweak/admins/scripts.py:55
 msgid "Compress PDF"
-msgstr ""
+msgstr "Zapakiraj PDF"
 
 #: ../ubuntutweak/admins/scripts.py:56
 msgid "Move to ..."
@@ -1356,19 +1424,19 @@ msgstr "Premjesti na Radnu površinu"
 
 #: ../ubuntutweak/admins/scripts.py:58
 msgid "Move to Download"
-msgstr "Premjesti u Download"
+msgstr "Premjesti u Preuzimanja"
 
 #: ../ubuntutweak/admins/scripts.py:59
 msgid "Move to Home"
-msgstr "Premjesti u Home"
+msgstr "Premjesti u Osobnu mapu"
 
 #: ../ubuntutweak/admins/scripts.py:60
 msgid "Create hardlink to ..."
-msgstr "Stvori hardlink na ..."
+msgstr "Stvori čvrstu poveznicu na..."
 
 #: ../ubuntutweak/admins/scripts.py:61
 msgid "Link to ..."
-msgstr "Stvori poveznicu ..."
+msgstr "Stvori poveznicu..."
 
 #: ../ubuntutweak/admins/scripts.py:62
 msgid "Link to Desktop"
@@ -1376,27 +1444,27 @@ msgstr "Stvori poveznicu na Radnu površinu"
 
 #: ../ubuntutweak/admins/scripts.py:63
 msgid "Link to Download"
-msgstr "Stvori poveznicu na Download"
+msgstr "Stvori poveznicu na Preuzimanja"
 
 #: ../ubuntutweak/admins/scripts.py:64
 msgid "Link to Home"
-msgstr "Stvori poveznicu na Home"
+msgstr "Stvori poveznicu na Osobnu mapu"
 
 #: ../ubuntutweak/admins/scripts.py:65
 msgid "Open with your favourite text editor"
-msgstr "Otvorite s vašim najdražim uređivačem teksta"
+msgstr "Otvorite s vašim omiljenim uređivačem teksta"
 
 #: ../ubuntutweak/admins/scripts.py:66
 msgid "Open with your favourite text editor (as root)"
-msgstr "Otvorite s vašim najdražim uređivačem teksta (kao root)"
+msgstr "Otvorite s vašim omiljenim uređivačem teksta (kao root)"
 
 #: ../ubuntutweak/admins/scripts.py:67
 msgid "Browse as root"
-msgstr "Pregledaj kao root"
+msgstr "Pregledaj kao administrator (root)"
 
 #: ../ubuntutweak/admins/scripts.py:68
 msgid "Search in current folder"
-msgstr "Potraži u trenutnoj mapi"
+msgstr "Pretraži u trenutnoj mapi"
 
 #: ../ubuntutweak/admins/scripts.py:69
 msgid "Convert image to JPG"
@@ -1412,11 +1480,11 @@ msgstr "Pretvori sliku u GIF"
 
 #: ../ubuntutweak/admins/scripts.py:72
 msgid "Set image as wallpaper"
-msgstr "Postavi sliku kao wallpaper"
+msgstr "Postavi sliku kao pozadinu"
 
 #: ../ubuntutweak/admins/scripts.py:73
 msgid "Make hard shadow to image"
-msgstr "Napravi grubu sjenu na sliku"
+msgstr "Napravi grublju sjenku na slici"
 
 #: ../ubuntutweak/admins/scripts.py:101
 msgid "Enabled Scripts"
@@ -1428,7 +1496,7 @@ msgstr "Onemogućene skripte"
 
 #: ../ubuntutweak/admins/scripts.py:139
 msgid "Scripts"
-msgstr ""
+msgstr "Skripte"
 
 #: ../ubuntutweak/admins/scripts.py:140
 msgid ""
@@ -1436,10 +1504,13 @@ msgid ""
 "You can drag and drop scripts here from File Manager.\n"
 "'Scripts' will then be added to the context menu."
 msgstr ""
+"Skripte se mogu koristiti za razne zadatke.\n"
+"Možete povući i ispustiti skripte ovdje iz Upravitelja datoteka.\n"
+"'Skripte' će biti dodane u izbornik sadržaja."
 
 #: ../ubuntutweak/admins/scripts.py:168
 msgid "Rebuild System Scripts"
-msgstr "Remontiraj skripte sustava"
+msgstr "Ponovno izgradi skripte sustava"
 
 #: ../ubuntutweak/admins/scripts.py:182
 msgid ""
@@ -1451,7 +1522,7 @@ msgstr ""
 
 #: ../ubuntutweak/admins/shortcuts.py:29
 msgid "Shortcuts"
-msgstr ""
+msgstr "Prečaci"
 
 #: ../ubuntutweak/admins/shortcuts.py:30
 msgid ""
@@ -1460,6 +1531,9 @@ msgid ""
 "Enter the command to run the application and choose a shortcut key "
 "combination."
 msgstr ""
+"Prilagodbom prečaca tipkovnice, možete pristupiti trenutno vašim omiljenim "
+"aplikacijama.\n"
+"Upišite naredbu za pokretanje aplikacije i odaberite kombinaciju tipka."
 
 #: ../ubuntutweak/admins/shortcuts.py:84
 #, python-format
@@ -1475,7 +1549,7 @@ msgstr "Naredba %d"
 #: ../ubuntutweak/tweaks/window.py:137 ../ubuntutweak/tweaks/window.py:144
 #: ../ubuntutweak/tweaks/window.py:155 ../ubuntutweak/tweaks/window.py:166
 msgid "None"
-msgstr "Ništa"
+msgstr "Nijedno"
 
 #: ../ubuntutweak/admins/shortcuts.py:94
 #: ../ubuntutweak/admins/shortcuts.py:146
@@ -1492,7 +1566,7 @@ msgstr "Naredba"
 
 #: ../ubuntutweak/admins/shortcuts.py:127
 msgid "Key"
-msgstr "Ključ"
+msgstr "Tipka"
 
 #: ../ubuntutweak/admins/filetypemanager.py:45
 msgid "Audio"
@@ -1508,7 +1582,7 @@ msgstr "Slika"
 
 #: ../ubuntutweak/admins/filetypemanager.py:48
 msgid "Video"
-msgstr "Video"
+msgstr "Snimka"
 
 #: ../ubuntutweak/admins/filetypemanager.py:49
 msgid "Application"
@@ -1529,12 +1603,12 @@ msgstr "Vrsta datoteke"
 
 #: ../ubuntutweak/admins/filetypemanager.py:144
 msgid "Associated Application"
-msgstr "Povezana aplikacija"
+msgstr "Pridružena aplikacija"
 
 #: ../ubuntutweak/admins/filetypemanager.py:232
 #, python-format
 msgid "Open files of type \"%s\" with:"
-msgstr "Otvori datoteke tipa \"%s\" sa:"
+msgstr "Otvori datoteke vrste \"%s\" s:"
 
 #: ../ubuntutweak/admins/filetypemanager.py:260
 msgid "Choose an application"
@@ -1558,19 +1632,19 @@ msgstr "Upravljaj svim registriranim vrstama datoteka"
 
 #: ../ubuntutweak/admins/filetypemanager.py:582
 msgid "_Reset"
-msgstr ""
+msgstr "_Vrati početno"
 
 #: ../ubuntutweak/admins/filetypemanager.py:588
 msgid "Only show filetypes with associated applications"
-msgstr "Samo pokaži vrste datoteka s povezanim aplikacijama"
+msgstr "Samo prikaži vrste datoteka s pridruženim aplikacijama"
 
 #: ../ubuntutweak/modules/__init__.py:28
 msgid "Broken Modules"
-msgstr ""
+msgstr "Slomljeni moduli"
 
 #: ../ubuntutweak/modules/__init__.py:30
 msgid "Appearance"
-msgstr ""
+msgstr "Izgled"
 
 #: ../ubuntutweak/modules/__init__.py:31
 msgid "Startup"
@@ -1578,7 +1652,7 @@ msgstr "Pokretanje"
 
 #: ../ubuntutweak/modules/__init__.py:35
 msgid "Other"
-msgstr ""
+msgstr "Ostalo"
 
 #: ../ubuntutweak/modules/__init__.py:254
 msgid "More"
@@ -1598,6 +1672,16 @@ msgid ""
 "\n"
 "Or you can submit the Error Message to the developer for help:"
 msgstr ""
+"Ubuntu prilagoditelj je otkrio da je vaše apt podešavanje slomljeno.\n"
+"Pokušajte ga popraviti sljedećim koracima:\n"
+"\n"
+"\t1. Otvorite terminal\n"
+"\t2. Pokrenite naredbu za popravljanje:\n"
+"\n"
+"\t\tsudo chmod 644 %(broken_file)s\n"
+"\t\tsudo chown root:root %(broken_file)s\n"
+"\n"
+"Ili možete prijaviti poruku greške razvijatelju za više pomoći:"
 
 #: ../ubuntutweak/modules/__init__.py:437
 #, python-format
@@ -1614,22 +1698,33 @@ msgid ""
 "\n"
 "Or you can submit the Error Message to the developer forhelp:"
 msgstr ""
+"Ubuntu prilagoditelj je otkrio da je vaš apt popis slomljen.\n"
+"Pokušajte ga popraviti sljedećim koracima:\n"
+"\n"
+"\t1. Otvorite terminal\n"
+"\t2. Pokrenite naredbu za otvaranje datoteke apt popisa:\n"
+"\n"
+"\t\tsudo gedit %s\n"
+"\n"
+"\t3. Ispravite grešku u popisu\n"
+"\n"
+"Ili možete prijaviti poruku greške razvijatelju za više pomoći:"
 
 #: ../ubuntutweak/tweaks/icons.py:27
 msgid "Show \"Computer\" icon"
-msgstr ""
+msgstr "Prikaži \"Računalo\" ikonu"
 
 #: ../ubuntutweak/tweaks/icons.py:34
 msgid "Show \"Home Folder\" icon"
-msgstr ""
+msgstr "Prikaži \"Osobna mapa\" ikonu"
 
 #: ../ubuntutweak/tweaks/icons.py:41
 msgid "Show \"Trash\" icon"
-msgstr ""
+msgstr "Prikaži \"Smeće\" ikonu"
 
 #: ../ubuntutweak/tweaks/icons.py:48
 msgid "Show \"Network Servers\" icon"
-msgstr ""
+msgstr "Prikaži \"Mrežni poslužitelji\" ikonu"
 
 #: ../ubuntutweak/tweaks/icons.py:80 ../ubuntutweak/gui/treeviews.py:89
 msgid "Rename"
@@ -1637,101 +1732,103 @@ msgstr "Preimenuj"
 
 #: ../ubuntutweak/tweaks/icons.py:111
 msgid "Desktop Icons"
-msgstr ""
+msgstr "Ikone radne površine"
 
 #: ../ubuntutweak/tweaks/icons.py:112
 msgid "Rename and toggle visibilty of desktop icons"
-msgstr ""
+msgstr "Preimenujte i dodajte ili uklonite ikone radne površine"
 
 #: ../ubuntutweak/tweaks/icons.py:117
 msgid "Show desktop icons:"
-msgstr ""
+msgstr "Prikaži ikone radne površine:"
 
 #: ../ubuntutweak/tweaks/icons.py:118
 msgid "Show mounted volumes"
-msgstr ""
+msgstr "Prikaži montirane uređaje"
 
 #: ../ubuntutweak/tweaks/icons.py:119
 msgid "Show contents of \"Home Folder\""
-msgstr ""
+msgstr "Prikaži sadržaj \"Osobne mape\""
 
 #: ../ubuntutweak/tweaks/icons.py:151
 msgid "Note: switch off this option will make the desktop unclickable"
 msgstr ""
+"Napomena: isključivanje ove mogućnosti učinit će radnu površinu "
+"neupotrebljivom"
 
 #: ../ubuntutweak/tweaks/theme.py:37
 msgid "Theme"
-msgstr ""
+msgstr "Tema"
 
 #: ../ubuntutweak/tweaks/theme.py:38
 msgid "Set the gtk theme, icon theme, cursor theme and others"
-msgstr ""
+msgstr "Postavite gtk temu, ikonu teme, pokazivač teme i ostalo"
 
 #: ../ubuntutweak/tweaks/theme.py:42 ../ubuntutweak/tweaks/loginsettings.py:47
 msgid "Icon theme:"
-msgstr ""
+msgstr "Tema ikona:"
 
 #: ../ubuntutweak/tweaks/theme.py:43 ../ubuntutweak/tweaks/loginsettings.py:46
 msgid "Gtk theme:"
-msgstr ""
+msgstr "Gtk tema:"
 
 #: ../ubuntutweak/tweaks/theme.py:44
 msgid "Cursor theme:"
-msgstr ""
+msgstr "Tema pokazivača:"
 
 #: ../ubuntutweak/tweaks/theme.py:45
 msgid "Window theme:"
-msgstr ""
+msgstr "Tema prozora:"
 
 #: ../ubuntutweak/tweaks/theme.py:102
 msgid "Install theme:"
-msgstr ""
+msgstr "Instaliraj temu:"
 
 #: ../ubuntutweak/tweaks/theme.py:112
 msgid "Theme file is invalid"
-msgstr ""
+msgstr "Datoteka teme je neispravna"
 
 #: ../ubuntutweak/tweaks/theme.py:118
 #, python-format
 msgid "\"%s\" installed successfully"
-msgstr ""
+msgstr "\"%s\" je uspješno instalirano"
 
 #: ../ubuntutweak/tweaks/theme.py:119
 #, python-format
 msgid "Would you like to set your icon theme to \"%s\" immediatelly?"
-msgstr ""
+msgstr "Želite li postaviti temu ikone \"%s\" odmah?"
 
 #: ../ubuntutweak/tweaks/window.py:32
 msgid "Window"
-msgstr ""
+msgstr "Prozor"
 
 #: ../ubuntutweak/tweaks/window.py:33
 msgid "Manage Window Manager settings"
-msgstr ""
+msgstr "Upravljajte postavkama Upravitelja prozora"
 
 #: ../ubuntutweak/tweaks/window.py:50
 msgid "Window control button position:"
-msgstr ""
+msgstr "Položaj tipke za upravljanje prozorm:"
 
 #: ../ubuntutweak/tweaks/window.py:51
 msgid "\"Close\" button only"
-msgstr ""
+msgstr "Samo \"Zatvori\" tipka"
 
 #: ../ubuntutweak/tweaks/window.py:52
 msgid "Titlebar mouse wheel action:"
-msgstr ""
+msgstr "Radnja miša na naslovnoj traci:"
 
 #: ../ubuntutweak/tweaks/window.py:53
 msgid "Titlebar double-click action:"
-msgstr ""
+msgstr "Radnja dvostrukog klika na naslovnu traku:"
 
 #: ../ubuntutweak/tweaks/window.py:54
 msgid "Titlebar middle-click action:"
-msgstr ""
+msgstr "Radnja srednjeg klika na naslovnu traku:"
 
 #: ../ubuntutweak/tweaks/window.py:55
 msgid "Titlebar right-click action:"
-msgstr ""
+msgstr "Radnja desnog klika na naslovnu traku:"
 
 #: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:88
 #: ../ubuntutweak/tweaks/window.py:101 ../ubuntutweak/tweaks/window.py:116
@@ -1744,13 +1841,13 @@ msgstr "Smotaj"
 #: ../ubuntutweak/tweaks/window.py:113 ../ubuntutweak/tweaks/window.py:144
 #: ../ubuntutweak/tweaks/window.py:155 ../ubuntutweak/tweaks/window.py:166
 msgid "Maximize"
-msgstr "Maksimiziraj"
+msgstr "Povećaj"
 
 #: ../ubuntutweak/tweaks/window.py:88 ../ubuntutweak/tweaks/window.py:101
 #: ../ubuntutweak/tweaks/window.py:116 ../ubuntutweak/tweaks/window.py:145
 #: ../ubuntutweak/tweaks/window.py:156 ../ubuntutweak/tweaks/window.py:167
 msgid "Minimize"
-msgstr "Minimiziraj"
+msgstr "Umanji"
 
 #: ../ubuntutweak/tweaks/window.py:89 ../ubuntutweak/tweaks/window.py:102
 #: ../ubuntutweak/tweaks/window.py:117 ../ubuntutweak/tweaks/window.py:146
@@ -1766,11 +1863,11 @@ msgstr "Izbornik"
 
 #: ../ubuntutweak/tweaks/window.py:99 ../ubuntutweak/tweaks/window.py:114
 msgid "Maximize Horizontally"
-msgstr "Maksimiziraj horizontalno"
+msgstr "Povećaj vodoravno"
 
 #: ../ubuntutweak/tweaks/window.py:100 ../ubuntutweak/tweaks/window.py:115
 msgid "Maximize Vertically"
-msgstr "Maksimiziraj okomito"
+msgstr "Povećaj okomito"
 
 #: ../ubuntutweak/tweaks/nautilus.py:27
 msgid "File Manager"
@@ -1778,51 +1875,51 @@ msgstr "Upravitelj datotekama"
 
 #: ../ubuntutweak/tweaks/nautilus.py:28
 msgid "Manage the Nautilus file manager"
-msgstr ""
+msgstr "Upravljajte Nautilus upraviteljem datoteka"
 
 #: ../ubuntutweak/tweaks/nautilus.py:33
 msgid "Use the location entry instead of the pathbar"
-msgstr ""
+msgstr "Koristi upis lokacije umjesto trake putanje:"
 
 #: ../ubuntutweak/tweaks/nautilus.py:34
 msgid "Enable Recursive Search"
-msgstr ""
+msgstr "Omogući rekruzivnu pretragu:"
 
 #: ../ubuntutweak/tweaks/nautilus.py:35
 msgid "Automatically mount media:"
-msgstr ""
+msgstr "Automatski montiraj medije:"
 
 #: ../ubuntutweak/tweaks/nautilus.py:36
 msgid "Automatically open a folder:"
-msgstr ""
+msgstr "Automatski otvori mapu:"
 
 #: ../ubuntutweak/tweaks/nautilus.py:37
 msgid "Prompt or autorun/autostart programs:"
-msgstr ""
+msgstr "Upitaj ili automatski pokreni programe:"
 
 #: ../ubuntutweak/tweaks/nautilus.py:38
 msgid "Thumbnail icon size (pixels):"
-msgstr ""
+msgstr "Veličina ikona minijatura (pikseli):"
 
 #: ../ubuntutweak/tweaks/nautilus.py:39
 msgid "Thumbnail cache time (days):"
-msgstr ""
+msgstr "Trajanje predmemorije minijatura (dani):"
 
 #: ../ubuntutweak/tweaks/nautilus.py:40
 msgid "Maximum thumbnail cache size (MB):"
-msgstr ""
+msgstr "Najveća veličina predmemorije minijatura (MB):"
 
 #: ../ubuntutweak/tweaks/session.py:30
 msgid "Session Indicator"
-msgstr ""
+msgstr "Indikator prijave"
 
 #: ../ubuntutweak/tweaks/session.py:31
 msgid "Control your system session releated features"
-msgstr "Upravljajte povezanim mogućnostima prijave vašeg sustava"
+msgstr "Upravljajte mogućnostima prijave vašeg sustava"
 
 #: ../ubuntutweak/tweaks/session.py:35
 msgid "User indicator"
-msgstr ""
+msgstr "Indikator korinika"
 
 #: ../ubuntutweak/tweaks/session.py:36
 msgid "Disable \"Lock Screen\""
@@ -1830,107 +1927,108 @@ msgstr "Onemogući \"Zaključaj zaslon\""
 
 #: ../ubuntutweak/tweaks/session.py:37
 msgid "Show user's real name on the panel"
-msgstr ""
+msgstr "Prikaži ime korisnika na panelu"
 
 #: ../ubuntutweak/tweaks/session.py:38
 msgid "Remove the log out item"
-msgstr ""
+msgstr "Ukloni stavku odjave"
 
 #: ../ubuntutweak/tweaks/session.py:39
 msgid "Remove the shutdown item"
-msgstr ""
+msgstr "Ukloni stavku isključivanja"
 
 #: ../ubuntutweak/tweaks/session.py:40
 msgid "Suppress the dialog to confirm logout and shutdown action"
-msgstr ""
+msgstr "Potisni dijalog potvrde radnje odjave i isključivanja"
 
 #: ../ubuntutweak/tweaks/session.py:73
 msgid "Session indicator:"
-msgstr ""
+msgstr "Indikator prijave:"
 
 #: ../ubuntutweak/tweaks/workspace.py:37
 msgid "Show Workspaces"
-msgstr "Pokaži radne prostore"
+msgstr "Mjenjač radnih površina"
 
 #: ../ubuntutweak/tweaks/workspace.py:38
 msgid "Show Windows"
-msgstr "Pokaži prozore"
+msgstr "Prikaži prozore"
 
 #: ../ubuntutweak/tweaks/workspace.py:39
 msgid "Show Desktop"
-msgstr "Pokaži radnu površinu"
+msgstr "Prikaži radnu površinu"
 
 #: ../ubuntutweak/tweaks/workspace.py:138
 msgid "Workspace"
-msgstr ""
+msgstr "Radna površina"
 
 #: ../ubuntutweak/tweaks/workspace.py:139
 msgid "Workspace size and screen edge action settings"
-msgstr ""
+msgstr "Postavke veličine radne površine i radnji rubova zaslona"
 
 #: ../ubuntutweak/tweaks/workspace.py:144
 msgid "Edge trigger delay (ms):"
-msgstr ""
+msgstr "Odgoda pokretanja radnje ruba (ms):"
 
 #: ../ubuntutweak/tweaks/workspace.py:145
 msgid "Horizontal workspace:"
-msgstr ""
+msgstr "Vodoravne radne površine:"
 
 #: ../ubuntutweak/tweaks/workspace.py:146
 msgid "Vertical workspace:"
-msgstr ""
+msgstr "Okomite radne površine:"
 
 #: ../ubuntutweak/tweaks/sound.py:29
 msgid "Sound"
-msgstr ""
+msgstr "Zvuk"
 
 #: ../ubuntutweak/tweaks/sound.py:30
 msgid "Set the sound theme for Ubuntu"
-msgstr ""
+msgstr "Postavite zvučnu temu za Ubuntu"
 
 #: ../ubuntutweak/tweaks/sound.py:34
 msgid "Event sounds:"
-msgstr ""
+msgstr "Zvučni događaj:"
 
 #: ../ubuntutweak/tweaks/sound.py:35
 msgid "Input feedback sounds:"
-msgstr ""
+msgstr "Zvukovi povratnog ulaza:"
 
 #: ../ubuntutweak/tweaks/sound.py:36
 msgid "Sound theme:"
-msgstr ""
+msgstr "Zvučna tema:"
 
 #: ../ubuntutweak/tweaks/sound.py:37 ../ubuntutweak/tweaks/loginsettings.py:45
 msgid "Play login sound:"
-msgstr ""
+msgstr "Reproduciraj zvuk prijave:"
 
 #: ../ubuntutweak/tweaks/misc.py:32
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Ostalo"
 
 #: ../ubuntutweak/tweaks/misc.py:33
 msgid "Set the cursor timeout, menus and buttons icons"
-msgstr ""
+msgstr "Postavite vrijeme čekanja pokazivača, izbornika i ikone tipka"
 
 #: ../ubuntutweak/tweaks/misc.py:37
 msgid "Natural Scrolling"
-msgstr ""
+msgstr "Prirodno pomicanje:"
 
 #: ../ubuntutweak/tweaks/misc.py:38
 msgid "Menus have icons"
-msgstr ""
+msgstr "Izbornici imaju ikone"
 
 #: ../ubuntutweak/tweaks/misc.py:39
 msgid "Buttons have icons"
-msgstr ""
+msgstr "Tipke imaju ikone"
 
 #: ../ubuntutweak/tweaks/misc.py:40
 msgid "Show Input Method menu in the context menu"
-msgstr "Pokaži izbornik metode unosa u konteksnom izborniku"
+msgstr "Prikaži izbornik načina unosa u kontekstnom izborniku"
 
 #: ../ubuntutweak/tweaks/misc.py:41
 msgid "Show Unicode Control Character menu in the context menu"
-msgstr "Pokaži Unicode Control Character izbornik u konteksnom izborniku"
+msgstr ""
+"Prikaži izbornik upravljanja unikôdnim znakovima u kontekstnom izborniku"
 
 #: ../ubuntutweak/tweaks/misc.py:42
 msgid "Disable printing"
@@ -1938,7 +2036,7 @@ msgstr "Onemogući ispisivanje"
 
 #: ../ubuntutweak/tweaks/misc.py:43
 msgid "Disable printer settings"
-msgstr "Onemogući postavke printera"
+msgstr "Onemogući postavke pisača"
 
 #: ../ubuntutweak/tweaks/misc.py:44
 msgid "Disable save to disk"
@@ -1946,75 +2044,78 @@ msgstr "Onemogući spremanje na disk"
 
 #: ../ubuntutweak/tweaks/misc.py:45
 msgid "Disable \"Fast User Switching\""
-msgstr "Onemogući \"Brzo mijenjanje korisnika\""
+msgstr "Onemogući \"Brzu zamjenu korisnika\""
 
 #: ../ubuntutweak/tweaks/misc.py:46
 msgid "Cursor blink:"
-msgstr ""
+msgstr "Treptaj pokazivača:"
 
 #: ../ubuntutweak/tweaks/misc.py:47
 msgid "Overlay scrollbars:"
-msgstr ""
+msgstr "Traka pomicanja:"
 
 #: ../ubuntutweak/tweaks/misc.py:48
 msgid "Cursor blink time:"
-msgstr ""
+msgstr "Vrijeme treptaja pokazivača:"
 
 #: ../ubuntutweak/tweaks/misc.py:49
 msgid "Cursor blink timeout:"
-msgstr ""
+msgstr "Vrijeme isteka treptaja pokazivača:"
 
 #: ../ubuntutweak/tweaks/misc.py:61 ../ubuntutweak/tweaks/unity.py:189
 msgid "Note: you may need to log out to take effect"
 msgstr ""
+"Napomena: morate se odjaviti i ponovno prijaviti kako bi se promjene "
+"primijenile"
 
 #: ../ubuntutweak/tweaks/misc.py:73
 msgid "Normal"
-msgstr ""
+msgstr "Normalna"
 
 #: ../ubuntutweak/tweaks/misc.py:74
 msgid "Auto"
-msgstr ""
+msgstr "Automatski"
 
 #: ../ubuntutweak/tweaks/misc.py:75
 msgid "Show Overlay"
-msgstr ""
+msgstr "Prikaži prekriveno"
 
 #: ../ubuntutweak/tweaks/misc.py:76
 msgid "Never Show Overlay"
-msgstr ""
+msgstr "Ne prikazuj prekrivač"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:37
 msgid "Login Settings"
-msgstr "Postavke Prijave"
+msgstr "Postavke prijave"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:38
 msgid "Control the appearance and behaviour of your login screen"
-msgstr "Uredite izgled i ponašanje vašeg zaslona za prijavu."
+msgstr "Uredite izgled i ponašanje vašeg zaslona prijave."
 
 #: ../ubuntutweak/tweaks/loginsettings.py:43
 msgid "Guest account:"
-msgstr ""
+msgstr "Račun gosta:"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:44
 msgid "Draw grid:"
-msgstr ""
+msgstr "Prikaži mrežu:"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:62
 msgid "Note: you may need to reboot to take effect"
 msgstr ""
+"Napomena: morate ponovno pokrenuti računalo kako bi se promjene primijenile"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:136
 msgid "Choose a new logo image"
-msgstr "Izaberite novu logo sliku"
+msgstr "Odaberite novu sliku logotipa"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:142
 msgid "All images (*.PNG)"
-msgstr ""
+msgstr "Sve slike (*.PNG)"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:189
 msgid "Choose a new background image"
-msgstr "Odaberi novu pozadinsku sliku."
+msgstr "Odaberite novu sliku pozadine"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:195
 msgid "All images"
@@ -2022,352 +2123,356 @@ msgstr "Sve slike"
 
 #: ../ubuntutweak/tweaks/fonts.py:27
 msgid "Fonts"
-msgstr ""
+msgstr "Slova"
 
 #: ../ubuntutweak/tweaks/fonts.py:28
 msgid "Fonts Settings"
-msgstr ""
+msgstr "Postavke slova"
 
 #: ../ubuntutweak/tweaks/fonts.py:33
 msgid "Text scaling factor:"
-msgstr ""
+msgstr "Razmjer promjene veličine teksta:"
 
 #: ../ubuntutweak/tweaks/fonts.py:34
 msgid "Default font:"
-msgstr ""
+msgstr "Zadana slova:"
 
 #: ../ubuntutweak/tweaks/fonts.py:35
 msgid "Monospace font:"
-msgstr ""
+msgstr "Monospace slova:"
 
 #: ../ubuntutweak/tweaks/fonts.py:36
 msgid "Document font:"
-msgstr ""
+msgstr "Slova dokumenta:"
 
 #: ../ubuntutweak/tweaks/fonts.py:37
 msgid "Window title bar font:"
-msgstr ""
+msgstr "Slova naslovne trake prozora:"
 
 #: ../ubuntutweak/tweaks/fonts.py:38
 msgid "Hinting:"
-msgstr ""
+msgstr "Naglašavanje:"
 
 #: ../ubuntutweak/tweaks/fonts.py:39
 msgid "Antialiasing:"
-msgstr ""
+msgstr "Zaglađivanje:"
 
 #: ../ubuntutweak/tweaks/fonts.py:78
 msgid "Desktop font:"
-msgstr ""
+msgstr "Slova radne površine:"
 
 #: ../ubuntutweak/tweaks/fonts.py:99
 msgid "No hinting"
-msgstr ""
+msgstr "Bez naglašavanja"
 
 #: ../ubuntutweak/tweaks/fonts.py:100
 msgid "Basic"
-msgstr ""
+msgstr "Osnovno"
 
 #: ../ubuntutweak/tweaks/fonts.py:101
 msgid "Moderate"
-msgstr ""
+msgstr "Umjereno"
 
 #: ../ubuntutweak/tweaks/fonts.py:102
 msgid "Maximum"
-msgstr ""
+msgstr "Najveće"
 
 #: ../ubuntutweak/tweaks/fonts.py:109
 msgid "No antialiasing"
-msgstr ""
+msgstr "Bez zaglađivanja"
 
 #: ../ubuntutweak/tweaks/fonts.py:110
 msgid "Standard grayscale antialiasing"
-msgstr ""
+msgstr "Standardno zaglađivanje u sivom tonu"
 
 #: ../ubuntutweak/tweaks/fonts.py:111
 msgid "Subpixel antialiasing (LCD screens only)"
-msgstr ""
+msgstr "Podpikselno zaglađivanje (samo za LCD zaslone)"
 
 #: ../ubuntutweak/tweaks/unity.py:37
 msgid "Tweak the powerful Unity desktop"
-msgstr ""
+msgstr "Prilagodite Unity radnu površinu"
 
 #: ../ubuntutweak/tweaks/unity.py:42
 msgid "HUD:"
-msgstr ""
+msgstr "HUD:"
 
 #: ../ubuntutweak/tweaks/unity.py:43
 msgid "Shortcut hints overlay:"
-msgstr ""
+msgstr "Prikaži popis prečaca:"
 
 #: ../ubuntutweak/tweaks/unity.py:44
 msgid "Launcher icon size:"
-msgstr ""
+msgstr "Veličina ikone pokretača:"
 
 #: ../ubuntutweak/tweaks/unity.py:45
 msgid "Launcher opacity:"
-msgstr ""
+msgstr "Prozirnost pokretača:"
 
 #: ../ubuntutweak/tweaks/unity.py:46
 msgid "Web Apps integration:"
-msgstr ""
+msgstr "Integracija mrežnih aplikacija:"
 
 #: ../ubuntutweak/tweaks/unity.py:47
 msgid "Launcher hide mode:"
-msgstr ""
+msgstr "Način sakrivanja pokretača:"
 
 #: ../ubuntutweak/tweaks/unity.py:48
 msgid "Launcher icon backlight:"
-msgstr ""
+msgstr "Pozadinsko osvjetljenje ikone pokretača:"
 
 #: ../ubuntutweak/tweaks/unity.py:49
 msgid "Launcher show devices:"
-msgstr ""
+msgstr "Uređaji prikazani u pokretaču:"
 
 #: ../ubuntutweak/tweaks/unity.py:50
 msgid "\"Show desktop\" icon:"
-msgstr ""
+msgstr "Prikaži ikonu radne površine:"
 
 #: ../ubuntutweak/tweaks/unity.py:51
 msgid "Launcher click to minimize app:"
-msgstr ""
+msgstr "Klik na pokretač smanjuje aplikacije:"
 
 #: ../ubuntutweak/tweaks/unity.py:52
 msgid "Disable \"Show Desktop\" in the switcher:"
-msgstr ""
+msgstr "Onemogući ikonu radne površine u mjenjaču:"
 
 #: ../ubuntutweak/tweaks/unity.py:53
 msgid "Dash size:"
-msgstr ""
+msgstr "Dash izgled:"
 
 #: ../ubuntutweak/tweaks/unity.py:54
 msgid "Blur type:"
-msgstr ""
+msgstr "Vrsta zamućenja:"
 
 #: ../ubuntutweak/tweaks/unity.py:55
 msgid "Panel opacity:"
-msgstr ""
+msgstr "Prozirnost panela:"
 
 #: ../ubuntutweak/tweaks/unity.py:56
 msgid "Panel opacity for maximized windows:"
-msgstr ""
+msgstr "Prozirnost panela za uvećane prozore:"
 
 #: ../ubuntutweak/tweaks/unity.py:57
 msgid "Super key:"
-msgstr ""
+msgstr "Super tipka:"
 
 #: ../ubuntutweak/tweaks/unity.py:58
 msgid "Full screen dash:"
-msgstr ""
+msgstr "Dash preko cijelog zaslona:"
 
 #: ../ubuntutweak/tweaks/unity.py:59
 msgid "Compositing manager:"
-msgstr ""
+msgstr "Upravitelj kompoziranja:"
 
 #: ../ubuntutweak/tweaks/unity.py:60
 msgid "Number of workspaces:"
-msgstr ""
+msgstr "Broj radnih površina:"
 
 #: ../ubuntutweak/tweaks/unity.py:68 ../ubuntutweak/tweaks/unity.py:213
 msgid "Auto Hide"
-msgstr ""
+msgstr "Automatski sakrij"
 
 #: ../ubuntutweak/tweaks/unity.py:133
 msgid "Backlight Always On"
-msgstr ""
+msgstr "Pozadinsko osvjetljenje uvijek uključeno"
 
 #: ../ubuntutweak/tweaks/unity.py:134
 msgid "Backlight Toggles"
-msgstr ""
+msgstr "Samo za ikone otvorenih aplikacija"
 
 #: ../ubuntutweak/tweaks/unity.py:135
 msgid "Backlight Always Off"
-msgstr ""
+msgstr "Pozadinsko osvjetljenje uvijek isključeno"
 
 #: ../ubuntutweak/tweaks/unity.py:136
 msgid "Edge Illumination Toggles"
-msgstr ""
+msgstr "Rubno osvjetljenje ikona otvorenih aplikacija"
 
 #: ../ubuntutweak/tweaks/unity.py:137
 msgid "Backlight and Edge Illumination Toggles"
-msgstr ""
+msgstr "Pozadinsko i rubno osvjetljenje ikona otvorenih aplikacija"
 
 #: ../ubuntutweak/tweaks/unity.py:146
 msgid "Only Mounted"
-msgstr ""
+msgstr "Samo montirane"
 
 #: ../ubuntutweak/tweaks/unity.py:147
 msgid "Always"
-msgstr ""
+msgstr "Uvijek"
 
 #: ../ubuntutweak/tweaks/unity.py:156
 msgid "Automatic"
-msgstr ""
+msgstr "Automatski"
 
 #: ../ubuntutweak/tweaks/unity.py:156
 msgid "Netbook"
-msgstr ""
+msgstr "Netbook"
 
 #: ../ubuntutweak/tweaks/unity.py:163
 msgid "No blur"
-msgstr ""
+msgstr "Bez zamućenja"
 
 #: ../ubuntutweak/tweaks/unity.py:164
 msgid "Static blur"
-msgstr ""
+msgstr "Nepromjenjivo zamućenje"
 
 #: ../ubuntutweak/tweaks/unity.py:165
 msgid "Active blur"
-msgstr ""
+msgstr "Promjenjivo zamućenje"
 
 #: ../ubuntutweak/tweaks/unity.py:214
 msgid "Intellihide"
-msgstr ""
+msgstr "Pametno skrivanje"
 
 #: ../ubuntutweak/tweaks/workarounds.py:33
 msgid "Workarounds"
-msgstr ""
+msgstr "Rješenja"
 
 #: ../ubuntutweak/tweaks/workarounds.py:34
 msgid "The workarounds to fix some problems"
-msgstr ""
+msgstr "Rješenja za popravak nekih problema"
 
 #: ../ubuntutweak/tweaks/workarounds.py:38
 msgid "Fix the appearance of themes when granted root privileges:"
-msgstr ""
+msgstr "Popravi izgled tema kada je odobren korijenski pristup:"
 
 #: ../ubuntutweak/tweaks/workarounds.py:39
 msgid "Auto detect text encoding for Simplified Chinese in Gedit:"
 msgstr ""
+"Automatski otkrij kôdiranje teksta za Pojednostavljeni kineski u Geditu:"
 
 #: ../ubuntutweak/tweaks/lovewallpaperhd.py:20
 msgid "Love Wallpaper HD"
-msgstr ""
+msgstr "Love Wallpaper HD"
 
 #: ../ubuntutweak/tweaks/lovewallpaperhd.py:21
 msgid "Browse online gallery and find your wallpaper"
-msgstr ""
+msgstr "Pregledajte mrežnu galeriju i pronađite svoju pozadinu"
 
 #: ../ubuntutweak/tweaks/lovewallpaperhd.py:48
 msgid "I'm Feeling Lucky"
-msgstr ""
+msgstr "Osjećam se sretno"
 
 #: ../ubuntutweak/tweaks/lovewallpaperhd.py:91
 msgid "Downloading Wallpaper"
-msgstr ""
+msgstr "Preuzimanje pozadine"
 
 #: ../ubuntutweak/apps/__init__.py:106
 msgid "Uninstall"
-msgstr ""
+msgstr "Deinstaliraj"
 
 #: ../ubuntutweak/apps/__init__.py:107
 msgid "Update"
-msgstr ""
+msgstr "Nadopuni"
 
 #: ../ubuntutweak/apps/__init__.py:108
 msgid "Installing"
-msgstr ""
+msgstr "Instalacija"
 
 #: ../ubuntutweak/apps/__init__.py:109
 msgid "Uninstalling"
-msgstr ""
+msgstr "Uklanjanje"
 
 #: ../ubuntutweak/apps/__init__.py:110
 msgid "Updating"
-msgstr ""
+msgstr "Nadopunjavanje"
 
 #: ../ubuntutweak/apps/__init__.py:111
 msgid "Not Available"
-msgstr ""
+msgstr "Nije dostupno"
 
 #: ../ubuntutweak/apps/__init__.py:226
 #, python-format
 msgid "\"%s\" is enabled now, Please click the update button to update %s"
-msgstr ""
+msgstr "\"%s\" je sada omogućeno, kliknite na tipku nadopune za nadopunu %s"
 
 #: ../ubuntutweak/clips/userinfo.py:10
 msgid "User Information"
-msgstr ""
+msgstr "Informacije o korisniku"
 
 #: ../ubuntutweak/clips/userinfo.py:16
 msgid "Current user:"
-msgstr ""
+msgstr "Trenutni korisnik:"
 
 #: ../ubuntutweak/clips/userinfo.py:18
 msgid "Home directory:"
-msgstr ""
+msgstr "Osobna mapa:"
 
 #: ../ubuntutweak/clips/userinfo.py:20
 msgid "Shell:"
-msgstr ""
+msgstr "Ljuska:"
 
 #: ../ubuntutweak/clips/userinfo.py:22
 msgid "Language:"
-msgstr ""
+msgstr "Jezik:"
 
 #: ../ubuntutweak/clips/hardwareinfo.py:11
 msgid "Hardware Information"
-msgstr ""
+msgstr "Informacije o hardveru"
 
 #: ../ubuntutweak/clips/hardwareinfo.py:32
 msgid "CPU:"
-msgstr ""
+msgstr "CPU:"
 
 #: ../ubuntutweak/clips/hardwareinfo.py:34
 msgid "Memory:"
-msgstr ""
+msgstr "Memorija:"
 
 #: ../ubuntutweak/clips/systeminfo.py:11
 msgid "Ubuntu Desktop Information"
-msgstr ""
+msgstr "Informacije Ubuntu radnog okruženja"
 
 #: ../ubuntutweak/clips/systeminfo.py:17
 msgid "Hostname:"
-msgstr ""
+msgstr "Naziv računala:"
 
 #: ../ubuntutweak/clips/systeminfo.py:19
 msgid "Platform:"
-msgstr ""
+msgstr "Platforma:"
 
 #: ../ubuntutweak/clips/systeminfo.py:21
 msgid "Distribution:"
-msgstr ""
+msgstr "Distribucija:"
 
 #: ../ubuntutweak/clips/systeminfo.py:23
 msgid "Desktop Environment:"
-msgstr ""
+msgstr "Radno okruženja:"
 
 #: ../ubuntutweak/clips/cleanerinfo.py:11
 msgid "Your system is clean"
-msgstr ""
+msgstr "Vaš sustav je očišćen"
 
 #: ../ubuntutweak/clips/cleanerinfo.py:19
 msgid "Some cache can be cleaned to free your disk space"
 msgstr ""
+"Neke predmemorije se mogu isprazniti kako bi se oslobodio prostor na disku"
 
 #: ../ubuntutweak/clips/cleanerinfo.py:21
 #, python-format
 msgid "%s cache packages can be cleaned."
-msgstr ""
+msgstr "%s paketa predmemorije se mogu ukloniti."
 
 #: ../ubuntutweak/clips/cleanerinfo.py:38
 #, python-format
 msgid "%s thumbnails cache can be cleaned."
-msgstr ""
+msgstr "%s predmemorije minijatura se može ukloniti."
 
 #: ../ubuntutweak/clips/cleanerinfo.py:44
 msgid "Start Janitor"
-msgstr ""
+msgstr "Pokreni čistača"
 
 #: ../ubuntutweak/clips/updateinfo.py:13
 msgid "Your system is up-to-date"
-msgstr ""
+msgstr "Vaš sustav je nadopunjen"
 
 #: ../ubuntutweak/clips/updateinfo.py:49
 msgid ""
 "It is unknown when the package information was updated last. Please try "
 "clicking on the 'Check' button to update the information."
 msgstr ""
+"Nije poznato kada su informacije o paketima zadnji puta nadopunjene. "
+"Probajte kliknuti na \"Provjeri\" za nadopunu informacija."
 
 #: ../ubuntutweak/clips/updateinfo.py:54
 #, python-format
@@ -2375,6 +2480,10 @@ msgid ""
 "The package information was last updated %(days_ago)s days ago.\n"
 "Press the 'Check' button below to check for new software updates."
 msgstr ""
+"Informacije o paketima su posljednji puta nadopunjene prije %(days_ago)s "
+"dana.\n"
+"Kako biste provjerili dostupnost novih nadopuna, kliknite na tipku "
+"'Provjeri'."
 
 #: ../ubuntutweak/clips/updateinfo.py:59
 #, python-format
@@ -2382,7 +2491,14 @@ msgid "The package information was last updated %(days_ago)s day ago."
 msgid_plural ""
 "The package information was last updated %(days_ago)s days ago."
 msgstr[0] ""
+"Informacije o paketima su posljednji puta nadopunjene prije %(days_ago)s "
+"dana."
 msgstr[1] ""
+"Informacije o paketima su posljednji puta nadopunjene prije %(days_ago)s "
+"dana."
+msgstr[2] ""
+"Informacije o paketima su posljednji puta nadopunjene prije %(days_ago)s "
+"dana."
 
 #: ../ubuntutweak/clips/updateinfo.py:63
 #, python-format
@@ -2390,20 +2506,29 @@ msgid "The package information was last updated %(hours_ago)s hour ago."
 msgid_plural ""
 "The package information was last updated %(hours_ago)s hours ago."
 msgstr[0] ""
+"Informacije o paketima su posljednji puta nadopunjene prije %(hours_ago)s "
+"sata."
 msgstr[1] ""
+"Informacije o paketima su posljednji puta nadopunjene prije %(hours_ago)s "
+"sata."
+msgstr[2] ""
+"Informacije o paketima su posljednji puta nadopunjene prije %(hours_ago)s "
+"sati."
 
 #: ../ubuntutweak/clips/updateinfo.py:67
 msgid "The package information was last updated less than one hour ago."
 msgstr ""
+"Informacije o paketu su posljednji puta nadopunjene prije manje od jednog "
+"sata."
 
 #: ../ubuntutweak/gui/widgets.py:161
 #, python-format
 msgid "Reset setting to default value: %s"
-msgstr ""
+msgstr "Vratite postavku na zadanu vrijednost: %s"
 
 #: ../ubuntutweak/gui/widgets.py:464
 msgid "Please press the new key combination"
-msgstr "Molimo pritisnite novu kombinaciju tipki"
+msgstr "Pritisnite novu kombinaciju tipki"
 
 #: ../ubuntutweak/gui/widgets.py:516
 msgid "Disabled"
@@ -2411,7 +2536,7 @@ msgstr "Onemogućeno"
 
 #: ../ubuntutweak/gui/dialogs.py:208
 msgid "Could not authenticate"
-msgstr "Nije moguće dokazati autentičnost"
+msgstr "Ovjera nije moguća"
 
 #: ../ubuntutweak/gui/dialogs.py:209
 msgid "An unexpected error has occurred."
@@ -2427,7 +2552,7 @@ msgstr "Morate ponovno pokrenuti računalo"
 
 #: ../ubuntutweak/gui/treeviews.py:85
 msgid "Create folder"
-msgstr "Napravi mapu"
+msgstr "Stvori mapu"
 
 #: ../ubuntutweak/gui/treeviews.py:93
 msgid "Delete"
@@ -2435,15 +2560,15 @@ msgstr "Obriši"
 
 #: ../ubuntutweak/gui/treeviews.py:115
 msgid "Input the dir name"
-msgstr "Unesite naziv mape"
+msgstr "Upišite naziv mape"
 
 #: ../ubuntutweak/gui/treeviews.py:139
 msgid "Can't rename the root folder"
-msgstr "Nije moguće preimenovati root mapu"
+msgstr "Nemoguće preimenovanje korijenske mape"
 
 #: ../ubuntutweak/gui/treeviews.py:156
 msgid "Can't delete the root folder"
-msgstr "Nije moguće obrisati root mapu"
+msgstr "Nemoguće brisanje korijenske mape"
 
 #: ../ubuntutweak/gui/treeviews.py:170
 msgid ""
@@ -2451,39 +2576,39 @@ msgid ""
 "\n"
 "There are files in it!"
 msgstr ""
-"Nemoguće preimenovati!\n"
+"Nemoguće preimenovanje!\n"
 "\n"
 "Unutar postoje datoteke!"
 
 #: ../ubuntutweak/main.py:264
 msgid "Results"
-msgstr ""
+msgstr "Rezultati"
 
 #: ../ubuntutweak/main.py:272
 #, python-format
 msgid "Your filter \"<b>%s</b>\" does not match any items."
-msgstr ""
+msgstr "Vaš filter \"<b>%s</b>\" se ne podudara s nijednom stavkom."
 
 #: ../ubuntutweak/main.py:400
 msgid "Please wait a moment..."
-msgstr "Molimo pričekajte trenutak..."
+msgstr "Pričekajte trenutak..."
 
 #: ../ubuntutweak/main.py:509
 #, python-format
 msgid "No module named \"%s\""
-msgstr ""
+msgstr "Nema modula naziva \"%s\""
 
 #: ../ubuntutweak/main.py:510
 msgid "Please ensure you have entered the correct module name."
-msgstr ""
+msgstr "Pobrinite se da upišite ispravan naziv modula."
 
 #: ../ubuntutweak/main.py:568
 msgid "Computer Janitor"
-msgstr ""
+msgstr "Čistač računala"
 
 #: ../ubuntutweak/main.py:569
 msgid "Clean up a system so it's more like a freshly installed one"
-msgstr ""
+msgstr "Očisti sustav kako bi bio više poput svježe instaliranog"
 
 #: ../ubuntutweak/utils/__init__.py:40
 #, python-format
@@ -2510,56 +2635,56 @@ msgstr "%.1f GB"
 
 #: ../ubuntutweak/preferences.py:67
 msgid "Auto scan:"
-msgstr ""
+msgstr "Automatsko pretraživanje:"
 
 #: ../ubuntutweak/preferences.py:163
 msgid "Choose a clip extension"
-msgstr ""
+msgstr "Odaberite proširenje prikaza"
 
 #: ../ubuntutweak/preferences.py:168
 #, python-format
 msgid "\"%s\" is not a Clip Extension!"
-msgstr ""
+msgstr "\"%s\" nije peoširenje prikaza!"
 
 #: ../ubuntutweak/preferences.py:171
 msgid "Choose a Tweaks Extension"
-msgstr ""
+msgstr "Odaberite proširenje prilagodbe"
 
 #: ../ubuntutweak/preferences.py:176
 #, python-format
 msgid "\"%s\" is not a Tweaks Extension!"
-msgstr ""
+msgstr "\"%s\" nije proširenje prilagodbe!"
 
 #: ../ubuntutweak/preferences.py:179
 msgid "Choose a Admins Extension"
-msgstr ""
+msgstr "Odaberite proširenje administratora"
 
 #: ../ubuntutweak/preferences.py:184
 #, python-format
 msgid "\"%s\" is not a Admins Extension!"
-msgstr ""
+msgstr "\"%s\" nije proširenje administratora!"
 
 #: ../ubuntutweak/preferences.py:187
 msgid "Choose a Janitor Extension"
-msgstr ""
+msgstr "Odaberite proširenje čistača"
 
 #: ../ubuntutweak/preferences.py:192
 #, python-format
 msgid "\"%s\" is not a Janitor Extension!"
-msgstr ""
+msgstr "\"%s\" nije proširenje čistača!"
 
 #: ../ubuntutweak/preferences.py:201
 msgid "Ubuntu Tweak Extension (*.py, *.tar.gz)"
-msgstr ""
+msgstr "Proširenja Ubuntu prilagoditelja (*.py, *.tar.gz)"
 
 #: ../ubuntutweak/preferences.py:232
 msgid "Would you like to remove it then install again?"
-msgstr ""
+msgstr "Želite li ih ukloniti a zatim ponovno instalirati?"
 
 #: ../ubuntutweak/preferences.py:233
 #, python-format
 msgid "\"%s\" has already installed"
-msgstr ""
+msgstr "\"%s\" je već instaliran"
 
 #~ msgid "Show Widgets"
 #~ msgstr "Pokaži Widgete"
