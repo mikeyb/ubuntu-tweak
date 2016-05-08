@@ -27,4 +27,4 @@ gnome-desktop-item-edit "${filename}".desktop
 
 #move file to user/share/applications
 #gksudo mv "${filename}".desktop /usr/share/applications/"${filename}".desktop 
-$HOME/.local/share/applications/"${filename}".desktop 
+mv "${filename}".desktop $HOME/.local/share/applications/"${filename}".desktop
