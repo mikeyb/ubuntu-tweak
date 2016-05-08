@@ -2687,4 +2687,4 @@ msgid "\"%s\" has already installed"
 msgstr "\"%s\" je već instaliran"
 
 #~ msgid "Show Widgets"
-#~ msgstr "Pokaži Widgete"
+#~ msgstr "Pokaži widgete"
