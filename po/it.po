@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-19 14:32+0800\n"
+"POT-Creation-Date: 2016-05-08 18:27+0200\n"
 "PO-Revision-Date: 2013-05-06 05:54+0000\n"
 "Last-Translator: Andrea Amoroso <andrea.amoroso@alice.it>\n"
 "Language-Team: Italian <it@li.org>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -200,8 +201,8 @@ msgstr "Pulisci PPA"
 #: ../data/ui/brokenmodule.ui.h:1
 msgid "<big><b>This module encountered an error while loading.</b></big>"
 msgstr ""
-"<big><b>Si è verificato un errore durante il caricamento di questo "
-"modulo.</b></big>"
+"<big><b>Si è verificato un errore durante il caricamento di questo modulo.</"
+"b></big>"
 
 #: ../data/ui/brokenmodule.ui.h:2
 msgid ""
@@ -223,8 +224,7 @@ msgstr "_Segnala"
 
 #: ../data/ui/loginsettings.ui.h:1
 msgid "Click the button to change the login screen logo"
-msgstr ""
-"Fare clic sul pulsante per cambiare il logo della schermata di accesso"
+msgstr "Fare clic sul pulsante per cambiare il logo della schermata di accesso"
 
 #: ../data/ui/loginsettings.ui.h:2
 msgid "Click the button to change the login screen background"
@@ -508,8 +508,7 @@ msgstr "GNOME Fallback"
 msgid "Unknown (%s)"
 msgstr "Sconosciuto (%s)"
 
-#: ../ubuntutweak/system/__init__.py:59
-#: ../ubuntutweak/clips/hardwareinfo.py:16
+#: ../ubuntutweak/system/__init__.py:59 ../ubuntutweak/clips/hardwareinfo.py:16
 msgid "Unknown"
 msgstr "Sconosciuto"
 
@@ -576,8 +575,8 @@ msgstr "_Sblocca"
 msgid ""
 "The Ubuntu Tweak daemon didn't start correctly. This means that some "
 "advanced features may not work.\n"
-"If you want to help developers debugging, try to run \"<b>sudo "
-"/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
+"If you want to help developers debugging, try to run \"<b>sudo /usr/share/"
+"ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
 msgstr ""
 "Il demone di Ubuntu Tweak non è partito correttamente. Questo significa che "
 "alcune caratteristiche avanzate potrebbero non funzionare.\n"
@@ -633,11 +632,11 @@ msgstr "Cache delle miniature"
 msgid "Software Center Cache"
 msgstr "Cache del Software Center"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:37
+#: ../ubuntutweak/janitor/mozilla_plugin.py:41
 msgid "Firefox Cache"
 msgstr "Cache di Firefox"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:43
+#: ../ubuntutweak/janitor/mozilla_plugin.py:48
 msgid "Thunderbird Cache"
 msgstr "Cache di Thunderbird"
 
@@ -690,8 +689,7 @@ msgstr "Pulizia dei file inutili per \"%s\"..."
 msgid "System"
 msgstr "Sistema"
 
-#: ../ubuntutweak/janitor/__init__.py:866
-#: ../ubuntutweak/modules/__init__.py:33
+#: ../ubuntutweak/janitor/__init__.py:866 ../ubuntutweak/modules/__init__.py:33
 msgid "Personal"
 msgstr "Personale"
 
@@ -912,8 +910,8 @@ msgid ""
 "it.\n"
 "To continue you need to disable <b>\"%(SOURCE)s\"</b>first."
 msgstr ""
-"Impossibile abilitare questa sorgente perchè va in conflitto con "
-"<b>\"%(SOURCE)s\"</b>\n"
+"Impossibile abilitare questa sorgente perchè va in conflitto con <b>"
+"\"%(SOURCE)s\"</b>\n"
 "Per continuare disabilitare <b>\"%(SOURCE)s\"</b>."
 
 #: ../ubuntutweak/admins/sourcecenter.py:791
@@ -1063,8 +1061,7 @@ msgstr "Nessun aggiornamento disponibile."
 
 #: ../ubuntutweak/admins/sourcecenter.py:1209
 msgid "It's safe to purge the PPA, no packages need to be downgraded."
-msgstr ""
-"La pulizia dei PPA è sicura, nessun pacchetto necessita del downgrade."
+msgstr "La pulizia dei PPA è sicura, nessun pacchetto necessita del downgrade."
 
 #: ../ubuntutweak/admins/sourcecenter.py:1212
 msgid "To safely purge the PPA, the following packages must be downgraded."
@@ -1100,11 +1097,11 @@ msgstr ""
 #: ../ubuntutweak/admins/sourceeditor.py:212
 #, python-format
 msgid ""
-"You're viewing the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\""
+"You're viewing the backup \"<b>%(backup_name)s</b>\" for \"<b>%(list_name)s</"
+"b>\""
 msgstr ""
-"Stai guardando il backup \"<b>%(backup_name)s</b>\" per "
-"\"<b>%(list_name)s</b>\""
+"Stai guardando il backup \"<b>%(backup_name)s</b>\" per \"<b>%(list_name)s</"
+"b>\""
 
 #: ../ubuntutweak/admins/sourceeditor.py:283
 msgid "No backup yet"
@@ -1121,8 +1118,8 @@ msgstr "Salvataggio fallito!"
 #: ../ubuntutweak/admins/sourceeditor.py:343
 #, python-format
 msgid ""
-"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\"?"
+"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for \"<b>"
+"%(list_name)s</b>\"?"
 msgstr ""
 "Sei sicuro di voler ripristinare il backup \"<b>%(backup_name)s</b>\" per "
 "\"<b>%(list_name)s</b>\"?"
@@ -1437,118 +1434,127 @@ msgstr ""
 "predefiniti e tutti i tuoi elementi correnti verranno persi."
 
 #: ../ubuntutweak/admins/scripts.py:49
-msgid "Create Launcher ..."
-msgstr "Crea Lanciatore"
+msgid "Add to unity ..."
+msgstr ""
 
 #: ../ubuntutweak/admins/scripts.py:50
-msgid "Copy to ..."
-msgstr "Copia in..."
+#, fuzzy
+msgid "Browse as root ..."
+msgstr "Esplora da amministratore"
 
 #: ../ubuntutweak/admins/scripts.py:51
-msgid "Copy to Desktop"
-msgstr "Copia sulla Scrivania"
-
-#: ../ubuntutweak/admins/scripts.py:52
-msgid "Copy to Download"
-msgstr "Copia nei download"
-
-#: ../ubuntutweak/admins/scripts.py:53
-msgid "Copy to Home"
-msgstr "Copia nella Home"
-
-#: ../ubuntutweak/admins/scripts.py:54
 msgid "Check md5 sum"
 msgstr "Controllo integrità md5"
 
-#: ../ubuntutweak/admins/scripts.py:55
+#: ../ubuntutweak/admins/scripts.py:52
 msgid "Compress PDF"
 msgstr "Comprimi PDF"
 
-#: ../ubuntutweak/admins/scripts.py:56
-msgid "Move to ..."
-msgstr "Sposta in..."
-
-#: ../ubuntutweak/admins/scripts.py:57
-msgid "Move to Desktop"
-msgstr "Sposta sulla Scrivania"
-
-#: ../ubuntutweak/admins/scripts.py:58
-msgid "Move to Download"
-msgstr "Sposta in Scaricati"
-
-#: ../ubuntutweak/admins/scripts.py:59
-msgid "Move to Home"
-msgstr "Sposta nella Home"
-
-#: ../ubuntutweak/admins/scripts.py:60
-msgid "Create hardlink to ..."
-msgstr "Crea un collegamento fisico a ..."
-
-#: ../ubuntutweak/admins/scripts.py:61
-msgid "Link to ..."
-msgstr "Collegamento a..."
-
-#: ../ubuntutweak/admins/scripts.py:62
-msgid "Link to Desktop"
-msgstr "Collegamento alla Scrivania"
-
-#: ../ubuntutweak/admins/scripts.py:63
-msgid "Link to Download"
-msgstr "Collegamento a Scaricati"
-
-#: ../ubuntutweak/admins/scripts.py:64
-msgid "Link to Home"
-msgstr "Collegamento alla Home"
-
-#: ../ubuntutweak/admins/scripts.py:65
-msgid "Open with your favourite text editor"
-msgstr "Aprire con l'editor di testo preferito"
-
-#: ../ubuntutweak/admins/scripts.py:66
-msgid "Open with your favourite text editor (as root)"
-msgstr "Aprire con l'editor di testo preferito (come amministratore)"
-
-#: ../ubuntutweak/admins/scripts.py:67
-msgid "Browse as root"
-msgstr "Esplora da amministratore"
-
-#: ../ubuntutweak/admins/scripts.py:68
-msgid "Search in current folder"
-msgstr "Cerca nella cartella corrente"
-
-#: ../ubuntutweak/admins/scripts.py:69
+#: ../ubuntutweak/admins/scripts.py:53
 msgid "Convert image to JPG"
 msgstr "Converti immagine in JPG"
 
-#: ../ubuntutweak/admins/scripts.py:70
+#: ../ubuntutweak/admins/scripts.py:54
 msgid "Convert image to PNG"
 msgstr "Converti immagine in PNG"
 
-#: ../ubuntutweak/admins/scripts.py:71
+#: ../ubuntutweak/admins/scripts.py:55
 msgid "Convert image to GIF"
 msgstr "Converti immagine in GIF"
 
-#: ../ubuntutweak/admins/scripts.py:72
-msgid "Set image as wallpaper"
-msgstr "Imposta immagine come sfondo"
+#: ../ubuntutweak/admins/scripts.py:56
+msgid "Create Launcher ..."
+msgstr "Crea Lanciatore"
 
-#: ../ubuntutweak/admins/scripts.py:73
+#: ../ubuntutweak/admins/scripts.py:57
+msgid "Copy to ..."
+msgstr "Copia in..."
+
+#: ../ubuntutweak/admins/scripts.py:58
+msgid "Copy to Desktop"
+msgstr "Copia sulla Scrivania"
+
+#: ../ubuntutweak/admins/scripts.py:59
+msgid "Copy to Download"
+msgstr "Copia nei download"
+
+#: ../ubuntutweak/admins/scripts.py:60
+msgid "Copy to Home"
+msgstr "Copia nella Home"
+
+#: ../ubuntutweak/admins/scripts.py:61
+msgid "Create hardlink to ..."
+msgstr "Crea un collegamento fisico a ..."
+
+#: ../ubuntutweak/admins/scripts.py:62
+msgid "Link to ..."
+msgstr "Collegamento a..."
+
+#: ../ubuntutweak/admins/scripts.py:63
+msgid "Link to Desktop"
+msgstr "Collegamento alla Scrivania"
+
+#: ../ubuntutweak/admins/scripts.py:64
+msgid "Link to Download"
+msgstr "Collegamento a Scaricati"
+
+#: ../ubuntutweak/admins/scripts.py:65
+msgid "Link to Home"
+msgstr "Collegamento alla Home"
+
+#: ../ubuntutweak/admins/scripts.py:66
 msgid "Make hard shadow to image"
 msgstr "Disegna ombreggiatura sulle immagini"
 
-#: ../ubuntutweak/admins/scripts.py:101
+#: ../ubuntutweak/admins/scripts.py:67
+msgid "Move to ..."
+msgstr "Sposta in..."
+
+#: ../ubuntutweak/admins/scripts.py:68
+msgid "Move to Desktop"
+msgstr "Sposta sulla Scrivania"
+
+#: ../ubuntutweak/admins/scripts.py:69
+msgid "Move to Download"
+msgstr "Sposta in Scaricati"
+
+#: ../ubuntutweak/admins/scripts.py:70
+msgid "Move to Home"
+msgstr "Sposta nella Home"
+
+#: ../ubuntutweak/admins/scripts.py:71
+msgid "Open with your favourite text editor"
+msgstr "Aprire con l'editor di testo preferito"
+
+#: ../ubuntutweak/admins/scripts.py:72
+msgid "Open with your favourite text editor (as root)"
+msgstr "Aprire con l'editor di testo preferito (come amministratore)"
+
+#: ../ubuntutweak/admins/scripts.py:73
+msgid "Browse as root"
+msgstr "Esplora da amministratore"
+
+#: ../ubuntutweak/admins/scripts.py:74
+msgid "Search in current folder"
+msgstr "Cerca nella cartella corrente"
+
+#: ../ubuntutweak/admins/scripts.py:75
+msgid "Set image as wallpaper"
+msgstr "Imposta immagine come sfondo"
+
+#: ../ubuntutweak/admins/scripts.py:103
 msgid "Enabled Scripts"
 msgstr "Script Abilitati"
 
-#: ../ubuntutweak/admins/scripts.py:132
+#: ../ubuntutweak/admins/scripts.py:134
 msgid "Disabled Scripts"
 msgstr "Script Disabilitati"
 
-#: ../ubuntutweak/admins/scripts.py:139
+#: ../ubuntutweak/admins/scripts.py:141
 msgid "Scripts"
 msgstr "Script"
 
-#: ../ubuntutweak/admins/scripts.py:140
+#: ../ubuntutweak/admins/scripts.py:142
 msgid ""
 "Scripts can be used to complete all kinds of tasks.\n"
 "You can drag and drop scripts here from File Manager.\n"
@@ -1558,11 +1564,11 @@ msgstr ""
 "Gli script possono essere trascinati qui dal File Manager.\n"
 "Gli 'Script' verranno aggiunti al menu contestuale."
 
-#: ../ubuntutweak/admins/scripts.py:168
+#: ../ubuntutweak/admins/scripts.py:170
 msgid "Rebuild System Scripts"
 msgstr "Ricostruisci gli Script di Sistema"
 
-#: ../ubuntutweak/admins/scripts.py:182
+#: ../ubuntutweak/admins/scripts.py:184
 msgid ""
 "This will delete all disabled scripts.\n"
 "Do you wish to continue?"
@@ -1591,8 +1597,7 @@ msgstr ""
 msgid "Command %d"
 msgstr "Comando %d"
 
-#: ../ubuntutweak/admins/shortcuts.py:89
-#: ../ubuntutweak/admins/shortcuts.py:201
+#: ../ubuntutweak/admins/shortcuts.py:89 ../ubuntutweak/admins/shortcuts.py:201
 #: ../ubuntutweak/admins/filetypemanager.py:178
 #: ../ubuntutweak/admins/filetypemanager.py:202
 #: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:87
@@ -1602,8 +1607,7 @@ msgstr "Comando %d"
 msgid "None"
 msgstr "Nessuno"
 
-#: ../ubuntutweak/admins/shortcuts.py:94
-#: ../ubuntutweak/admins/shortcuts.py:146
+#: ../ubuntutweak/admins/shortcuts.py:94 ../ubuntutweak/admins/shortcuts.py:146
 msgid "disabled"
 msgstr "disabilitato"
 
@@ -2077,8 +2081,7 @@ msgstr "Mostra il menù dei Metodi di input nel menù contestuale"
 
 #: ../ubuntutweak/tweaks/misc.py:41
 msgid "Show Unicode Control Character menu in the context menu"
-msgstr ""
-"Mostra il menù dei Caratteri di Controllo Unicode nel menù contestuale"
+msgstr "Mostra il menù dei Caratteri di Controllo Unicode nel menù contestuale"
 
 #: ../ubuntutweak/tweaks/misc.py:42
 msgid "Disable printing"
@@ -2382,8 +2385,7 @@ msgstr "Modi alternativi per risolvere alcuni problemi"
 
 #: ../ubuntutweak/tweaks/workarounds.py:38
 msgid "Fix the appearance of themes when granted root privileges:"
-msgstr ""
-"Sistema l'aspetto dei temi quando sono garantiti i privilegi di root:"
+msgstr "Sistema l'aspetto dei temi quando sono garantiti i privilegi di root:"
 
 #: ../ubuntutweak/tweaks/workarounds.py:39
 msgid "Auto detect text encoding for Simplified Chinese in Gedit:"
@@ -2536,8 +2538,7 @@ msgstr ""
 #: ../ubuntutweak/clips/updateinfo.py:59
 #, python-format
 msgid "The package information was last updated %(days_ago)s day ago."
-msgid_plural ""
-"The package information was last updated %(days_ago)s days ago."
+msgid_plural "The package information was last updated %(days_ago)s days ago."
 msgstr[0] ""
 "Le informazioni sui pacchetti sono state aggiornate l'ultima volta un giorno "
 "fa."
@@ -2558,8 +2559,7 @@ msgstr[1] ""
 
 #: ../ubuntutweak/clips/updateinfo.py:67
 msgid "The package information was last updated less than one hour ago."
-msgstr ""
-"Le informazioni sui pacchetti sono state aggiornate meno di un'ora fa."
+msgstr "Le informazioni sui pacchetti sono state aggiornate meno di un'ora fa."
 
 #: ../ubuntutweak/gui/widgets.py:161
 #, python-format
@@ -2724,6 +2724,10 @@ msgstr "Vorresti rimuoverlo per poi reinstallarlo?"
 #, python-format
 msgid "\"%s\" has already installed"
 msgstr "\"%s\" è già installato"
+
+#, fuzzy
+#~ msgid "Link to..."
+#~ msgstr "Collegamento a..."
 
 #~ msgid "Show Widgets"
 #~ msgstr "Mostra i Widget"

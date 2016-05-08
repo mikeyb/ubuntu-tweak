@@ -2,10 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu Tweak 0.2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-19 14:32+0800\n"
+"POT-Creation-Date: 2016-05-08 18:27+0200\n"
 "PO-Revision-Date: 2014-04-19 08:20+0000\n"
 "Last-Translator: Ding Zhou <tualatrix@gmail.com>\n"
 "Language-Team: TualatriX <tualatrix@gmail.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -341,7 +342,9 @@ msgid ""
 "If you'd like to help us fix the problem, \n"
 "Please choose <i>Report</i> to file a new bug report. Make sure to include "
 "the error message below:"
-msgstr "如果你想帮助开发者除错， 可以创建错误报告。请选择<i>报告</i>并将出错信息附加上去。"
+msgstr ""
+"如果你想帮助开发者除错， 可以创建错误报告。请选择<i>报告</i>并将出错信息附加"
+"上去。"
 
 #: ../data/ui/traceback.ui.h:6
 msgid "<big><b>Oops... a fatal error occured</b></big>"
@@ -381,10 +384,11 @@ msgid ""
 "Ubuntu Tweak; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr ""
-"Ubuntu Tweak 是一个自由软件;您可以在由自由软件基金会发布的GNU General Public License下重新发布或者定制它;\n"
+"Ubuntu Tweak 是一个自由软件;您可以在由自由软件基金会发布的GNU General Public "
+"License下重新发布或者定制它;\n"
 "Ubuntu Tweak以实用为发布愿景，未尽事宜请阅读GNU General Public License。\n"
-"如您未得到随Ubuntu Tweak的一份GNU General Public License，请写信到51 Franklin Street, "
-"Fifth Floor, Boston, MA 02110-1301, USA索取。"
+"如您未得到随Ubuntu Tweak的一份GNU General Public License，请写信到51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA索取。"
 
 #: ../data/ui/mainwindow.ui.h:6
 msgid "translator-credits"
@@ -455,8 +459,7 @@ msgstr "GNOME 备用模式(Fallback)"
 msgid "Unknown (%s)"
 msgstr "未知 (%s)"
 
-#: ../ubuntutweak/system/__init__.py:59
-#: ../ubuntutweak/clips/hardwareinfo.py:16
+#: ../ubuntutweak/system/__init__.py:59 ../ubuntutweak/clips/hardwareinfo.py:16
 msgid "Unknown"
 msgstr "未知"
 
@@ -519,12 +522,12 @@ msgstr "解锁(_U)"
 msgid ""
 "The Ubuntu Tweak daemon didn't start correctly. This means that some "
 "advanced features may not work.\n"
-"If you want to help developers debugging, try to run \"<b>sudo "
-"/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
+"If you want to help developers debugging, try to run \"<b>sudo /usr/share/"
+"ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
 msgstr ""
 "Ubuntu Tweak 的守护程序无法正常启动，这意味着一些高级特性可能无法工作。\n"
-"如果您想要帮助开发者进行除错，请在终端运行：<b>sudo /usr/share/ubuntu-tweak/ubuntu-tweak-"
-"daemon</b>。"
+"如果您想要帮助开发者进行除错，请在终端运行：<b>sudo /usr/share/ubuntu-tweak/"
+"ubuntu-tweak-daemon</b>。"
 
 #: ../ubuntutweak/common/debug.py:59
 msgid "Error message has been copied"
@@ -534,7 +537,9 @@ msgstr "错误信息已复制"
 msgid ""
 "Now click \"Report\" to enter the bug report website. Make sure to attach "
 "the error message in \"Further information\"."
-msgstr "现在点击“报告”来访问 Bug 报告网站。确保在“Futher information”处附加上错误信息。"
+msgstr ""
+"现在点击“报告”来访问 Bug 报告网站。确保在“Futher information”处附加上错误信"
+"息。"
 
 #: ../ubuntutweak/common/debug.py:81
 msgid "Copy Error Message"
@@ -548,7 +553,9 @@ msgstr "对不起，Ubuntu Tweak不支持您的发行版。"
 msgid ""
 "You can't file bug for this issue. Please only use Ubuntu Tweak on Ubuntu. "
 "Or it may kill your cat."
-msgstr "您不能报告这个 bug。请只在 Ubuntu 上使用 Ubuntu Tweak，否则可能会对您的系统造成损害。"
+msgstr ""
+"您不能报告这个 bug。请只在 Ubuntu 上使用 Ubuntu Tweak，否则可能会对您的系统造"
+"成损害。"
 
 #: ../ubuntutweak/janitor/gwibber_plugin.py:4
 msgid "Gwibber Cache"
@@ -570,11 +577,11 @@ msgstr "缩略图缓存"
 msgid "Software Center Cache"
 msgstr "软件中心缓存"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:37
+#: ../ubuntutweak/janitor/mozilla_plugin.py:41
 msgid "Firefox Cache"
 msgstr "Firefox缓存"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:43
+#: ../ubuntutweak/janitor/mozilla_plugin.py:48
 msgid "Thunderbird Cache"
 msgstr "Thunderbird缓存"
 
@@ -627,8 +634,7 @@ msgstr "正在清理\"%s\"..."
 msgid "System"
 msgstr "系统"
 
-#: ../ubuntutweak/janitor/__init__.py:866
-#: ../ubuntutweak/modules/__init__.py:33
+#: ../ubuntutweak/janitor/__init__.py:866 ../ubuntutweak/modules/__init__.py:33
 msgid "Personal"
 msgstr "个人"
 
@@ -726,7 +732,8 @@ msgid ""
 "Would you like to delete the backup of all \"<b>%(setting_name)s</b>\" "
 "settings named \"<b>%(backup_name)s</b>\"?"
 msgstr ""
-"您想要删除所有名为\"<b>%(backup_name)s</b>\" 的属于 \"<b>%(setting_name)s</b>\" 的备份吗？"
+"您想要删除所有名为\"<b>%(backup_name)s</b>\" 的属于 \"<b>%(setting_name)s</b>"
+"\" 的备份吗？"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:473
 #, python-format
@@ -739,7 +746,8 @@ msgid ""
 "Would you like to recover the backup of all \"<b>%(setting_name)s</b>\" "
 "settings named \"<b>%(backup_name)s</b>\"?"
 msgstr ""
-"您想要恢复所有名为 \"<b>%(backup_name)s</b>\" 的属于 \"<b>%(setting_name)s</b>\" 的备份吗？"
+"您想要恢复所有名为 \"<b>%(backup_name)s</b>\" 的属于 \"<b>%(setting_name)s</"
+"b>\" 的备份吗？"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:481
 msgid ""
@@ -1003,8 +1011,8 @@ msgstr "手工编辑你的软件源以符合你的需要。"
 #: ../ubuntutweak/admins/sourceeditor.py:212
 #, python-format
 msgid ""
-"You're viewing the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\""
+"You're viewing the backup \"<b>%(backup_name)s</b>\" for \"<b>%(list_name)s</"
+"b>\""
 msgstr "您正在查看 “<b>%(list_name)s</b>” 的备份“<b>%(backup_name)s</b>”"
 
 #: ../ubuntutweak/admins/sourceeditor.py:283
@@ -1022,8 +1030,8 @@ msgstr "保存失败！"
 #: ../ubuntutweak/admins/sourceeditor.py:343
 #, python-format
 msgid ""
-"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\"?"
+"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for \"<b>"
+"%(list_name)s</b>\"?"
 msgstr "您想恢复 “<b>%(list_name)s</b>” 的备份“<b>%(backup_name)s</b>”吗？"
 
 #: ../ubuntutweak/admins/sourceeditor.py:354
@@ -1325,118 +1333,127 @@ msgid ""
 msgstr "如果您继续，启动器将会重置为默认并且所有您当前的条目将会丢失。"
 
 #: ../ubuntutweak/admins/scripts.py:49
-msgid "Create Launcher ..."
-msgstr "创建运行器 ..."
+msgid "Add to unity ..."
+msgstr ""
 
 #: ../ubuntutweak/admins/scripts.py:50
-msgid "Copy to ..."
-msgstr "复制到..."
+#, fuzzy
+msgid "Browse as root ..."
+msgstr "以管理员身份浏览"
 
 #: ../ubuntutweak/admins/scripts.py:51
-msgid "Copy to Desktop"
-msgstr "复制到桌面"
-
-#: ../ubuntutweak/admins/scripts.py:52
-msgid "Copy to Download"
-msgstr "复制到下载文件夹"
-
-#: ../ubuntutweak/admins/scripts.py:53
-msgid "Copy to Home"
-msgstr "复制到首目录"
-
-#: ../ubuntutweak/admins/scripts.py:54
 msgid "Check md5 sum"
 msgstr "检查 md5 校验和"
 
-#: ../ubuntutweak/admins/scripts.py:55
+#: ../ubuntutweak/admins/scripts.py:52
 msgid "Compress PDF"
 msgstr "压缩PDF"
 
-#: ../ubuntutweak/admins/scripts.py:56
-msgid "Move to ..."
-msgstr "移动到..."
-
-#: ../ubuntutweak/admins/scripts.py:57
-msgid "Move to Desktop"
-msgstr "移动到桌面"
-
-#: ../ubuntutweak/admins/scripts.py:58
-msgid "Move to Download"
-msgstr "移动到下载文件夹"
-
-#: ../ubuntutweak/admins/scripts.py:59
-msgid "Move to Home"
-msgstr "移动到首目录"
-
-#: ../ubuntutweak/admins/scripts.py:60
-msgid "Create hardlink to ..."
-msgstr "建立硬链接到..."
-
-#: ../ubuntutweak/admins/scripts.py:61
-msgid "Link to ..."
-msgstr "链接到..."
-
-#: ../ubuntutweak/admins/scripts.py:62
-msgid "Link to Desktop"
-msgstr "链接到桌面"
-
-#: ../ubuntutweak/admins/scripts.py:63
-msgid "Link to Download"
-msgstr "链接到下载文件夹"
-
-#: ../ubuntutweak/admins/scripts.py:64
-msgid "Link to Home"
-msgstr "链接到首目录"
-
-#: ../ubuntutweak/admins/scripts.py:65
-msgid "Open with your favourite text editor"
-msgstr "用文本编辑器打开"
-
-#: ../ubuntutweak/admins/scripts.py:66
-msgid "Open with your favourite text editor (as root)"
-msgstr "以管理员身份用文本编辑器打开"
-
-#: ../ubuntutweak/admins/scripts.py:67
-msgid "Browse as root"
-msgstr "以管理员身份浏览"
-
-#: ../ubuntutweak/admins/scripts.py:68
-msgid "Search in current folder"
-msgstr "搜索当前文件夹"
-
-#: ../ubuntutweak/admins/scripts.py:69
+#: ../ubuntutweak/admins/scripts.py:53
 msgid "Convert image to JPG"
 msgstr "转换图片至 JPG 格式"
 
-#: ../ubuntutweak/admins/scripts.py:70
+#: ../ubuntutweak/admins/scripts.py:54
 msgid "Convert image to PNG"
 msgstr "转换图片至 PNG 格式"
 
-#: ../ubuntutweak/admins/scripts.py:71
+#: ../ubuntutweak/admins/scripts.py:55
 msgid "Convert image to GIF"
 msgstr "转换图片至 GIF 格式"
 
-#: ../ubuntutweak/admins/scripts.py:72
-msgid "Set image as wallpaper"
-msgstr "将图像设置为壁纸"
+#: ../ubuntutweak/admins/scripts.py:56
+msgid "Create Launcher ..."
+msgstr "创建运行器 ..."
 
-#: ../ubuntutweak/admins/scripts.py:73
+#: ../ubuntutweak/admins/scripts.py:57
+msgid "Copy to ..."
+msgstr "复制到..."
+
+#: ../ubuntutweak/admins/scripts.py:58
+msgid "Copy to Desktop"
+msgstr "复制到桌面"
+
+#: ../ubuntutweak/admins/scripts.py:59
+msgid "Copy to Download"
+msgstr "复制到下载文件夹"
+
+#: ../ubuntutweak/admins/scripts.py:60
+msgid "Copy to Home"
+msgstr "复制到首目录"
+
+#: ../ubuntutweak/admins/scripts.py:61
+msgid "Create hardlink to ..."
+msgstr "建立硬链接到..."
+
+#: ../ubuntutweak/admins/scripts.py:62
+msgid "Link to ..."
+msgstr "链接到..."
+
+#: ../ubuntutweak/admins/scripts.py:63
+msgid "Link to Desktop"
+msgstr "链接到桌面"
+
+#: ../ubuntutweak/admins/scripts.py:64
+msgid "Link to Download"
+msgstr "链接到下载文件夹"
+
+#: ../ubuntutweak/admins/scripts.py:65
+msgid "Link to Home"
+msgstr "链接到首目录"
+
+#: ../ubuntutweak/admins/scripts.py:66
 msgid "Make hard shadow to image"
 msgstr "为该图像增加深度阴影"
 
-#: ../ubuntutweak/admins/scripts.py:101
+#: ../ubuntutweak/admins/scripts.py:67
+msgid "Move to ..."
+msgstr "移动到..."
+
+#: ../ubuntutweak/admins/scripts.py:68
+msgid "Move to Desktop"
+msgstr "移动到桌面"
+
+#: ../ubuntutweak/admins/scripts.py:69
+msgid "Move to Download"
+msgstr "移动到下载文件夹"
+
+#: ../ubuntutweak/admins/scripts.py:70
+msgid "Move to Home"
+msgstr "移动到首目录"
+
+#: ../ubuntutweak/admins/scripts.py:71
+msgid "Open with your favourite text editor"
+msgstr "用文本编辑器打开"
+
+#: ../ubuntutweak/admins/scripts.py:72
+msgid "Open with your favourite text editor (as root)"
+msgstr "以管理员身份用文本编辑器打开"
+
+#: ../ubuntutweak/admins/scripts.py:73
+msgid "Browse as root"
+msgstr "以管理员身份浏览"
+
+#: ../ubuntutweak/admins/scripts.py:74
+msgid "Search in current folder"
+msgstr "搜索当前文件夹"
+
+#: ../ubuntutweak/admins/scripts.py:75
+msgid "Set image as wallpaper"
+msgstr "将图像设置为壁纸"
+
+#: ../ubuntutweak/admins/scripts.py:103
 msgid "Enabled Scripts"
 msgstr "已启用的脚本"
 
-#: ../ubuntutweak/admins/scripts.py:132
+#: ../ubuntutweak/admins/scripts.py:134
 msgid "Disabled Scripts"
 msgstr "已禁用的脚本"
 
-#: ../ubuntutweak/admins/scripts.py:139
+#: ../ubuntutweak/admins/scripts.py:141
 msgid "Scripts"
 msgstr "脚本"
 
-#: ../ubuntutweak/admins/scripts.py:140
+#: ../ubuntutweak/admins/scripts.py:142
 msgid ""
 "Scripts can be used to complete all kinds of tasks.\n"
 "You can drag and drop scripts here from File Manager.\n"
@@ -1446,11 +1463,11 @@ msgstr ""
 "你可以从文件管理器拖拽外部脚本进来。\n"
 "它将被加入至右键菜单。"
 
-#: ../ubuntutweak/admins/scripts.py:168
+#: ../ubuntutweak/admins/scripts.py:170
 msgid "Rebuild System Scripts"
 msgstr "重建系统脚本"
 
-#: ../ubuntutweak/admins/scripts.py:182
+#: ../ubuntutweak/admins/scripts.py:184
 msgid ""
 "This will delete all disabled scripts.\n"
 "Do you wish to continue?"
@@ -1477,8 +1494,7 @@ msgstr ""
 msgid "Command %d"
 msgstr "命令 %d"
 
-#: ../ubuntutweak/admins/shortcuts.py:89
-#: ../ubuntutweak/admins/shortcuts.py:201
+#: ../ubuntutweak/admins/shortcuts.py:89 ../ubuntutweak/admins/shortcuts.py:201
 #: ../ubuntutweak/admins/filetypemanager.py:178
 #: ../ubuntutweak/admins/filetypemanager.py:202
 #: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:87
@@ -1488,8 +1504,7 @@ msgstr "命令 %d"
 msgid "None"
 msgstr "没有"
 
-#: ../ubuntutweak/admins/shortcuts.py:94
-#: ../ubuntutweak/admins/shortcuts.py:146
+#: ../ubuntutweak/admins/shortcuts.py:94 ../ubuntutweak/admins/shortcuts.py:146
 msgid "disabled"
 msgstr "禁用"
 
@@ -2411,8 +2426,7 @@ msgstr ""
 #: ../ubuntutweak/clips/updateinfo.py:59
 #, python-format
 msgid "The package information was last updated %(days_ago)s day ago."
-msgid_plural ""
-"The package information was last updated %(days_ago)s days ago."
+msgid_plural "The package information was last updated %(days_ago)s days ago."
 msgstr[0] "软件包信息上次是在 %(days_ago)s 天前更新的。"
 
 #: ../ubuntutweak/clips/updateinfo.py:63
@@ -2588,6 +2602,10 @@ msgstr "您想移除它并重新安装吗？"
 #, python-format
 msgid "\"%s\" has already installed"
 msgstr "\"%s\" 已经安装"
+
+#, fuzzy
+#~ msgid "Link to..."
+#~ msgstr "链接到..."
 
 #~ msgid "Show Widgets"
 #~ msgstr "显示小部件"

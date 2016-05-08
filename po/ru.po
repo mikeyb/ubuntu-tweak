@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-19 14:32+0800\n"
+"POT-Creation-Date: 2016-05-08 18:27+0200\n"
 "PO-Revision-Date: 2013-03-30 19:18+0000\n"
 "Last-Translator: Sergey Filatov <fildergrosse1@yandex.ru>\n"
 "Language-Team: Russian <ru@li.org>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Launchpad-Export-Date: 2014-06-30 13:01+0000\n"
 "X-Generator: Launchpad (build 17077)\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
@@ -395,8 +396,8 @@ msgid ""
 "Ubuntu Tweak; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr ""
-"Ubuntu Tweak — свободное программное обеспечение; вы можете распространять "
-"и/или изменять его на условиях лицензии GNU General Public License, "
+"Ubuntu Tweak — свободное программное обеспечение; вы можете распространять и/"
+"или изменять его на условиях лицензии GNU General Public License, "
 "опубликованной Фондом свободного программного обеспечения; либо версии 2 "
 "этой лицензии, либо (по вашему выбору) любой более поздней версии.\n"
 "\n"
@@ -465,8 +466,8 @@ msgstr ""
 "  Андрей Кацупий https://launchpad.net/~scofandr\n"
 "  Антон Лаврёнов https://launchpad.net/~lavrton\n"
 "  Лев Логинов https://launchpad.net/~ghost1513-ghostware\n"
-"  Николай Авдеев (NickKolok, Nikolay Avdeev) "
-"https://launchpad.net/~nickkolok\n"
+"  Николай Авдеев (NickKolok, Nikolay Avdeev) https://launchpad.net/"
+"~nickkolok\n"
 "  Хусаинов Тахир https://launchpad.net/~enrikiteam"
 
 #: ../data/ui/mainwindow.ui.h:7
@@ -518,8 +519,7 @@ msgstr "GNOME в режиме совместимости"
 msgid "Unknown (%s)"
 msgstr "Неизвестная (%s)"
 
-#: ../ubuntutweak/system/__init__.py:59
-#: ../ubuntutweak/clips/hardwareinfo.py:16
+#: ../ubuntutweak/system/__init__.py:59 ../ubuntutweak/clips/hardwareinfo.py:16
 msgid "Unknown"
 msgstr "Неизвестно"
 
@@ -590,13 +590,13 @@ msgstr "_Разблокировать"
 msgid ""
 "The Ubuntu Tweak daemon didn't start correctly. This means that some "
 "advanced features may not work.\n"
-"If you want to help developers debugging, try to run \"<b>sudo "
-"/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
+"If you want to help developers debugging, try to run \"<b>sudo /usr/share/"
+"ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
 msgstr ""
 "Службе Ubuntu Tweak не удалось запуститься. Это означает, что некоторые "
 "дополнительные возможности могут не работать.\n"
-"Если вы хотите помочь разработчикам в отладке, попробуйте запустить «<b>sudo "
-"/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>» в терминале."
+"Если вы хотите помочь разработчикам в отладке, попробуйте запустить "
+"«<b>sudo /usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>» в терминале."
 
 #: ../ubuntutweak/common/debug.py:59
 msgid "Error message has been copied"
@@ -647,11 +647,11 @@ msgstr "Кэш эскизов"
 msgid "Software Center Cache"
 msgstr "Временные файлы Центра приложений"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:37
+#: ../ubuntutweak/janitor/mozilla_plugin.py:41
 msgid "Firefox Cache"
 msgstr "Кэш Firefox"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:43
+#: ../ubuntutweak/janitor/mozilla_plugin.py:48
 msgid "Thunderbird Cache"
 msgstr "Кэш Thunderbird"
 
@@ -705,8 +705,7 @@ msgstr "Удаление ненужных данных «%s»..."
 msgid "System"
 msgstr "Система"
 
-#: ../ubuntutweak/janitor/__init__.py:866
-#: ../ubuntutweak/modules/__init__.py:33
+#: ../ubuntutweak/janitor/__init__.py:866 ../ubuntutweak/modules/__init__.py:33
 msgid "Personal"
 msgstr "Личные"
 
@@ -949,8 +948,8 @@ msgid ""
 "You can't disable this Source because <b>\"%(SOURCE)s\"</b> depends on it.\n"
 "To continue you need to disable <b>\"%(SOURCE)s\"</b> first."
 msgstr ""
-"Не удаётся отключить этот источник, так как от него зависит "
-"<b>«%(SOURCE)s»</b>.\n"
+"Не удаётся отключить этот источник, так как от него зависит <b>«%(SOURCE)s»</"
+"b>.\n"
 "Для продолжения вам придётся отключить <b>«%(SOURCE)s»</b>."
 
 #: ../ubuntutweak/admins/sourcecenter.py:903
@@ -1103,17 +1102,16 @@ msgstr "Редактор источников приложений"
 
 #: ../ubuntutweak/admins/sourceeditor.py:173
 msgid "Manually edit your software sources to suit your needs."
-msgstr ""
-"Вручную меняйте источники приложений в соответствии с вашими нуждами."
+msgstr "Вручную меняйте источники приложений в соответствии с вашими нуждами."
 
 #: ../ubuntutweak/admins/sourceeditor.py:212
 #, python-format
 msgid ""
-"You're viewing the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\""
+"You're viewing the backup \"<b>%(backup_name)s</b>\" for \"<b>%(list_name)s</"
+"b>\""
 msgstr ""
-"Вы просматриваете резервную копию «<b>%(backup_name)s</b>» для "
-"«<b>%(list_name)s</b>»"
+"Вы просматриваете резервную копию «<b>%(backup_name)s</b>» для «<b>"
+"%(list_name)s</b>»"
 
 #: ../ubuntutweak/admins/sourceeditor.py:283
 msgid "No backup yet"
@@ -1130,11 +1128,11 @@ msgstr "Не удалось сохранить!"
 #: ../ubuntutweak/admins/sourceeditor.py:343
 #, python-format
 msgid ""
-"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\"?"
+"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for \"<b>"
+"%(list_name)s</b>\"?"
 msgstr ""
-"Восстановить резервную копию «<b>%(backup_name)s</b>» для "
-"«<b>%(list_name)s</b>»?"
+"Восстановить резервную копию «<b>%(backup_name)s</b>» для «<b>%(list_name)s</"
+"b>»?"
 
 #: ../ubuntutweak/admins/sourceeditor.py:354
 msgid "Recovery Failed!"
@@ -1443,118 +1441,127 @@ msgstr ""
 "внесенные изменения будут утрачены."
 
 #: ../ubuntutweak/admins/scripts.py:49
-msgid "Create Launcher ..."
-msgstr "Создать кнопку запуска..."
+msgid "Add to unity ..."
+msgstr ""
 
 #: ../ubuntutweak/admins/scripts.py:50
-msgid "Copy to ..."
-msgstr "Копировать в..."
+#, fuzzy
+msgid "Browse as root ..."
+msgstr "Просмотреть с правами суперпользователя"
 
 #: ../ubuntutweak/admins/scripts.py:51
-msgid "Copy to Desktop"
-msgstr "Копировать на рабочий стол"
-
-#: ../ubuntutweak/admins/scripts.py:52
-msgid "Copy to Download"
-msgstr "Копировать в папку «Загрузки»"
-
-#: ../ubuntutweak/admins/scripts.py:53
-msgid "Copy to Home"
-msgstr "Копировать в домашнюю папку"
-
-#: ../ubuntutweak/admins/scripts.py:54
 msgid "Check md5 sum"
 msgstr "Проверить контрольную сумму md5"
 
-#: ../ubuntutweak/admins/scripts.py:55
+#: ../ubuntutweak/admins/scripts.py:52
 msgid "Compress PDF"
 msgstr "Сжать PDF"
 
-#: ../ubuntutweak/admins/scripts.py:56
-msgid "Move to ..."
-msgstr "Переместить в..."
-
-#: ../ubuntutweak/admins/scripts.py:57
-msgid "Move to Desktop"
-msgstr "Переместить на рабочий стол"
-
-#: ../ubuntutweak/admins/scripts.py:58
-msgid "Move to Download"
-msgstr "Переместить в папку «Загрузки»"
-
-#: ../ubuntutweak/admins/scripts.py:59
-msgid "Move to Home"
-msgstr "Переместить в домашний каталог"
-
-#: ../ubuntutweak/admins/scripts.py:60
-msgid "Create hardlink to ..."
-msgstr "Создать жёсткую ссылку на…"
-
-#: ../ubuntutweak/admins/scripts.py:61
-msgid "Link to ..."
-msgstr "Создать ссылку в..."
-
-#: ../ubuntutweak/admins/scripts.py:62
-msgid "Link to Desktop"
-msgstr "Создать ссылку на рабочем столе"
-
-#: ../ubuntutweak/admins/scripts.py:63
-msgid "Link to Download"
-msgstr "Создать ссылку в папке «Загрузки»"
-
-#: ../ubuntutweak/admins/scripts.py:64
-msgid "Link to Home"
-msgstr "Создать ссылку в домашнем каталоге"
-
-#: ../ubuntutweak/admins/scripts.py:65
-msgid "Open with your favourite text editor"
-msgstr "Открыть в текстовом редакторе"
-
-#: ../ubuntutweak/admins/scripts.py:66
-msgid "Open with your favourite text editor (as root)"
-msgstr "Открыть в текстовом редакторе с правами суперпользователя"
-
-#: ../ubuntutweak/admins/scripts.py:67
-msgid "Browse as root"
-msgstr "Просмотреть с правами суперпользователя"
-
-#: ../ubuntutweak/admins/scripts.py:68
-msgid "Search in current folder"
-msgstr "Искать в этом каталоге"
-
-#: ../ubuntutweak/admins/scripts.py:69
+#: ../ubuntutweak/admins/scripts.py:53
 msgid "Convert image to JPG"
 msgstr "Преобразовать изображение в JPG"
 
-#: ../ubuntutweak/admins/scripts.py:70
+#: ../ubuntutweak/admins/scripts.py:54
 msgid "Convert image to PNG"
 msgstr "Преобразовать изображение в PNG"
 
-#: ../ubuntutweak/admins/scripts.py:71
+#: ../ubuntutweak/admins/scripts.py:55
 msgid "Convert image to GIF"
 msgstr "Преобразовать изображение в GIF"
 
-#: ../ubuntutweak/admins/scripts.py:72
-msgid "Set image as wallpaper"
-msgstr "Сделать фоном рабочего стола"
+#: ../ubuntutweak/admins/scripts.py:56
+msgid "Create Launcher ..."
+msgstr "Создать кнопку запуска..."
 
-#: ../ubuntutweak/admins/scripts.py:73
+#: ../ubuntutweak/admins/scripts.py:57
+msgid "Copy to ..."
+msgstr "Копировать в..."
+
+#: ../ubuntutweak/admins/scripts.py:58
+msgid "Copy to Desktop"
+msgstr "Копировать на рабочий стол"
+
+#: ../ubuntutweak/admins/scripts.py:59
+msgid "Copy to Download"
+msgstr "Копировать в папку «Загрузки»"
+
+#: ../ubuntutweak/admins/scripts.py:60
+msgid "Copy to Home"
+msgstr "Копировать в домашнюю папку"
+
+#: ../ubuntutweak/admins/scripts.py:61
+msgid "Create hardlink to ..."
+msgstr "Создать жёсткую ссылку на…"
+
+#: ../ubuntutweak/admins/scripts.py:62
+msgid "Link to ..."
+msgstr "Создать ссылку в..."
+
+#: ../ubuntutweak/admins/scripts.py:63
+msgid "Link to Desktop"
+msgstr "Создать ссылку на рабочем столе"
+
+#: ../ubuntutweak/admins/scripts.py:64
+msgid "Link to Download"
+msgstr "Создать ссылку в папке «Загрузки»"
+
+#: ../ubuntutweak/admins/scripts.py:65
+msgid "Link to Home"
+msgstr "Создать ссылку в домашнем каталоге"
+
+#: ../ubuntutweak/admins/scripts.py:66
 msgid "Make hard shadow to image"
 msgstr "Придать изображению резкую тень"
 
-#: ../ubuntutweak/admins/scripts.py:101
+#: ../ubuntutweak/admins/scripts.py:67
+msgid "Move to ..."
+msgstr "Переместить в..."
+
+#: ../ubuntutweak/admins/scripts.py:68
+msgid "Move to Desktop"
+msgstr "Переместить на рабочий стол"
+
+#: ../ubuntutweak/admins/scripts.py:69
+msgid "Move to Download"
+msgstr "Переместить в папку «Загрузки»"
+
+#: ../ubuntutweak/admins/scripts.py:70
+msgid "Move to Home"
+msgstr "Переместить в домашний каталог"
+
+#: ../ubuntutweak/admins/scripts.py:71
+msgid "Open with your favourite text editor"
+msgstr "Открыть в текстовом редакторе"
+
+#: ../ubuntutweak/admins/scripts.py:72
+msgid "Open with your favourite text editor (as root)"
+msgstr "Открыть в текстовом редакторе с правами суперпользователя"
+
+#: ../ubuntutweak/admins/scripts.py:73
+msgid "Browse as root"
+msgstr "Просмотреть с правами суперпользователя"
+
+#: ../ubuntutweak/admins/scripts.py:74
+msgid "Search in current folder"
+msgstr "Искать в этом каталоге"
+
+#: ../ubuntutweak/admins/scripts.py:75
+msgid "Set image as wallpaper"
+msgstr "Сделать фоном рабочего стола"
+
+#: ../ubuntutweak/admins/scripts.py:103
 msgid "Enabled Scripts"
 msgstr "Активные сценарии"
 
-#: ../ubuntutweak/admins/scripts.py:132
+#: ../ubuntutweak/admins/scripts.py:134
 msgid "Disabled Scripts"
 msgstr "Неактивные сценарии"
 
-#: ../ubuntutweak/admins/scripts.py:139
+#: ../ubuntutweak/admins/scripts.py:141
 msgid "Scripts"
 msgstr "Сценарии"
 
-#: ../ubuntutweak/admins/scripts.py:140
+#: ../ubuntutweak/admins/scripts.py:142
 msgid ""
 "Scripts can be used to complete all kinds of tasks.\n"
 "You can drag and drop scripts here from File Manager.\n"
@@ -1564,11 +1571,11 @@ msgstr ""
 "Вы можете перетаскивать скрипты прямо из файлового менеджера.\n"
 "После добавления сценарий будет добавлен в контекстное меню."
 
-#: ../ubuntutweak/admins/scripts.py:168
+#: ../ubuntutweak/admins/scripts.py:170
 msgid "Rebuild System Scripts"
 msgstr "Пересобрать системные сценарии"
 
-#: ../ubuntutweak/admins/scripts.py:182
+#: ../ubuntutweak/admins/scripts.py:184
 msgid ""
 "This will delete all disabled scripts.\n"
 "Do you wish to continue?"
@@ -1596,8 +1603,7 @@ msgstr ""
 msgid "Command %d"
 msgstr "Команда %d"
 
-#: ../ubuntutweak/admins/shortcuts.py:89
-#: ../ubuntutweak/admins/shortcuts.py:201
+#: ../ubuntutweak/admins/shortcuts.py:89 ../ubuntutweak/admins/shortcuts.py:201
 #: ../ubuntutweak/admins/filetypemanager.py:178
 #: ../ubuntutweak/admins/filetypemanager.py:202
 #: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:87
@@ -1607,8 +1613,7 @@ msgstr "Команда %d"
 msgid "None"
 msgstr "Ничего"
 
-#: ../ubuntutweak/admins/shortcuts.py:94
-#: ../ubuntutweak/admins/shortcuts.py:146
+#: ../ubuntutweak/admins/shortcuts.py:94 ../ubuntutweak/admins/shortcuts.py:146
 msgid "disabled"
 msgstr "отключено"
 
@@ -2541,8 +2546,7 @@ msgstr ""
 #: ../ubuntutweak/clips/updateinfo.py:59
 #, python-format
 msgid "The package information was last updated %(days_ago)s day ago."
-msgid_plural ""
-"The package information was last updated %(days_ago)s days ago."
+msgid_plural "The package information was last updated %(days_ago)s days ago."
 msgstr[0] "Информация о пакетах была обновлена %(days_ago)s день назад."
 msgstr[1] "Информация о пакетах была обновлена %(days_ago)s дня назад."
 msgstr[2] "Информация о пакетах была обновлена %(days_ago)s дней назад."
@@ -2724,6 +2728,10 @@ msgstr "Удалить его и установить заново?"
 #, python-format
 msgid "\"%s\" has already installed"
 msgstr "«%s» уже установлено"
+
+#, fuzzy
+#~ msgid "Link to..."
+#~ msgstr "Создать ссылку в..."
 
 #~ msgid "Show Widgets"
 #~ msgstr "Показать виджеты"

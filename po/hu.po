@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-19 14:32+0800\n"
+"POT-Creation-Date: 2016-05-08 18:27+0200\n"
 "PO-Revision-Date: 2013-07-31 18:18+0000\n"
 "Last-Translator: Richard Somlói <ricsipontaz@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -479,8 +480,7 @@ msgstr "GNOME Fallback"
 msgid "Unknown (%s)"
 msgstr "Ismeretlen (%s)"
 
-#: ../ubuntutweak/system/__init__.py:59
-#: ../ubuntutweak/clips/hardwareinfo.py:16
+#: ../ubuntutweak/system/__init__.py:59 ../ubuntutweak/clips/hardwareinfo.py:16
 msgid "Unknown"
 msgstr "Ismeretlen"
 
@@ -547,8 +547,8 @@ msgstr "_Feloldás"
 msgid ""
 "The Ubuntu Tweak daemon didn't start correctly. This means that some "
 "advanced features may not work.\n"
-"If you want to help developers debugging, try to run \"<b>sudo "
-"/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
+"If you want to help developers debugging, try to run \"<b>sudo /usr/share/"
+"ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
 msgstr ""
 "Az Ubuntu Tweak démon nem megfelelően indult el. Ennek következtében néhány "
 "funkció működése bizonytalan. Ha szeretne segíteni a javításban, futtassa a "
@@ -604,11 +604,11 @@ msgstr "Bélyegkép-gyorsítótár"
 msgid "Software Center Cache"
 msgstr "Ubuntu szoftverközpont gyorsítótár"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:37
+#: ../ubuntutweak/janitor/mozilla_plugin.py:41
 msgid "Firefox Cache"
 msgstr "Firefox gyorsítótár"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:43
+#: ../ubuntutweak/janitor/mozilla_plugin.py:48
 msgid "Thunderbird Cache"
 msgstr "Thunderbird gyorsítótár"
 
@@ -661,8 +661,7 @@ msgstr "Adatszemét takarítása ebben: \"%s\"..."
 msgid "System"
 msgstr "Rendszer"
 
-#: ../ubuntutweak/janitor/__init__.py:866
-#: ../ubuntutweak/modules/__init__.py:33
+#: ../ubuntutweak/janitor/__init__.py:866 ../ubuntutweak/modules/__init__.py:33
 msgid "Personal"
 msgstr "Személyes"
 
@@ -762,8 +761,8 @@ msgid ""
 "Would you like to delete the backup of all \"<b>%(setting_name)s</b>\" "
 "settings named \"<b>%(backup_name)s</b>\"?"
 msgstr ""
-"Szeretné törölni a biztonsági mentését az összes  "
-"\"<b>%(setting_name)s</b>\" beállításnak a  \"<b>%(backup_name)s</b>\" néven?"
+"Szeretné törölni a biztonsági mentését az összes  \"<b>%(setting_name)s</b>"
+"\" beállításnak a  \"<b>%(backup_name)s</b>\" néven?"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:473
 #, python-format
@@ -776,8 +775,8 @@ msgid ""
 "Would you like to recover the backup of all \"<b>%(setting_name)s</b>\" "
 "settings named \"<b>%(backup_name)s</b>\"?"
 msgstr ""
-"Szeretné visszaállítani a biztonsági mentését az összes "
-"\"<b>%(setting_name)s</b>\" beállításnak a  \"<b>%(backup_name)s</b>\" néven?"
+"Szeretné visszaállítani a biztonsági mentését az összes \"<b>"
+"%(setting_name)s</b>\" beállításnak a  \"<b>%(backup_name)s</b>\" néven?"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:481
 msgid ""
@@ -808,8 +807,7 @@ msgstr "Szeretné alaphelyzetbe állítani a \"<b>%s</b>\" beállításait?"
 #: ../ubuntutweak/admins/desktoprecovery.py:519
 #, python-format
 msgid "Would you like to reset all settings under \"<b>%s</b>\"?"
-msgstr ""
-"Szeretné alaphelyzetbe állítani az \"<b>%s</b>\"  összes beállítását?"
+msgstr "Szeretné alaphelyzetbe állítani az \"<b>%s</b>\"  összes beállítását?"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:521
 msgid ""
@@ -1060,8 +1058,8 @@ msgstr ""
 #: ../ubuntutweak/admins/sourceeditor.py:212
 #, python-format
 msgid ""
-"You're viewing the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\""
+"You're viewing the backup \"<b>%(backup_name)s</b>\" for \"<b>%(list_name)s</"
+"b>\""
 msgstr ""
 "Jelenleg a(z) „<b>%(list_name)s</b>” lista „<b>%(backup_name)s</b>” nevű "
 "mentését látja"
@@ -1081,8 +1079,8 @@ msgstr "Mentés sikertelen!"
 #: ../ubuntutweak/admins/sourceeditor.py:343
 #, python-format
 msgid ""
-"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\"?"
+"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for \"<b>"
+"%(list_name)s</b>\"?"
 msgstr ""
 "Biztosan vissza szeretné állítani a(z) „%(backup_name)s</b>” nevű mentést "
 "a(z) „<b>%(list_name)s</b>” listához?"
@@ -1393,118 +1391,127 @@ msgstr ""
 "minden más elveszik."
 
 #: ../ubuntutweak/admins/scripts.py:49
-msgid "Create Launcher ..."
-msgstr "Indító létrehozása…"
+msgid "Add to unity ..."
+msgstr ""
 
 #: ../ubuntutweak/admins/scripts.py:50
-msgid "Copy to ..."
-msgstr "Másolás…"
+#, fuzzy
+msgid "Browse as root ..."
+msgstr "Böngészés rendszergazdaként"
 
 #: ../ubuntutweak/admins/scripts.py:51
-msgid "Copy to Desktop"
-msgstr "Másolás az Asztalra"
-
-#: ../ubuntutweak/admins/scripts.py:52
-msgid "Copy to Download"
-msgstr "Másolás a Letöltésekbe"
-
-#: ../ubuntutweak/admins/scripts.py:53
-msgid "Copy to Home"
-msgstr "Másolás a Saját mappába"
-
-#: ../ubuntutweak/admins/scripts.py:54
 msgid "Check md5 sum"
 msgstr "md5 sum ellenőrzése"
 
-#: ../ubuntutweak/admins/scripts.py:55
+#: ../ubuntutweak/admins/scripts.py:52
 msgid "Compress PDF"
 msgstr "PDF tömörítése"
 
-#: ../ubuntutweak/admins/scripts.py:56
-msgid "Move to ..."
-msgstr "Áthelyezés…"
-
-#: ../ubuntutweak/admins/scripts.py:57
-msgid "Move to Desktop"
-msgstr "Áthelyezés az Asztalra"
-
-#: ../ubuntutweak/admins/scripts.py:58
-msgid "Move to Download"
-msgstr "Áthelyezés a Letöltésekbe"
-
-#: ../ubuntutweak/admins/scripts.py:59
-msgid "Move to Home"
-msgstr "Áthelyezés a Saját mappába"
-
-#: ../ubuntutweak/admins/scripts.py:60
-msgid "Create hardlink to ..."
-msgstr "Hardlink létrehozása ide…"
-
-#: ../ubuntutweak/admins/scripts.py:61
-msgid "Link to ..."
-msgstr "Link…"
-
-#: ../ubuntutweak/admins/scripts.py:62
-msgid "Link to Desktop"
-msgstr "Link az Asztalra"
-
-#: ../ubuntutweak/admins/scripts.py:63
-msgid "Link to Download"
-msgstr "Link a Letöltésekhez"
-
-#: ../ubuntutweak/admins/scripts.py:64
-msgid "Link to Home"
-msgstr "Link a Saját mappához"
-
-#: ../ubuntutweak/admins/scripts.py:65
-msgid "Open with your favourite text editor"
-msgstr "Nyissa meg a kedvenc szövegszerkesztőjével"
-
-#: ../ubuntutweak/admins/scripts.py:66
-msgid "Open with your favourite text editor (as root)"
-msgstr "Nyissa meg a kedvenc szövegszerkesztőjével (rendszergazdaként)"
-
-#: ../ubuntutweak/admins/scripts.py:67
-msgid "Browse as root"
-msgstr "Böngészés rendszergazdaként"
-
-#: ../ubuntutweak/admins/scripts.py:68
-msgid "Search in current folder"
-msgstr "Keresés a jelenlegi könyvtárban"
-
-#: ../ubuntutweak/admins/scripts.py:69
+#: ../ubuntutweak/admins/scripts.py:53
 msgid "Convert image to JPG"
 msgstr "Kép átalakítása JPG-be"
 
-#: ../ubuntutweak/admins/scripts.py:70
+#: ../ubuntutweak/admins/scripts.py:54
 msgid "Convert image to PNG"
 msgstr "Kép átalakítása PNG-be"
 
-#: ../ubuntutweak/admins/scripts.py:71
+#: ../ubuntutweak/admins/scripts.py:55
 msgid "Convert image to GIF"
 msgstr "Kép átalakítása GIF-be"
 
-#: ../ubuntutweak/admins/scripts.py:72
-msgid "Set image as wallpaper"
-msgstr "Kép beállítása háttérképként"
+#: ../ubuntutweak/admins/scripts.py:56
+msgid "Create Launcher ..."
+msgstr "Indító létrehozása…"
 
-#: ../ubuntutweak/admins/scripts.py:73
+#: ../ubuntutweak/admins/scripts.py:57
+msgid "Copy to ..."
+msgstr "Másolás…"
+
+#: ../ubuntutweak/admins/scripts.py:58
+msgid "Copy to Desktop"
+msgstr "Másolás az Asztalra"
+
+#: ../ubuntutweak/admins/scripts.py:59
+msgid "Copy to Download"
+msgstr "Másolás a Letöltésekbe"
+
+#: ../ubuntutweak/admins/scripts.py:60
+msgid "Copy to Home"
+msgstr "Másolás a Saját mappába"
+
+#: ../ubuntutweak/admins/scripts.py:61
+msgid "Create hardlink to ..."
+msgstr "Hardlink létrehozása ide…"
+
+#: ../ubuntutweak/admins/scripts.py:62
+msgid "Link to ..."
+msgstr "Link…"
+
+#: ../ubuntutweak/admins/scripts.py:63
+msgid "Link to Desktop"
+msgstr "Link az Asztalra"
+
+#: ../ubuntutweak/admins/scripts.py:64
+msgid "Link to Download"
+msgstr "Link a Letöltésekhez"
+
+#: ../ubuntutweak/admins/scripts.py:65
+msgid "Link to Home"
+msgstr "Link a Saját mappához"
+
+#: ../ubuntutweak/admins/scripts.py:66
 msgid "Make hard shadow to image"
 msgstr "Erős árnyékolás létrehozása a képhez"
 
-#: ../ubuntutweak/admins/scripts.py:101
+#: ../ubuntutweak/admins/scripts.py:67
+msgid "Move to ..."
+msgstr "Áthelyezés…"
+
+#: ../ubuntutweak/admins/scripts.py:68
+msgid "Move to Desktop"
+msgstr "Áthelyezés az Asztalra"
+
+#: ../ubuntutweak/admins/scripts.py:69
+msgid "Move to Download"
+msgstr "Áthelyezés a Letöltésekbe"
+
+#: ../ubuntutweak/admins/scripts.py:70
+msgid "Move to Home"
+msgstr "Áthelyezés a Saját mappába"
+
+#: ../ubuntutweak/admins/scripts.py:71
+msgid "Open with your favourite text editor"
+msgstr "Nyissa meg a kedvenc szövegszerkesztőjével"
+
+#: ../ubuntutweak/admins/scripts.py:72
+msgid "Open with your favourite text editor (as root)"
+msgstr "Nyissa meg a kedvenc szövegszerkesztőjével (rendszergazdaként)"
+
+#: ../ubuntutweak/admins/scripts.py:73
+msgid "Browse as root"
+msgstr "Böngészés rendszergazdaként"
+
+#: ../ubuntutweak/admins/scripts.py:74
+msgid "Search in current folder"
+msgstr "Keresés a jelenlegi könyvtárban"
+
+#: ../ubuntutweak/admins/scripts.py:75
+msgid "Set image as wallpaper"
+msgstr "Kép beállítása háttérképként"
+
+#: ../ubuntutweak/admins/scripts.py:103
 msgid "Enabled Scripts"
 msgstr "Engedélyezett parancsfájlok"
 
-#: ../ubuntutweak/admins/scripts.py:132
+#: ../ubuntutweak/admins/scripts.py:134
 msgid "Disabled Scripts"
 msgstr "Letiltott parancsfájlok"
 
-#: ../ubuntutweak/admins/scripts.py:139
+#: ../ubuntutweak/admins/scripts.py:141
 msgid "Scripts"
 msgstr "Parancsfájlok"
 
-#: ../ubuntutweak/admins/scripts.py:140
+#: ../ubuntutweak/admins/scripts.py:142
 msgid ""
 "Scripts can be used to complete all kinds of tasks.\n"
 "You can drag and drop scripts here from File Manager.\n"
@@ -1514,11 +1521,11 @@ msgstr ""
 "A fájlkezelőből idehúzva könnyen hozzáadhat parancsfájlokat.\n"
 "Ezek a jobb gombos menüben jelennek meg."
 
-#: ../ubuntutweak/admins/scripts.py:168
+#: ../ubuntutweak/admins/scripts.py:170
 msgid "Rebuild System Scripts"
 msgstr "Rendszerparancsfájlok újraépítése"
 
-#: ../ubuntutweak/admins/scripts.py:182
+#: ../ubuntutweak/admins/scripts.py:184
 msgid ""
 "This will delete all disabled scripts.\n"
 "Do you wish to continue?"
@@ -1546,8 +1553,7 @@ msgstr ""
 msgid "Command %d"
 msgstr "%d. parancs"
 
-#: ../ubuntutweak/admins/shortcuts.py:89
-#: ../ubuntutweak/admins/shortcuts.py:201
+#: ../ubuntutweak/admins/shortcuts.py:89 ../ubuntutweak/admins/shortcuts.py:201
 #: ../ubuntutweak/admins/filetypemanager.py:178
 #: ../ubuntutweak/admins/filetypemanager.py:202
 #: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:87
@@ -1557,8 +1563,7 @@ msgstr "%d. parancs"
 msgid "None"
 msgstr "Nincs megadva"
 
-#: ../ubuntutweak/admins/shortcuts.py:94
-#: ../ubuntutweak/admins/shortcuts.py:146
+#: ../ubuntutweak/admins/shortcuts.py:94 ../ubuntutweak/admins/shortcuts.py:146
 msgid "disabled"
 msgstr "Nincs megadva"
 
@@ -2487,8 +2492,7 @@ msgstr ""
 #: ../ubuntutweak/clips/updateinfo.py:59
 #, python-format
 msgid "The package information was last updated %(days_ago)s day ago."
-msgid_plural ""
-"The package information was last updated %(days_ago)s days ago."
+msgid_plural "The package information was last updated %(days_ago)s days ago."
 msgstr[0] "A csomaginformációk %(days_ago)s napja kerültek frissítésre."
 msgstr[1] "A csomaginformációk %(days_ago)s napja kerültek frissítésre."
 
@@ -2667,6 +2671,10 @@ msgstr "Szeretné eltávolítani, majd megismételni a telepítést?"
 #, python-format
 msgid "\"%s\" has already installed"
 msgstr "„%s” már telepítve van"
+
+#, fuzzy
+#~ msgid "Link to..."
+#~ msgstr "Link…"
 
 #~ msgid "Show Widgets"
 #~ msgstr "Widgetek megjelenítése"

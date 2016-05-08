@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-19 14:32+0800\n"
+"POT-Creation-Date: 2016-05-08 18:27+0200\n"
 "PO-Revision-Date: 2015-03-06 14:36+0000\n"
 "Last-Translator: Ivo Xavier <ivoxavier.8@gmail.com>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -475,8 +476,7 @@ msgstr "GNOME alternativo"
 msgid "Unknown (%s)"
 msgstr "Desconhecido (%s)"
 
-#: ../ubuntutweak/system/__init__.py:59
-#: ../ubuntutweak/clips/hardwareinfo.py:16
+#: ../ubuntutweak/system/__init__.py:59 ../ubuntutweak/clips/hardwareinfo.py:16
 msgid "Unknown"
 msgstr "Desconhecido"
 
@@ -543,14 +543,14 @@ msgstr "Desbloq_uear"
 msgid ""
 "The Ubuntu Tweak daemon didn't start correctly. This means that some "
 "advanced features may not work.\n"
-"If you want to help developers debugging, try to run \"<b>sudo "
-"/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
+"If you want to help developers debugging, try to run \"<b>sudo /usr/share/"
+"ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
 msgstr ""
 "O Ubuntu Tweak não foi iniciado corretamente. Algumas opções poderão não "
 "funcionar.\n"
 "Se quiser ajudar os programadores a corrigir o problema, execute este "
-"comando no terminal: \"<b>sudo /usr/share/ubuntu-tweak/ubuntu-tweak-"
-"daemon</b>\""
+"comando no terminal: \"<b>sudo /usr/share/ubuntu-tweak/ubuntu-tweak-daemon</"
+"b>\""
 
 #: ../ubuntutweak/common/debug.py:59
 msgid "Error message has been copied"
@@ -600,11 +600,11 @@ msgstr "Cache de miniaturas"
 msgid "Software Center Cache"
 msgstr "Cache do centro de aplicações"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:37
+#: ../ubuntutweak/janitor/mozilla_plugin.py:41
 msgid "Firefox Cache"
 msgstr "Cache do Firefox"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:43
+#: ../ubuntutweak/janitor/mozilla_plugin.py:48
 msgid "Thunderbird Cache"
 msgstr "Cache do Thunderbird"
 
@@ -657,8 +657,7 @@ msgstr "A limpar dados obsoletos de \"%s\"..."
 msgid "System"
 msgstr "Sistema"
 
-#: ../ubuntutweak/janitor/__init__.py:866
-#: ../ubuntutweak/modules/__init__.py:33
+#: ../ubuntutweak/janitor/__init__.py:866 ../ubuntutweak/modules/__init__.py:33
 msgid "Personal"
 msgstr "Pessoal"
 
@@ -758,8 +757,8 @@ msgid ""
 "Would you like to delete the backup of all \"<b>%(setting_name)s</b>\" "
 "settings named \"<b>%(backup_name)s</b>\"?"
 msgstr ""
-"Pretende apagar a cópia de segurança de todas as definições "
-"\"<b>%(setting_name)s</b>\" com o nome \"<b>%(backup_name)s</b>\"?"
+"Pretende apagar a cópia de segurança de todas as definições \"<b>"
+"%(setting_name)s</b>\" com o nome \"<b>%(backup_name)s</b>\"?"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:473
 #, python-format
@@ -772,8 +771,8 @@ msgid ""
 "Would you like to recover the backup of all \"<b>%(setting_name)s</b>\" "
 "settings named \"<b>%(backup_name)s</b>\"?"
 msgstr ""
-"Pretende restaurar a cópia de segurança de todas as definições "
-"\"<b>%(setting_name)s</b>\" com o nome \"<b>%(backup_name)s</b>\"?"
+"Pretende restaurar a cópia de segurança de todas as definições \"<b>"
+"%(setting_name)s</b>\" com o nome \"<b>%(backup_name)s</b>\"?"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:481
 msgid ""
@@ -873,8 +872,8 @@ msgid ""
 "it.\n"
 "To continue you need to disable <b>\"%(SOURCE)s\"</b>first."
 msgstr ""
-"Não pode ativar este repositório porque entra em conflito com "
-"<b>\"%(SOURCE)s\"</b>\n"
+"Não pode ativar este repositório porque entra em conflito com <b>\"%(SOURCE)s"
+"\"</b>\n"
 "Para o ativar, tem que desativar <b>\"%(SOURCE)s\"</b>"
 
 #: ../ubuntutweak/admins/sourcecenter.py:791
@@ -1054,11 +1053,11 @@ msgstr "Edição manual dos repositórios"
 #: ../ubuntutweak/admins/sourceeditor.py:212
 #, python-format
 msgid ""
-"You're viewing the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\""
+"You're viewing the backup \"<b>%(backup_name)s</b>\" for \"<b>%(list_name)s</"
+"b>\""
 msgstr ""
-"Está a visualizar a cópia de segurança \"<b>%(backup_name)s</b>\" para "
-"\"<b>%(list_name)s</b>\""
+"Está a visualizar a cópia de segurança \"<b>%(backup_name)s</b>\" para \"<b>"
+"%(list_name)s</b>\""
 
 #: ../ubuntutweak/admins/sourceeditor.py:283
 msgid "No backup yet"
@@ -1075,11 +1074,11 @@ msgstr "Falha ao gravar!"
 #: ../ubuntutweak/admins/sourceeditor.py:343
 #, python-format
 msgid ""
-"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\"?"
+"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for \"<b>"
+"%(list_name)s</b>\"?"
 msgstr ""
-"Pretende recuperar a cópia de segurança \"<b>%(backup_name)s</b>\" para "
-"\"<b>%(list_name)s</b>\"?"
+"Pretende recuperar a cópia de segurança \"<b>%(backup_name)s</b>\" para \"<b>"
+"%(list_name)s</b>\"?"
 
 #: ../ubuntutweak/admins/sourceeditor.py:354
 msgid "Recovery Failed!"
@@ -1387,118 +1386,127 @@ msgstr ""
 "itens atuais serão perdidos"
 
 #: ../ubuntutweak/admins/scripts.py:49
-msgid "Create Launcher ..."
-msgstr "Criar lançador..."
+msgid "Add to unity ..."
+msgstr ""
 
 #: ../ubuntutweak/admins/scripts.py:50
-msgid "Copy to ..."
-msgstr "Copiar para..."
+#, fuzzy
+msgid "Browse as root ..."
+msgstr "Explorar como root"
 
 #: ../ubuntutweak/admins/scripts.py:51
-msgid "Copy to Desktop"
-msgstr "Copiar para o ambiente de trabalho"
-
-#: ../ubuntutweak/admins/scripts.py:52
-msgid "Copy to Download"
-msgstr "Copiar para a pasta de transferências"
-
-#: ../ubuntutweak/admins/scripts.py:53
-msgid "Copy to Home"
-msgstr "Copiar para a pasta pessoal"
-
-#: ../ubuntutweak/admins/scripts.py:54
 msgid "Check md5 sum"
 msgstr "Verificar md5"
 
-#: ../ubuntutweak/admins/scripts.py:55
+#: ../ubuntutweak/admins/scripts.py:52
 msgid "Compress PDF"
 msgstr "Comprimir PDF"
 
-#: ../ubuntutweak/admins/scripts.py:56
-msgid "Move to ..."
-msgstr "Mover para..."
-
-#: ../ubuntutweak/admins/scripts.py:57
-msgid "Move to Desktop"
-msgstr "Mover para o ambiente de trabalho"
-
-#: ../ubuntutweak/admins/scripts.py:58
-msgid "Move to Download"
-msgstr "Mover para a pasta de transferências"
-
-#: ../ubuntutweak/admins/scripts.py:59
-msgid "Move to Home"
-msgstr "Mover para a pasta pessoal"
-
-#: ../ubuntutweak/admins/scripts.py:60
-msgid "Create hardlink to ..."
-msgstr "Criar ligação a..."
-
-#: ../ubuntutweak/admins/scripts.py:61
-msgid "Link to ..."
-msgstr "Ligar a..."
-
-#: ../ubuntutweak/admins/scripts.py:62
-msgid "Link to Desktop"
-msgstr "Ligar ao ambiente de trabalho"
-
-#: ../ubuntutweak/admins/scripts.py:63
-msgid "Link to Download"
-msgstr "Ligar à pasta de transferências"
-
-#: ../ubuntutweak/admins/scripts.py:64
-msgid "Link to Home"
-msgstr "Ligar à pasta pessoal"
-
-#: ../ubuntutweak/admins/scripts.py:65
-msgid "Open with your favourite text editor"
-msgstr "Abrir com o seu editor de texto favorito"
-
-#: ../ubuntutweak/admins/scripts.py:66
-msgid "Open with your favourite text editor (as root)"
-msgstr "Abrir com o seu editor de texto favorito (como root)"
-
-#: ../ubuntutweak/admins/scripts.py:67
-msgid "Browse as root"
-msgstr "Explorar como root"
-
-#: ../ubuntutweak/admins/scripts.py:68
-msgid "Search in current folder"
-msgstr "Procurar na pasta atual"
-
-#: ../ubuntutweak/admins/scripts.py:69
+#: ../ubuntutweak/admins/scripts.py:53
 msgid "Convert image to JPG"
 msgstr "Converter imagem para JPG"
 
-#: ../ubuntutweak/admins/scripts.py:70
+#: ../ubuntutweak/admins/scripts.py:54
 msgid "Convert image to PNG"
 msgstr "Converter imagem para PNG"
 
-#: ../ubuntutweak/admins/scripts.py:71
+#: ../ubuntutweak/admins/scripts.py:55
 msgid "Convert image to GIF"
 msgstr "Converter imagem para GIF"
 
-#: ../ubuntutweak/admins/scripts.py:72
-msgid "Set image as wallpaper"
-msgstr "Definir imagem como papel de parede"
+#: ../ubuntutweak/admins/scripts.py:56
+msgid "Create Launcher ..."
+msgstr "Criar lançador..."
 
-#: ../ubuntutweak/admins/scripts.py:73
+#: ../ubuntutweak/admins/scripts.py:57
+msgid "Copy to ..."
+msgstr "Copiar para..."
+
+#: ../ubuntutweak/admins/scripts.py:58
+msgid "Copy to Desktop"
+msgstr "Copiar para o ambiente de trabalho"
+
+#: ../ubuntutweak/admins/scripts.py:59
+msgid "Copy to Download"
+msgstr "Copiar para a pasta de transferências"
+
+#: ../ubuntutweak/admins/scripts.py:60
+msgid "Copy to Home"
+msgstr "Copiar para a pasta pessoal"
+
+#: ../ubuntutweak/admins/scripts.py:61
+msgid "Create hardlink to ..."
+msgstr "Criar ligação a..."
+
+#: ../ubuntutweak/admins/scripts.py:62
+msgid "Link to ..."
+msgstr "Ligar a..."
+
+#: ../ubuntutweak/admins/scripts.py:63
+msgid "Link to Desktop"
+msgstr "Ligar ao ambiente de trabalho"
+
+#: ../ubuntutweak/admins/scripts.py:64
+msgid "Link to Download"
+msgstr "Ligar à pasta de transferências"
+
+#: ../ubuntutweak/admins/scripts.py:65
+msgid "Link to Home"
+msgstr "Ligar à pasta pessoal"
+
+#: ../ubuntutweak/admins/scripts.py:66
 msgid "Make hard shadow to image"
 msgstr "Criar sombra para imagem"
 
-#: ../ubuntutweak/admins/scripts.py:101
+#: ../ubuntutweak/admins/scripts.py:67
+msgid "Move to ..."
+msgstr "Mover para..."
+
+#: ../ubuntutweak/admins/scripts.py:68
+msgid "Move to Desktop"
+msgstr "Mover para o ambiente de trabalho"
+
+#: ../ubuntutweak/admins/scripts.py:69
+msgid "Move to Download"
+msgstr "Mover para a pasta de transferências"
+
+#: ../ubuntutweak/admins/scripts.py:70
+msgid "Move to Home"
+msgstr "Mover para a pasta pessoal"
+
+#: ../ubuntutweak/admins/scripts.py:71
+msgid "Open with your favourite text editor"
+msgstr "Abrir com o seu editor de texto favorito"
+
+#: ../ubuntutweak/admins/scripts.py:72
+msgid "Open with your favourite text editor (as root)"
+msgstr "Abrir com o seu editor de texto favorito (como root)"
+
+#: ../ubuntutweak/admins/scripts.py:73
+msgid "Browse as root"
+msgstr "Explorar como root"
+
+#: ../ubuntutweak/admins/scripts.py:74
+msgid "Search in current folder"
+msgstr "Procurar na pasta atual"
+
+#: ../ubuntutweak/admins/scripts.py:75
+msgid "Set image as wallpaper"
+msgstr "Definir imagem como papel de parede"
+
+#: ../ubuntutweak/admins/scripts.py:103
 msgid "Enabled Scripts"
 msgstr "Scripts ativos"
 
-#: ../ubuntutweak/admins/scripts.py:132
+#: ../ubuntutweak/admins/scripts.py:134
 msgid "Disabled Scripts"
 msgstr "Scripts inativos"
 
-#: ../ubuntutweak/admins/scripts.py:139
+#: ../ubuntutweak/admins/scripts.py:141
 msgid "Scripts"
 msgstr "Scripts"
 
-#: ../ubuntutweak/admins/scripts.py:140
+#: ../ubuntutweak/admins/scripts.py:142
 msgid ""
 "Scripts can be used to complete all kinds of tasks.\n"
 "You can drag and drop scripts here from File Manager.\n"
@@ -1508,11 +1516,11 @@ msgstr ""
 "Através do gestor de ficheiros, pode arrastar e largar aqui os scripts\n"
 "Os scripts serão adicionados ao menu de contexto"
 
-#: ../ubuntutweak/admins/scripts.py:168
+#: ../ubuntutweak/admins/scripts.py:170
 msgid "Rebuild System Scripts"
 msgstr "Reconstruir scripts do sistema"
 
-#: ../ubuntutweak/admins/scripts.py:182
+#: ../ubuntutweak/admins/scripts.py:184
 msgid ""
 "This will delete all disabled scripts.\n"
 "Do you wish to continue?"
@@ -1541,8 +1549,7 @@ msgstr ""
 msgid "Command %d"
 msgstr "Comando %d"
 
-#: ../ubuntutweak/admins/shortcuts.py:89
-#: ../ubuntutweak/admins/shortcuts.py:201
+#: ../ubuntutweak/admins/shortcuts.py:89 ../ubuntutweak/admins/shortcuts.py:201
 #: ../ubuntutweak/admins/filetypemanager.py:178
 #: ../ubuntutweak/admins/filetypemanager.py:202
 #: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:87
@@ -1552,8 +1559,7 @@ msgstr "Comando %d"
 msgid "None"
 msgstr "Nenhum"
 
-#: ../ubuntutweak/admins/shortcuts.py:94
-#: ../ubuntutweak/admins/shortcuts.py:146
+#: ../ubuntutweak/admins/shortcuts.py:94 ../ubuntutweak/admins/shortcuts.py:146
 msgid "disabled"
 msgstr "inativo"
 
@@ -1620,8 +1626,7 @@ msgstr "Escolha uma aplicação"
 msgid "Select an application to open files of type: <b>%s</b>"
 msgid_plural "Select an application to open files for these types: <b>%s</b>"
 msgstr[0] "Selecione a aplicação para abrir ficheiros do tipo: <b>%s</b>"
-msgstr[1] ""
-"Selecione a aplicação para abrir ficheiros destes tipos: <b>%s</b>"
+msgstr[1] "Selecione a aplicação para abrir ficheiros destes tipos: <b>%s</b>"
 
 #: ../ubuntutweak/admins/filetypemanager.py:544
 msgid "File Type Manager"
@@ -1737,8 +1742,7 @@ msgstr "Ícones do ambiente de trabalho"
 
 #: ../ubuntutweak/tweaks/icons.py:112
 msgid "Rename and toggle visibilty of desktop icons"
-msgstr ""
-"Mudar nome e trocar a visibilidade dos ícones do ambiente de trabalho"
+msgstr "Mudar nome e trocar a visibilidade dos ícones do ambiente de trabalho"
 
 #: ../ubuntutweak/tweaks/icons.py:117
 msgid "Show desktop icons:"
@@ -1754,8 +1758,7 @@ msgstr "Mostrar conteúdo da \"Pasta pessoal\""
 
 #: ../ubuntutweak/tweaks/icons.py:151
 msgid "Note: switch off this option will make the desktop unclickable"
-msgstr ""
-"Se desligar esta opção, não conseguirá clicar no ambiente de trabalho"
+msgstr "Se desligar esta opção, não conseguirá clicar no ambiente de trabalho"
 
 #: ../ubuntutweak/tweaks/theme.py:37
 msgid "Theme"
@@ -2483,8 +2486,7 @@ msgstr ""
 #: ../ubuntutweak/clips/updateinfo.py:59
 #, python-format
 msgid "The package information was last updated %(days_ago)s day ago."
-msgid_plural ""
-"The package information was last updated %(days_ago)s days ago."
+msgid_plural "The package information was last updated %(days_ago)s days ago."
 msgstr[0] "As informações de pacotes foram atualizadas há %(days_ago)s dia"
 msgstr[1] "As informações de pacotes foram atualizadas há %(days_ago)s dias"
 
@@ -2494,8 +2496,7 @@ msgid "The package information was last updated %(hours_ago)s hour ago."
 msgid_plural ""
 "The package information was last updated %(hours_ago)s hours ago."
 msgstr[0] "As informações de pacotes foram atualizadas há %(hours_ago)s hora"
-msgstr[1] ""
-"As informações de pacotes foram atualizadas há %(hours_ago)s horas"
+msgstr[1] "As informações de pacotes foram atualizadas há %(hours_ago)s horas"
 
 #: ../ubuntutweak/clips/updateinfo.py:67
 msgid "The package information was last updated less than one hour ago."
@@ -2664,6 +2665,10 @@ msgstr "Pretende remover e instalar novamente?"
 #, python-format
 msgid "\"%s\" has already installed"
 msgstr "\"%s\" já está instalado"
+
+#, fuzzy
+#~ msgid "Link to..."
+#~ msgstr "Ligar a..."
 
 #~ msgid "Show Widgets"
 #~ msgstr "Mostrar widgets"

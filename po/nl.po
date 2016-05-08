@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-19 14:32+0800\n"
+"POT-Creation-Date: 2016-05-08 18:27+0200\n"
 "PO-Revision-Date: 2014-04-23 10:01+0000\n"
 "Last-Translator: rob <linuxned@gmail.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -402,8 +403,8 @@ msgstr ""
 "Algemene Publieke Licentie voor meer details.\n"
 "U hoort een kopie van de GNU Algemene Publieke Licentie te hebben ontvangen "
 "samen met dit programma, als dat niet het geval is, schrijf dan naar de Free "
-"Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-"
-"1301, USA"
+"Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
+"02110-1301, USA"
 
 #: ../data/ui/mainwindow.ui.h:6
 msgid "translator-credits"
@@ -480,8 +481,7 @@ msgstr "GNOME-terugval"
 msgid "Unknown (%s)"
 msgstr "Onbekend (%s)"
 
-#: ../ubuntutweak/system/__init__.py:59
-#: ../ubuntutweak/clips/hardwareinfo.py:16
+#: ../ubuntutweak/system/__init__.py:59 ../ubuntutweak/clips/hardwareinfo.py:16
 msgid "Unknown"
 msgstr "Onbekend"
 
@@ -548,14 +548,14 @@ msgstr "_Ontgrendelen"
 msgid ""
 "The Ubuntu Tweak daemon didn't start correctly. This means that some "
 "advanced features may not work.\n"
-"If you want to help developers debugging, try to run \"<b>sudo "
-"/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
+"If you want to help developers debugging, try to run \"<b>sudo /usr/share/"
+"ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
 msgstr ""
 "De Ubuntu Tweak-daemon startte niet juist op, mogelijk werken enige "
 "geavanceerde opties hierdoor niet..\n"
 "Als u de ontwikkelaars wilt helpen met het oplossen van dit probleem, typ "
-"dan het volgende in in een terminalvenster \"<b>sudo /usr/share/ubuntu-"
-"tweak/ubuntu-tweak-daemon</b>\"."
+"dan het volgende in in een terminalvenster \"<b>sudo /usr/share/ubuntu-tweak/"
+"ubuntu-tweak-daemon</b>\"."
 
 #: ../ubuntutweak/common/debug.py:59
 msgid "Error message has been copied"
@@ -606,11 +606,11 @@ msgstr "Thumbnailsbuffer"
 msgid "Software Center Cache"
 msgstr "Softwarecentrum-buffer"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:37
+#: ../ubuntutweak/janitor/mozilla_plugin.py:41
 msgid "Firefox Cache"
 msgstr "Firefox-buffer"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:43
+#: ../ubuntutweak/janitor/mozilla_plugin.py:48
 msgid "Thunderbird Cache"
 msgstr "Thunderbird-buffer"
 
@@ -664,8 +664,7 @@ msgstr "Overbodige items worden opgeruimd in \"%s\"…"
 msgid "System"
 msgstr "Systeem"
 
-#: ../ubuntutweak/janitor/__init__.py:866
-#: ../ubuntutweak/modules/__init__.py:33
+#: ../ubuntutweak/janitor/__init__.py:866 ../ubuntutweak/modules/__init__.py:33
 msgid "Personal"
 msgstr "Persoonlijk"
 
@@ -1070,8 +1069,8 @@ msgstr "Bewerk uw softwarebronnen geheel naar uw eigen keuze."
 #: ../ubuntutweak/admins/sourceeditor.py:212
 #, python-format
 msgid ""
-"You're viewing the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\""
+"You're viewing the backup \"<b>%(backup_name)s</b>\" for \"<b>%(list_name)s</"
+"b>\""
 msgstr ""
 "U bekijkt de back-up \"<b>%(backup_name)s</b>\" voor \"<b>%(list_name)s</b>\""
 
@@ -1090,11 +1089,11 @@ msgstr "Opslaan mislukt!"
 #: ../ubuntutweak/admins/sourceeditor.py:343
 #, python-format
 msgid ""
-"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\"?"
+"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for \"<b>"
+"%(list_name)s</b>\"?"
 msgstr ""
-"Wilt u de back-up terugzetten van \"<b>%(backup_name)s</b>\" voor "
-"\"<b>%(list_name)s</b>\"?"
+"Wilt u de back-up terugzetten van \"<b>%(backup_name)s</b>\" voor \"<b>"
+"%(list_name)s</b>\"?"
 
 #: ../ubuntutweak/admins/sourceeditor.py:354
 msgid "Recovery Failed!"
@@ -1407,118 +1406,127 @@ msgstr ""
 "en zullen al uw huidige items verloren gaan."
 
 #: ../ubuntutweak/admins/scripts.py:49
-msgid "Create Launcher ..."
-msgstr "Starter aanmaken …"
+msgid "Add to unity ..."
+msgstr ""
 
 #: ../ubuntutweak/admins/scripts.py:50
-msgid "Copy to ..."
-msgstr "Kopiëren naar …"
+#, fuzzy
+msgid "Browse as root ..."
+msgstr "Doorbladeren als root"
 
 #: ../ubuntutweak/admins/scripts.py:51
-msgid "Copy to Desktop"
-msgstr "Kopiëren naar bureaublad"
-
-#: ../ubuntutweak/admins/scripts.py:52
-msgid "Copy to Download"
-msgstr "Kopiëren naar download"
-
-#: ../ubuntutweak/admins/scripts.py:53
-msgid "Copy to Home"
-msgstr "Kopiëren naar Persoonlijke map"
-
-#: ../ubuntutweak/admins/scripts.py:54
 msgid "Check md5 sum"
 msgstr "md5-som controleren"
 
-#: ../ubuntutweak/admins/scripts.py:55
+#: ../ubuntutweak/admins/scripts.py:52
 msgid "Compress PDF"
 msgstr "PDF comprimeren"
 
-#: ../ubuntutweak/admins/scripts.py:56
-msgid "Move to ..."
-msgstr "Verplaatsen naar …"
-
-#: ../ubuntutweak/admins/scripts.py:57
-msgid "Move to Desktop"
-msgstr "Verplaatsen naar bureaublad"
-
-#: ../ubuntutweak/admins/scripts.py:58
-msgid "Move to Download"
-msgstr "Verplaatsen om te downloaden"
-
-#: ../ubuntutweak/admins/scripts.py:59
-msgid "Move to Home"
-msgstr "Verplaatsen naar Persoonlijke map"
-
-#: ../ubuntutweak/admins/scripts.py:60
-msgid "Create hardlink to ..."
-msgstr "Hardlink aanmaken naar …"
-
-#: ../ubuntutweak/admins/scripts.py:61
-msgid "Link to ..."
-msgstr "Koppelen aan …"
-
-#: ../ubuntutweak/admins/scripts.py:62
-msgid "Link to Desktop"
-msgstr "Koppelen aan het bureaublad"
-
-#: ../ubuntutweak/admins/scripts.py:63
-msgid "Link to Download"
-msgstr "Link om te downloaden"
-
-#: ../ubuntutweak/admins/scripts.py:64
-msgid "Link to Home"
-msgstr "Koppelen aan Persoonlijke map"
-
-#: ../ubuntutweak/admins/scripts.py:65
-msgid "Open with your favourite text editor"
-msgstr "Openen met uw favoriete teksteditor"
-
-#: ../ubuntutweak/admins/scripts.py:66
-msgid "Open with your favourite text editor (as root)"
-msgstr "Openen met uw favoriete teksteditor (als root)"
-
-#: ../ubuntutweak/admins/scripts.py:67
-msgid "Browse as root"
-msgstr "Doorbladeren als root"
-
-#: ../ubuntutweak/admins/scripts.py:68
-msgid "Search in current folder"
-msgstr "Zoeken in de huidige map"
-
-#: ../ubuntutweak/admins/scripts.py:69
+#: ../ubuntutweak/admins/scripts.py:53
 msgid "Convert image to JPG"
 msgstr "Afbeelding converteren naar JPG"
 
-#: ../ubuntutweak/admins/scripts.py:70
+#: ../ubuntutweak/admins/scripts.py:54
 msgid "Convert image to PNG"
 msgstr "Afbeelding converteren naar PNG"
 
-#: ../ubuntutweak/admins/scripts.py:71
+#: ../ubuntutweak/admins/scripts.py:55
 msgid "Convert image to GIF"
 msgstr "Afbeelding converteren naar GIF"
 
-#: ../ubuntutweak/admins/scripts.py:72
-msgid "Set image as wallpaper"
-msgstr "Afbeelding als bureaubladachtergrond gebruiken"
+#: ../ubuntutweak/admins/scripts.py:56
+msgid "Create Launcher ..."
+msgstr "Starter aanmaken …"
 
-#: ../ubuntutweak/admins/scripts.py:73
+#: ../ubuntutweak/admins/scripts.py:57
+msgid "Copy to ..."
+msgstr "Kopiëren naar …"
+
+#: ../ubuntutweak/admins/scripts.py:58
+msgid "Copy to Desktop"
+msgstr "Kopiëren naar bureaublad"
+
+#: ../ubuntutweak/admins/scripts.py:59
+msgid "Copy to Download"
+msgstr "Kopiëren naar download"
+
+#: ../ubuntutweak/admins/scripts.py:60
+msgid "Copy to Home"
+msgstr "Kopiëren naar Persoonlijke map"
+
+#: ../ubuntutweak/admins/scripts.py:61
+msgid "Create hardlink to ..."
+msgstr "Hardlink aanmaken naar …"
+
+#: ../ubuntutweak/admins/scripts.py:62
+msgid "Link to ..."
+msgstr "Koppelen aan …"
+
+#: ../ubuntutweak/admins/scripts.py:63
+msgid "Link to Desktop"
+msgstr "Koppelen aan het bureaublad"
+
+#: ../ubuntutweak/admins/scripts.py:64
+msgid "Link to Download"
+msgstr "Link om te downloaden"
+
+#: ../ubuntutweak/admins/scripts.py:65
+msgid "Link to Home"
+msgstr "Koppelen aan Persoonlijke map"
+
+#: ../ubuntutweak/admins/scripts.py:66
 msgid "Make hard shadow to image"
 msgstr "Harde schaduw aan afbeelding toevoegen"
 
-#: ../ubuntutweak/admins/scripts.py:101
+#: ../ubuntutweak/admins/scripts.py:67
+msgid "Move to ..."
+msgstr "Verplaatsen naar …"
+
+#: ../ubuntutweak/admins/scripts.py:68
+msgid "Move to Desktop"
+msgstr "Verplaatsen naar bureaublad"
+
+#: ../ubuntutweak/admins/scripts.py:69
+msgid "Move to Download"
+msgstr "Verplaatsen om te downloaden"
+
+#: ../ubuntutweak/admins/scripts.py:70
+msgid "Move to Home"
+msgstr "Verplaatsen naar Persoonlijke map"
+
+#: ../ubuntutweak/admins/scripts.py:71
+msgid "Open with your favourite text editor"
+msgstr "Openen met uw favoriete teksteditor"
+
+#: ../ubuntutweak/admins/scripts.py:72
+msgid "Open with your favourite text editor (as root)"
+msgstr "Openen met uw favoriete teksteditor (als root)"
+
+#: ../ubuntutweak/admins/scripts.py:73
+msgid "Browse as root"
+msgstr "Doorbladeren als root"
+
+#: ../ubuntutweak/admins/scripts.py:74
+msgid "Search in current folder"
+msgstr "Zoeken in de huidige map"
+
+#: ../ubuntutweak/admins/scripts.py:75
+msgid "Set image as wallpaper"
+msgstr "Afbeelding als bureaubladachtergrond gebruiken"
+
+#: ../ubuntutweak/admins/scripts.py:103
 msgid "Enabled Scripts"
 msgstr "Ingeschakelde scripts"
 
-#: ../ubuntutweak/admins/scripts.py:132
+#: ../ubuntutweak/admins/scripts.py:134
 msgid "Disabled Scripts"
 msgstr "Uitgeschakelde scripts"
 
-#: ../ubuntutweak/admins/scripts.py:139
+#: ../ubuntutweak/admins/scripts.py:141
 msgid "Scripts"
 msgstr "Scripts"
 
-#: ../ubuntutweak/admins/scripts.py:140
+#: ../ubuntutweak/admins/scripts.py:142
 msgid ""
 "Scripts can be used to complete all kinds of tasks.\n"
 "You can drag and drop scripts here from File Manager.\n"
@@ -1528,11 +1536,11 @@ msgstr ""
 "U kunt scripts hiernaartoe verslepen vanuit de bestandsbeheerder.\n"
 "De 'scripts' zullen dan toegevoegd worden aan het rechtermuisknopmenu."
 
-#: ../ubuntutweak/admins/scripts.py:168
+#: ../ubuntutweak/admins/scripts.py:170
 msgid "Rebuild System Scripts"
 msgstr "Systeemscripts verversen"
 
-#: ../ubuntutweak/admins/scripts.py:182
+#: ../ubuntutweak/admins/scripts.py:184
 msgid ""
 "This will delete all disabled scripts.\n"
 "Do you wish to continue?"
@@ -1560,8 +1568,7 @@ msgstr ""
 msgid "Command %d"
 msgstr "Opdracht %d"
 
-#: ../ubuntutweak/admins/shortcuts.py:89
-#: ../ubuntutweak/admins/shortcuts.py:201
+#: ../ubuntutweak/admins/shortcuts.py:89 ../ubuntutweak/admins/shortcuts.py:201
 #: ../ubuntutweak/admins/filetypemanager.py:178
 #: ../ubuntutweak/admins/filetypemanager.py:202
 #: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:87
@@ -1571,8 +1578,7 @@ msgstr "Opdracht %d"
 msgid "None"
 msgstr "Geen"
 
-#: ../ubuntutweak/admins/shortcuts.py:94
-#: ../ubuntutweak/admins/shortcuts.py:146
+#: ../ubuntutweak/admins/shortcuts.py:94 ../ubuntutweak/admins/shortcuts.py:146
 msgid "disabled"
 msgstr "Uitgeschakeld"
 
@@ -2512,8 +2518,7 @@ msgstr ""
 #: ../ubuntutweak/clips/updateinfo.py:59
 #, python-format
 msgid "The package information was last updated %(days_ago)s day ago."
-msgid_plural ""
-"The package information was last updated %(days_ago)s days ago."
+msgid_plural "The package information was last updated %(days_ago)s days ago."
 msgstr[0] ""
 "Deze pakketinformatie werd %(days_ago)s dag geleden voor het laatst "
 "bijgewerkt."
@@ -2702,6 +2707,10 @@ msgstr "Wilt u het verwijderen en daarna opnieuw installeren?"
 #, python-format
 msgid "\"%s\" has already installed"
 msgstr "\"%s\" is reeds geïnstalleerd"
+
+#, fuzzy
+#~ msgid "Link to..."
+#~ msgstr "Koppelen aan …"
 
 #~ msgid "Show Widgets"
 #~ msgstr "Widgets tonen"

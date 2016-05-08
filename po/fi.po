@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-19 14:32+0800\n"
+"POT-Creation-Date: 2016-05-08 18:27+0200\n"
 "PO-Revision-Date: 2013-09-05 13:05+0000\n"
 "Last-Translator: kulkke <Unknown>\n"
 "Language-Team: Finnish <fi@li.org>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -199,8 +200,7 @@ msgstr ""
 
 #: ../data/ui/brokenmodule.ui.h:1
 msgid "<big><b>This module encountered an error while loading.</b></big>"
-msgstr ""
-"<big><b>Tämän moduulin latauksen yhteydessä tapahtui virhe.</b></big>"
+msgstr "<big><b>Tämän moduulin latauksen yhteydessä tapahtui virhe.</b></big>"
 
 #: ../data/ui/brokenmodule.ui.h:2
 msgid ""
@@ -462,8 +462,7 @@ msgstr ""
 msgid "Unknown (%s)"
 msgstr "Tuntematon (%s)"
 
-#: ../ubuntutweak/system/__init__.py:59
-#: ../ubuntutweak/clips/hardwareinfo.py:16
+#: ../ubuntutweak/system/__init__.py:59 ../ubuntutweak/clips/hardwareinfo.py:16
 msgid "Unknown"
 msgstr "Ei tiedossa"
 
@@ -530,8 +529,8 @@ msgstr "Avaa l_ukitus"
 msgid ""
 "The Ubuntu Tweak daemon didn't start correctly. This means that some "
 "advanced features may not work.\n"
-"If you want to help developers debugging, try to run \"<b>sudo "
-"/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
+"If you want to help developers debugging, try to run \"<b>sudo /usr/share/"
+"ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
 msgstr ""
 "Ubuntu Tweakin taustaohjelma ei käynnistynyt oikeaoppisesti. Jotkin "
 "ominaisuudet eivät välttämättä toimi.\n"
@@ -582,11 +581,11 @@ msgstr "Esikatselukuvien välimuisti"
 msgid "Software Center Cache"
 msgstr ""
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:37
+#: ../ubuntutweak/janitor/mozilla_plugin.py:41
 msgid "Firefox Cache"
 msgstr ""
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:43
+#: ../ubuntutweak/janitor/mozilla_plugin.py:48
 msgid "Thunderbird Cache"
 msgstr ""
 
@@ -639,8 +638,7 @@ msgstr "Siivotaan roinaa (%s)"
 msgid "System"
 msgstr "Järjestelmä"
 
-#: ../ubuntutweak/janitor/__init__.py:866
-#: ../ubuntutweak/modules/__init__.py:33
+#: ../ubuntutweak/janitor/__init__.py:866 ../ubuntutweak/modules/__init__.py:33
 msgid "Personal"
 msgstr "Henkilökohtainen"
 
@@ -856,8 +854,8 @@ msgid ""
 "To enable this Source, You need to enable <b>\"%s\"</b> at first.\n"
 "Do you wish to continue?"
 msgstr ""
-"Ottaaksesi tämän lähteen käyttöön, sinun tulee ensiksi hyväksyä "
-"<b>\"%s\"</b>.\n"
+"Ottaaksesi tämän lähteen käyttöön, sinun tulee ensiksi hyväksyä <b>\"%s\"</"
+"b>.\n"
 "Haluatko jatkaa?"
 
 #: ../ubuntutweak/admins/sourcecenter.py:817
@@ -1023,8 +1021,8 @@ msgstr "Muokkaa ohjelmistolähteesi vastaamaan tarpeitasi käsin."
 #: ../ubuntutweak/admins/sourceeditor.py:212
 #, python-format
 msgid ""
-"You're viewing the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\""
+"You're viewing the backup \"<b>%(backup_name)s</b>\" for \"<b>%(list_name)s</"
+"b>\""
 msgstr ""
 
 #: ../ubuntutweak/admins/sourceeditor.py:283
@@ -1042,8 +1040,8 @@ msgstr "Tallennus epäonnistui!"
 #: ../ubuntutweak/admins/sourceeditor.py:343
 #, python-format
 msgid ""
-"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\"?"
+"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for \"<b>"
+"%(list_name)s</b>\"?"
 msgstr ""
 
 #: ../ubuntutweak/admins/sourceeditor.py:354
@@ -1347,118 +1345,127 @@ msgid ""
 msgstr ""
 
 #: ../ubuntutweak/admins/scripts.py:49
-msgid "Create Launcher ..."
-msgstr "Luo käynnistin..."
+msgid "Add to unity ..."
+msgstr ""
 
 #: ../ubuntutweak/admins/scripts.py:50
-msgid "Copy to ..."
-msgstr "Kopioi sijaintiin..."
+#, fuzzy
+msgid "Browse as root ..."
+msgstr "Selaa pääkäyttäjän oikeuksin"
 
 #: ../ubuntutweak/admins/scripts.py:51
-msgid "Copy to Desktop"
-msgstr "Kopioi työpöydälle"
-
-#: ../ubuntutweak/admins/scripts.py:52
-msgid "Copy to Download"
-msgstr "Kopioi Lataukset-kansioon"
-
-#: ../ubuntutweak/admins/scripts.py:53
-msgid "Copy to Home"
-msgstr "Kopio kotikansioon"
-
-#: ../ubuntutweak/admins/scripts.py:54
 msgid "Check md5 sum"
 msgstr "Tarkista md5-summa"
 
-#: ../ubuntutweak/admins/scripts.py:55
+#: ../ubuntutweak/admins/scripts.py:52
 msgid "Compress PDF"
 msgstr "Pakkaa PDF"
 
-#: ../ubuntutweak/admins/scripts.py:56
-msgid "Move to ..."
-msgstr "Siirrä sijaintiin..."
-
-#: ../ubuntutweak/admins/scripts.py:57
-msgid "Move to Desktop"
-msgstr "Siirrä työpöydälle"
-
-#: ../ubuntutweak/admins/scripts.py:58
-msgid "Move to Download"
-msgstr "Siirrä Lataukset-kansioon"
-
-#: ../ubuntutweak/admins/scripts.py:59
-msgid "Move to Home"
-msgstr "Siirrä kotikansioon"
-
-#: ../ubuntutweak/admins/scripts.py:60
-msgid "Create hardlink to ..."
-msgstr "Luo linkki..."
-
-#: ../ubuntutweak/admins/scripts.py:61
-msgid "Link to ..."
-msgstr "Luo linkki kohteeseen..."
-
-#: ../ubuntutweak/admins/scripts.py:62
-msgid "Link to Desktop"
-msgstr "Työpöytä"
-
-#: ../ubuntutweak/admins/scripts.py:63
-msgid "Link to Download"
-msgstr "Lataukset"
-
-#: ../ubuntutweak/admins/scripts.py:64
-msgid "Link to Home"
-msgstr "Kotikansio"
-
-#: ../ubuntutweak/admins/scripts.py:65
-msgid "Open with your favourite text editor"
-msgstr "Avaa tekstieditorilla"
-
-#: ../ubuntutweak/admins/scripts.py:66
-msgid "Open with your favourite text editor (as root)"
-msgstr "Avaa tekstieditorissa (ylläpito-oikeuksin)"
-
-#: ../ubuntutweak/admins/scripts.py:67
-msgid "Browse as root"
-msgstr "Selaa pääkäyttäjän oikeuksin"
-
-#: ../ubuntutweak/admins/scripts.py:68
-msgid "Search in current folder"
-msgstr "Etsi nykyisestä kansiosta"
-
-#: ../ubuntutweak/admins/scripts.py:69
+#: ../ubuntutweak/admins/scripts.py:53
 msgid "Convert image to JPG"
 msgstr "Muunna kuva JPG:ksi"
 
-#: ../ubuntutweak/admins/scripts.py:70
+#: ../ubuntutweak/admins/scripts.py:54
 msgid "Convert image to PNG"
 msgstr "Muunna kuva PNG:ksi"
 
-#: ../ubuntutweak/admins/scripts.py:71
+#: ../ubuntutweak/admins/scripts.py:55
 msgid "Convert image to GIF"
 msgstr "Muunna kuva GIF:ksi"
 
-#: ../ubuntutweak/admins/scripts.py:72
-msgid "Set image as wallpaper"
-msgstr "Aseta kuva taustakuvaksi"
+#: ../ubuntutweak/admins/scripts.py:56
+msgid "Create Launcher ..."
+msgstr "Luo käynnistin..."
 
-#: ../ubuntutweak/admins/scripts.py:73
+#: ../ubuntutweak/admins/scripts.py:57
+msgid "Copy to ..."
+msgstr "Kopioi sijaintiin..."
+
+#: ../ubuntutweak/admins/scripts.py:58
+msgid "Copy to Desktop"
+msgstr "Kopioi työpöydälle"
+
+#: ../ubuntutweak/admins/scripts.py:59
+msgid "Copy to Download"
+msgstr "Kopioi Lataukset-kansioon"
+
+#: ../ubuntutweak/admins/scripts.py:60
+msgid "Copy to Home"
+msgstr "Kopio kotikansioon"
+
+#: ../ubuntutweak/admins/scripts.py:61
+msgid "Create hardlink to ..."
+msgstr "Luo linkki..."
+
+#: ../ubuntutweak/admins/scripts.py:62
+msgid "Link to ..."
+msgstr "Luo linkki kohteeseen..."
+
+#: ../ubuntutweak/admins/scripts.py:63
+msgid "Link to Desktop"
+msgstr "Työpöytä"
+
+#: ../ubuntutweak/admins/scripts.py:64
+msgid "Link to Download"
+msgstr "Lataukset"
+
+#: ../ubuntutweak/admins/scripts.py:65
+msgid "Link to Home"
+msgstr "Kotikansio"
+
+#: ../ubuntutweak/admins/scripts.py:66
 msgid "Make hard shadow to image"
 msgstr "Varjosta kuva"
 
-#: ../ubuntutweak/admins/scripts.py:101
+#: ../ubuntutweak/admins/scripts.py:67
+msgid "Move to ..."
+msgstr "Siirrä sijaintiin..."
+
+#: ../ubuntutweak/admins/scripts.py:68
+msgid "Move to Desktop"
+msgstr "Siirrä työpöydälle"
+
+#: ../ubuntutweak/admins/scripts.py:69
+msgid "Move to Download"
+msgstr "Siirrä Lataukset-kansioon"
+
+#: ../ubuntutweak/admins/scripts.py:70
+msgid "Move to Home"
+msgstr "Siirrä kotikansioon"
+
+#: ../ubuntutweak/admins/scripts.py:71
+msgid "Open with your favourite text editor"
+msgstr "Avaa tekstieditorilla"
+
+#: ../ubuntutweak/admins/scripts.py:72
+msgid "Open with your favourite text editor (as root)"
+msgstr "Avaa tekstieditorissa (ylläpito-oikeuksin)"
+
+#: ../ubuntutweak/admins/scripts.py:73
+msgid "Browse as root"
+msgstr "Selaa pääkäyttäjän oikeuksin"
+
+#: ../ubuntutweak/admins/scripts.py:74
+msgid "Search in current folder"
+msgstr "Etsi nykyisestä kansiosta"
+
+#: ../ubuntutweak/admins/scripts.py:75
+msgid "Set image as wallpaper"
+msgstr "Aseta kuva taustakuvaksi"
+
+#: ../ubuntutweak/admins/scripts.py:103
 msgid "Enabled Scripts"
 msgstr "Aktiiviset komentosarjat"
 
-#: ../ubuntutweak/admins/scripts.py:132
+#: ../ubuntutweak/admins/scripts.py:134
 msgid "Disabled Scripts"
 msgstr "Passiiviset komentosarjat"
 
-#: ../ubuntutweak/admins/scripts.py:139
+#: ../ubuntutweak/admins/scripts.py:141
 msgid "Scripts"
 msgstr "Skriptit"
 
-#: ../ubuntutweak/admins/scripts.py:140
+#: ../ubuntutweak/admins/scripts.py:142
 msgid ""
 "Scripts can be used to complete all kinds of tasks.\n"
 "You can drag and drop scripts here from File Manager.\n"
@@ -1468,11 +1475,11 @@ msgstr ""
 "Voit vetää skriptejä tiedostoselaimesta tähän ikkunaan,\n"
 "jolloin skriptit näkyvät tiedostoselaimen valikossa."
 
-#: ../ubuntutweak/admins/scripts.py:168
+#: ../ubuntutweak/admins/scripts.py:170
 msgid "Rebuild System Scripts"
 msgstr "Uudelleenrakenna järjestelmäkomentosarjat"
 
-#: ../ubuntutweak/admins/scripts.py:182
+#: ../ubuntutweak/admins/scripts.py:184
 msgid ""
 "This will delete all disabled scripts.\n"
 "Do you wish to continue?"
@@ -1499,8 +1506,7 @@ msgstr ""
 msgid "Command %d"
 msgstr "Komento %d"
 
-#: ../ubuntutweak/admins/shortcuts.py:89
-#: ../ubuntutweak/admins/shortcuts.py:201
+#: ../ubuntutweak/admins/shortcuts.py:89 ../ubuntutweak/admins/shortcuts.py:201
 #: ../ubuntutweak/admins/filetypemanager.py:178
 #: ../ubuntutweak/admins/filetypemanager.py:202
 #: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:87
@@ -1510,8 +1516,7 @@ msgstr "Komento %d"
 msgid "None"
 msgstr "Ei mikään"
 
-#: ../ubuntutweak/admins/shortcuts.py:94
-#: ../ubuntutweak/admins/shortcuts.py:146
+#: ../ubuntutweak/admins/shortcuts.py:94 ../ubuntutweak/admins/shortcuts.py:146
 msgid "disabled"
 msgstr "ei käytössä"
 
@@ -1595,8 +1600,7 @@ msgstr "_Palauta"
 
 #: ../ubuntutweak/admins/filetypemanager.py:588
 msgid "Only show filetypes with associated applications"
-msgstr ""
-"Näytä vain ne tiedostotyypit, joiden avaukseen on määritelty sovellus"
+msgstr "Näytä vain ne tiedostotyypit, joiden avaukseen on määritelty sovellus"
 
 #: ../ubuntutweak/modules/__init__.py:28
 msgid "Broken Modules"
@@ -2429,8 +2433,7 @@ msgstr ""
 #: ../ubuntutweak/clips/updateinfo.py:59
 #, python-format
 msgid "The package information was last updated %(days_ago)s day ago."
-msgid_plural ""
-"The package information was last updated %(days_ago)s days ago."
+msgid_plural "The package information was last updated %(days_ago)s days ago."
 msgstr[0] "Pakettitiedot päivitettiin viimeksi %(days_ago)s päivä sitten."
 msgstr[1] "Pakettitiedot päivitettiin viimeksi %(days_ago)s päivää sitten."
 
@@ -2610,6 +2613,10 @@ msgstr "Haluaisitko poistaa sen ja asentaa sen uudelleen?"
 #, python-format
 msgid "\"%s\" has already installed"
 msgstr "\"%s\" on jo asennettu"
+
+#, fuzzy
+#~ msgid "Link to..."
+#~ msgstr "Luo linkki kohteeseen..."
 
 #~ msgid "Show Widgets"
 #~ msgstr "Näytä vimpaimet"

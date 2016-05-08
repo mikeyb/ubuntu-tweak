@@ -9,10 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-19 14:32+0800\n"
+"POT-Creation-Date: 2016-05-08 18:27+0200\n"
 "PO-Revision-Date: 2014-04-02 18:59+0000\n"
 "Last-Translator: Ibrahim Saed <ibraheem5000@gmail.com>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -397,9 +398,9 @@ msgstr ""
 "تضبيطات أبونتو برمجية حُرة؛ بامكانك إعادة توزيعه و/أو تعديله تحت بنود الرخصة "
 "العامة لجنو والتي نشرتها منظمة البرمجيات الحرة؛ سواء كانت الإصدارة 2 للرخصة "
 "أو أي إصدارة بعدها حسب الرغبة.\n"
-"يوزّع تضبيطات أبونتو على أمل أن يكون مفيدًا لمن يستخدمه دون أي ضمانات؛ ولا "
-"حتى أي ضمان يضمن صلاحية العرض في السوق أو توافقه مع أي استخدام محدد. راجع "
-"الرخصة العامة لجنو لمزيد من التفاصيل.\n"
+"يوزّع تضبيطات أبونتو على أمل أن يكون مفيدًا لمن يستخدمه دون أي ضمانات؛ ولا حتى "
+"أي ضمان يضمن صلاحية العرض في السوق أو توافقه مع أي استخدام محدد. راجع الرخصة "
+"العامة لجنو لمزيد من التفاصيل.\n"
 "من المفترض أن تكون قد استلمت نسخة من رخصة جنو العامة مع هذا البرنامج؛ في حال "
 "عدم استلامك لذلك، يمكنك مكاتبة:\n"
 "Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
@@ -482,8 +483,7 @@ msgstr "استرجاع جنوم"
 msgid "Unknown (%s)"
 msgstr "غير معروف (%s)"
 
-#: ../ubuntutweak/system/__init__.py:59
-#: ../ubuntutweak/clips/hardwareinfo.py:16
+#: ../ubuntutweak/system/__init__.py:59 ../ubuntutweak/clips/hardwareinfo.py:16
 msgid "Unknown"
 msgstr "مجهول"
 
@@ -566,8 +566,8 @@ msgstr "_فك القفل"
 msgid ""
 "The Ubuntu Tweak daemon didn't start correctly. This means that some "
 "advanced features may not work.\n"
-"If you want to help developers debugging, try to run \"<b>sudo "
-"/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
+"If you want to help developers debugging, try to run \"<b>sudo /usr/share/"
+"ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
 msgstr ""
 "لم يبدأ البرنامج الخفي الخاص بتضبيطات أبنتو بشكل صحيح، وهذا يعني أنه قد لا "
 "تعمل بعض الميزات المتقدمة.\n"
@@ -584,8 +584,8 @@ msgid ""
 "Now click \"Report\" to enter the bug report website. Make sure to attach "
 "the error message in \"Further information\"."
 msgstr ""
-"اضغط \"بلّغ\" الآن لدخول صفحة وِب الإبلاغ عن الخطأ. تأكد من إرفاق رسالة "
-"الخطأ في حقل \"Further information\"."
+"اضغط \"بلّغ\" الآن لدخول صفحة وِب الإبلاغ عن الخطأ. تأكد من إرفاق رسالة الخطأ "
+"في حقل \"Further information\"."
 
 #: ../ubuntutweak/common/debug.py:81
 msgid "Copy Error Message"
@@ -623,11 +623,11 @@ msgstr "الذاكرة المخبأة للمصغّرات"
 msgid "Software Center Cache"
 msgstr "الذاكرة المخبأة لمركز البرمجيات"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:37
+#: ../ubuntutweak/janitor/mozilla_plugin.py:41
 msgid "Firefox Cache"
 msgstr "الذاكرة المخبأة لفيرفُكس"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:43
+#: ../ubuntutweak/janitor/mozilla_plugin.py:48
 msgid "Thunderbird Cache"
 msgstr "الذاكرة المخبأة لثندربيرد"
 
@@ -680,8 +680,7 @@ msgstr "ينظّف التراكمات لـ \"%s\"..."
 msgid "System"
 msgstr "النظام"
 
-#: ../ubuntutweak/janitor/__init__.py:866
-#: ../ubuntutweak/modules/__init__.py:33
+#: ../ubuntutweak/janitor/__init__.py:866 ../ubuntutweak/modules/__init__.py:33
 msgid "Personal"
 msgstr "شخصي"
 
@@ -795,8 +794,8 @@ msgid ""
 "Would you like to recover the backup of all \"<b>%(setting_name)s</b>\" "
 "settings named \"<b>%(backup_name)s</b>\"?"
 msgstr ""
-"هل ترغب في إرجاع كل \"<b>%(setting_name)s</b>\" الإعدادات المسمات "
-"\"<b>%(backup_name)s</b>\"؟"
+"هل ترغب في إرجاع كل \"<b>%(setting_name)s</b>\" الإعدادات المسمات \"<b>"
+"%(backup_name)s</b>\"؟"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:481
 msgid ""
@@ -953,8 +952,7 @@ msgstr "مركز المصادر"
 msgid ""
 "A collection of software sources to ensure your applications are always up-"
 "to-date."
-msgstr ""
-"مجموعة من مصادر البرمجيات لضمان أن تطبيقاتك محدّثة إلى آخر نسخة دائما."
+msgstr "مجموعة من مصادر البرمجيات لضمان أن تطبيقاتك محدّثة إلى آخر نسخة دائما."
 
 #: ../ubuntutweak/admins/sourcecenter.py:928
 msgid "Visit online Source Center"
@@ -1078,11 +1076,11 @@ msgstr "عدّل مصادر البرمجيات يدويًا لتناسب إحت�
 #: ../ubuntutweak/admins/sourceeditor.py:212
 #, python-format
 msgid ""
-"You're viewing the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\""
+"You're viewing the backup \"<b>%(backup_name)s</b>\" for \"<b>%(list_name)s</"
+"b>\""
 msgstr ""
-"أنت الآن تعاين نسخ الرجوع \"<b>%(backup_name)s</b>\" التابعة ل "
-"\"<b>%(list_name)s</b>\""
+"أنت الآن تعاين نسخ الرجوع \"<b>%(backup_name)s</b>\" التابعة ل \"<b>"
+"%(list_name)s</b>\""
 
 #: ../ubuntutweak/admins/sourceeditor.py:283
 msgid "No backup yet"
@@ -1099,11 +1097,11 @@ msgstr "فشل الحفظ!"
 #: ../ubuntutweak/admins/sourceeditor.py:343
 #, python-format
 msgid ""
-"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\"?"
+"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for \"<b>"
+"%(list_name)s</b>\"?"
 msgstr ""
-"هل ترغب باستعادة النسخة الاحتياطية \"<b>%(backup_name)s</b>\" لـ "
-"\"<b>%(list_name)s</b>\"؟"
+"هل ترغب باستعادة النسخة الاحتياطية \"<b>%(backup_name)s</b>\" لـ \"<b>"
+"%(list_name)s</b>\"؟"
 
 #: ../ubuntutweak/admins/sourceeditor.py:354
 msgid "Recovery Failed!"
@@ -1407,118 +1405,127 @@ msgstr ""
 "إذا تابعت، سيُضبط الشريط إلى الحالة المبدئية وسيفقد جميع العناصر الحالية."
 
 #: ../ubuntutweak/admins/scripts.py:49
-msgid "Create Launcher ..."
-msgstr "أنشئ شريط بدء التطبيقات..."
+msgid "Add to unity ..."
+msgstr ""
 
 #: ../ubuntutweak/admins/scripts.py:50
-msgid "Copy to ..."
-msgstr "انسخ إلى..."
+#, fuzzy
+msgid "Browse as root ..."
+msgstr "تصفّح كجذر"
 
 #: ../ubuntutweak/admins/scripts.py:51
-msgid "Copy to Desktop"
-msgstr "انسخ إلى سطح المكتب"
-
-#: ../ubuntutweak/admins/scripts.py:52
-msgid "Copy to Download"
-msgstr "انسخ إلى التنزيلات"
-
-#: ../ubuntutweak/admins/scripts.py:53
-msgid "Copy to Home"
-msgstr "انسخ إلى المنزل"
-
-#: ../ubuntutweak/admins/scripts.py:54
 msgid "Check md5 sum"
 msgstr "افحص شفرة الإم دي 5"
 
-#: ../ubuntutweak/admins/scripts.py:55
+#: ../ubuntutweak/admins/scripts.py:52
 msgid "Compress PDF"
 msgstr "ضغط ملف PDF"
 
-#: ../ubuntutweak/admins/scripts.py:56
-msgid "Move to ..."
-msgstr "انقل إلى..."
-
-#: ../ubuntutweak/admins/scripts.py:57
-msgid "Move to Desktop"
-msgstr "انقل إلى سطح المكتب"
-
-#: ../ubuntutweak/admins/scripts.py:58
-msgid "Move to Download"
-msgstr "انقل إلى التنزيلات"
-
-#: ../ubuntutweak/admins/scripts.py:59
-msgid "Move to Home"
-msgstr "انقل إلى المنزل"
-
-#: ../ubuntutweak/admins/scripts.py:60
-msgid "Create hardlink to ..."
-msgstr "أنشئ رابط ثابت لـ ...."
-
-#: ../ubuntutweak/admins/scripts.py:61
-msgid "Link to ..."
-msgstr "اربط بـ..."
-
-#: ../ubuntutweak/admins/scripts.py:62
-msgid "Link to Desktop"
-msgstr "اربط بسطح المكتب"
-
-#: ../ubuntutweak/admins/scripts.py:63
-msgid "Link to Download"
-msgstr "اربط بالتنزيلات"
-
-#: ../ubuntutweak/admins/scripts.py:64
-msgid "Link to Home"
-msgstr "اربط بالمنزل"
-
-#: ../ubuntutweak/admins/scripts.py:65
-msgid "Open with your favourite text editor"
-msgstr "افتح باستخدام محرّر نصوصك المفضل"
-
-#: ../ubuntutweak/admins/scripts.py:66
-msgid "Open with your favourite text editor (as root)"
-msgstr "افتح باستخدام محرّر نصوصك المفضل (كجذر)"
-
-#: ../ubuntutweak/admins/scripts.py:67
-msgid "Browse as root"
-msgstr "تصفّح كجذر"
-
-#: ../ubuntutweak/admins/scripts.py:68
-msgid "Search in current folder"
-msgstr "ابحث في المجلد الحالي"
-
-#: ../ubuntutweak/admins/scripts.py:69
+#: ../ubuntutweak/admins/scripts.py:53
 msgid "Convert image to JPG"
 msgstr "تحويل الصورة إلى JPG"
 
-#: ../ubuntutweak/admins/scripts.py:70
+#: ../ubuntutweak/admins/scripts.py:54
 msgid "Convert image to PNG"
 msgstr "تحويل الصورة إلى PNG"
 
-#: ../ubuntutweak/admins/scripts.py:71
+#: ../ubuntutweak/admins/scripts.py:55
 msgid "Convert image to GIF"
 msgstr "تحويل الصورة إلى GIF"
 
-#: ../ubuntutweak/admins/scripts.py:72
-msgid "Set image as wallpaper"
-msgstr "ضبط الصورة كخلفية"
+#: ../ubuntutweak/admins/scripts.py:56
+msgid "Create Launcher ..."
+msgstr "أنشئ شريط بدء التطبيقات..."
 
-#: ../ubuntutweak/admins/scripts.py:73
+#: ../ubuntutweak/admins/scripts.py:57
+msgid "Copy to ..."
+msgstr "انسخ إلى..."
+
+#: ../ubuntutweak/admins/scripts.py:58
+msgid "Copy to Desktop"
+msgstr "انسخ إلى سطح المكتب"
+
+#: ../ubuntutweak/admins/scripts.py:59
+msgid "Copy to Download"
+msgstr "انسخ إلى التنزيلات"
+
+#: ../ubuntutweak/admins/scripts.py:60
+msgid "Copy to Home"
+msgstr "انسخ إلى المنزل"
+
+#: ../ubuntutweak/admins/scripts.py:61
+msgid "Create hardlink to ..."
+msgstr "أنشئ رابط ثابت لـ ...."
+
+#: ../ubuntutweak/admins/scripts.py:62
+msgid "Link to ..."
+msgstr "اربط بـ..."
+
+#: ../ubuntutweak/admins/scripts.py:63
+msgid "Link to Desktop"
+msgstr "اربط بسطح المكتب"
+
+#: ../ubuntutweak/admins/scripts.py:64
+msgid "Link to Download"
+msgstr "اربط بالتنزيلات"
+
+#: ../ubuntutweak/admins/scripts.py:65
+msgid "Link to Home"
+msgstr "اربط بالمنزل"
+
+#: ../ubuntutweak/admins/scripts.py:66
 msgid "Make hard shadow to image"
 msgstr "جعل ظل ثابت للصورة"
 
-#: ../ubuntutweak/admins/scripts.py:101
+#: ../ubuntutweak/admins/scripts.py:67
+msgid "Move to ..."
+msgstr "انقل إلى..."
+
+#: ../ubuntutweak/admins/scripts.py:68
+msgid "Move to Desktop"
+msgstr "انقل إلى سطح المكتب"
+
+#: ../ubuntutweak/admins/scripts.py:69
+msgid "Move to Download"
+msgstr "انقل إلى التنزيلات"
+
+#: ../ubuntutweak/admins/scripts.py:70
+msgid "Move to Home"
+msgstr "انقل إلى المنزل"
+
+#: ../ubuntutweak/admins/scripts.py:71
+msgid "Open with your favourite text editor"
+msgstr "افتح باستخدام محرّر نصوصك المفضل"
+
+#: ../ubuntutweak/admins/scripts.py:72
+msgid "Open with your favourite text editor (as root)"
+msgstr "افتح باستخدام محرّر نصوصك المفضل (كجذر)"
+
+#: ../ubuntutweak/admins/scripts.py:73
+msgid "Browse as root"
+msgstr "تصفّح كجذر"
+
+#: ../ubuntutweak/admins/scripts.py:74
+msgid "Search in current folder"
+msgstr "ابحث في المجلد الحالي"
+
+#: ../ubuntutweak/admins/scripts.py:75
+msgid "Set image as wallpaper"
+msgstr "ضبط الصورة كخلفية"
+
+#: ../ubuntutweak/admins/scripts.py:103
 msgid "Enabled Scripts"
 msgstr "سكربتات ممكنة"
 
-#: ../ubuntutweak/admins/scripts.py:132
+#: ../ubuntutweak/admins/scripts.py:134
 msgid "Disabled Scripts"
 msgstr "سكربتات معطّلة"
 
-#: ../ubuntutweak/admins/scripts.py:139
+#: ../ubuntutweak/admins/scripts.py:141
 msgid "Scripts"
 msgstr "سكربتات"
 
-#: ../ubuntutweak/admins/scripts.py:140
+#: ../ubuntutweak/admins/scripts.py:142
 msgid ""
 "Scripts can be used to complete all kinds of tasks.\n"
 "You can drag and drop scripts here from File Manager.\n"
@@ -1528,11 +1535,11 @@ msgstr ""
 "يمكنك سحب وإسقاط البرامج النصية هنا من مدير الملفات.\n"
 "ثم ستضاف \"البرامج النصية\" إلى قائمة السياق."
 
-#: ../ubuntutweak/admins/scripts.py:168
+#: ../ubuntutweak/admins/scripts.py:170
 msgid "Rebuild System Scripts"
 msgstr "أعد بناء سكربتات النظام"
 
-#: ../ubuntutweak/admins/scripts.py:182
+#: ../ubuntutweak/admins/scripts.py:184
 msgid ""
 "This will delete all disabled scripts.\n"
 "Do you wish to continue?"
@@ -1559,8 +1566,7 @@ msgstr ""
 msgid "Command %d"
 msgstr "الأمر %d"
 
-#: ../ubuntutweak/admins/shortcuts.py:89
-#: ../ubuntutweak/admins/shortcuts.py:201
+#: ../ubuntutweak/admins/shortcuts.py:89 ../ubuntutweak/admins/shortcuts.py:201
 #: ../ubuntutweak/admins/filetypemanager.py:178
 #: ../ubuntutweak/admins/filetypemanager.py:202
 #: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:87
@@ -1570,8 +1576,7 @@ msgstr "الأمر %d"
 msgid "None"
 msgstr "لا شيء"
 
-#: ../ubuntutweak/admins/shortcuts.py:94
-#: ../ubuntutweak/admins/shortcuts.py:146
+#: ../ubuntutweak/admins/shortcuts.py:94 ../ubuntutweak/admins/shortcuts.py:146
 msgid "disabled"
 msgstr "معطل"
 
@@ -2483,8 +2488,7 @@ msgid ""
 "It is unknown when the package information was updated last. Please try "
 "clicking on the 'Check' button to update the information."
 msgstr ""
-"ليس معلوما متى حدِّثت معلومات الحزم آخر مرة. اضغط زر 'التمس' لتحديث "
-"المعلومات."
+"ليس معلوما متى حدِّثت معلومات الحزم آخر مرة. اضغط زر 'التمس' لتحديث المعلومات."
 
 #: ../ubuntutweak/clips/updateinfo.py:54
 #, python-format
@@ -2498,8 +2502,7 @@ msgstr ""
 #: ../ubuntutweak/clips/updateinfo.py:59
 #, python-format
 msgid "The package information was last updated %(days_ago)s day ago."
-msgid_plural ""
-"The package information was last updated %(days_ago)s days ago."
+msgid_plural "The package information was last updated %(days_ago)s days ago."
 msgstr[0] "حُدّثت معلومات الحزم آخر مرة اليوم."
 msgstr[1] "حُدّثت معلومات الحزم آخر مرة منذ يوم واحد."
 msgstr[2] "حُدّثت معلومات الحزم آخر مرة منذ يومين."
@@ -2690,6 +2693,10 @@ msgstr "هل ترغب بإزالته ثم تثبيته مرة أخرى؟"
 #, python-format
 msgid "\"%s\" has already installed"
 msgstr "\"%s\" مثبّت حاليًا بالفعل"
+
+#, fuzzy
+#~ msgid "Link to..."
+#~ msgstr "اربط بـ..."
 
 #~ msgid "Dodge Window"
 #~ msgstr "تفادي النوافذ"

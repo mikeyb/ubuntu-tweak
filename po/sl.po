@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-19 14:32+0800\n"
+"POT-Creation-Date: 2016-05-08 18:27+0200\n"
 "PO-Revision-Date: 2014-05-22 06:59+0000\n"
 "Last-Translator: Sasa Batistic <Unknown>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
+"Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
-"n%100==4 ? 3 : 0);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
 "X-Launchpad-Export-Date: 2014-06-30 13:01+0000\n"
 "X-Generator: Launchpad (build 17077)\n"
 
@@ -466,8 +467,7 @@ msgstr "Zasilni GNOME"
 msgid "Unknown (%s)"
 msgstr "Neznano (%s)"
 
-#: ../ubuntutweak/system/__init__.py:59
-#: ../ubuntutweak/clips/hardwareinfo.py:16
+#: ../ubuntutweak/system/__init__.py:59 ../ubuntutweak/clips/hardwareinfo.py:16
 msgid "Unknown"
 msgstr "Neznano"
 
@@ -542,13 +542,13 @@ msgstr "_Odkleni"
 msgid ""
 "The Ubuntu Tweak daemon didn't start correctly. This means that some "
 "advanced features may not work.\n"
-"If you want to help developers debugging, try to run \"<b>sudo "
-"/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
+"If you want to help developers debugging, try to run \"<b>sudo /usr/share/"
+"ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
 msgstr ""
 "Ubuntu Tweak ozadnji program se ni pravilno zagnal. To pomeni, da nekatere "
 "napredne zmožnosti ne bodo delovale.\n"
-"Če želite pomagati razvijalcem, poskusite pognati \"<b>sudo "
-"/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" v terminalu."
+"Če želite pomagati razvijalcem, poskusite pognati \"<b>sudo /usr/share/"
+"ubuntu-tweak/ubuntu-tweak-daemon</b>\" v terminalu."
 
 #: ../ubuntutweak/common/debug.py:59
 msgid "Error message has been copied"
@@ -599,11 +599,11 @@ msgstr "Predpomnilnik sličic"
 msgid "Software Center Cache"
 msgstr "Predpomnilnik Programskega središča"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:37
+#: ../ubuntutweak/janitor/mozilla_plugin.py:41
 msgid "Firefox Cache"
 msgstr "Predpomnilnik Firefox"
 
-#: ../ubuntutweak/janitor/mozilla_plugin.py:43
+#: ../ubuntutweak/janitor/mozilla_plugin.py:48
 msgid "Thunderbird Cache"
 msgstr "Predpomnilnik Thunderbird"
 
@@ -656,8 +656,7 @@ msgstr "Čiščenje šare za \"%s\"..."
 msgid "System"
 msgstr "Sistem"
 
-#: ../ubuntutweak/janitor/__init__.py:866
-#: ../ubuntutweak/modules/__init__.py:33
+#: ../ubuntutweak/janitor/__init__.py:866 ../ubuntutweak/modules/__init__.py:33
 msgid "Personal"
 msgstr "Osebno"
 
@@ -1029,8 +1028,7 @@ msgstr "PPA lahko varno počistite. Noben paket ne bo podgrajen."
 
 #: ../ubuntutweak/admins/sourcecenter.py:1212
 msgid "To safely purge the PPA, the following packages must be downgraded."
-msgstr ""
-"Da lahko PPA varno počistite, morajo biti naslednji paketi podgrajeni."
+msgstr "Da lahko PPA varno počistite, morajo biti naslednji paketi podgrajeni."
 
 #: ../ubuntutweak/admins/sourcecenter.py:1216
 #, python-format
@@ -1056,11 +1054,11 @@ msgstr "Ročno uredite programske vire, da bodo ustrezali vašim željam."
 #: ../ubuntutweak/admins/sourceeditor.py:212
 #, python-format
 msgid ""
-"You're viewing the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\""
+"You're viewing the backup \"<b>%(backup_name)s</b>\" for \"<b>%(list_name)s</"
+"b>\""
 msgstr ""
-"Pregledujete varnostno kopijo \"<b>%(backup_name)s</b>\" za "
-"\"<b>%(list_name)s</b>\""
+"Pregledujete varnostno kopijo \"<b>%(backup_name)s</b>\" za \"<b>"
+"%(list_name)s</b>\""
 
 #: ../ubuntutweak/admins/sourceeditor.py:283
 msgid "No backup yet"
@@ -1077,11 +1075,11 @@ msgstr "Shranjevanje je spodletelo!"
 #: ../ubuntutweak/admins/sourceeditor.py:343
 #, python-format
 msgid ""
-"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for "
-"\"<b>%(list_name)s</b>\"?"
+"Would you like to recover the backup \"<b>%(backup_name)s</b>\" for \"<b>"
+"%(list_name)s</b>\"?"
 msgstr ""
-"Ali želite obnoviti varnostno kopijo\"<b>%(backup_name)s</b>\" za "
-"\"<b>%(list_name)s</b>\"?"
+"Ali želite obnoviti varnostno kopijo\"<b>%(backup_name)s</b>\" za \"<b>"
+"%(list_name)s</b>\"?"
 
 #: ../ubuntutweak/admins/sourceeditor.py:354
 msgid "Recovery Failed!"
@@ -1388,118 +1386,127 @@ msgstr ""
 "predmeti bodo izgubljeni."
 
 #: ../ubuntutweak/admins/scripts.py:49
-msgid "Create Launcher ..."
-msgstr "Ustvari zaganjalnik ..."
+msgid "Add to unity ..."
+msgstr ""
 
 #: ../ubuntutweak/admins/scripts.py:50
-msgid "Copy to ..."
-msgstr "Kopiraj v ..."
+#, fuzzy
+msgid "Browse as root ..."
+msgstr "Prebrskaj kot skrbnik"
 
 #: ../ubuntutweak/admins/scripts.py:51
-msgid "Copy to Desktop"
-msgstr "Kopiraj na Namizje"
-
-#: ../ubuntutweak/admins/scripts.py:52
-msgid "Copy to Download"
-msgstr "Kopiraj v Prejeto"
-
-#: ../ubuntutweak/admins/scripts.py:53
-msgid "Copy to Home"
-msgstr "Kopiraj v Domačo mapo"
-
-#: ../ubuntutweak/admins/scripts.py:54
 msgid "Check md5 sum"
 msgstr "Preveri vsoto md5"
 
-#: ../ubuntutweak/admins/scripts.py:55
+#: ../ubuntutweak/admins/scripts.py:52
 msgid "Compress PDF"
 msgstr "Stisni PDF"
 
-#: ../ubuntutweak/admins/scripts.py:56
-msgid "Move to ..."
-msgstr "Premakni v ..."
-
-#: ../ubuntutweak/admins/scripts.py:57
-msgid "Move to Desktop"
-msgstr "Premakni na Namizje"
-
-#: ../ubuntutweak/admins/scripts.py:58
-msgid "Move to Download"
-msgstr "Premakni v Prejeto"
-
-#: ../ubuntutweak/admins/scripts.py:59
-msgid "Move to Home"
-msgstr "Premakni v Domačo mapo"
-
-#: ../ubuntutweak/admins/scripts.py:60
-msgid "Create hardlink to ..."
-msgstr "Ustvari trdo povezavo do ..."
-
-#: ../ubuntutweak/admins/scripts.py:61
-msgid "Link to ..."
-msgstr "Povezava do ..."
-
-#: ../ubuntutweak/admins/scripts.py:62
-msgid "Link to Desktop"
-msgstr "Povezava do mape Namizje"
-
-#: ../ubuntutweak/admins/scripts.py:63
-msgid "Link to Download"
-msgstr "Povezava do mape Prejemi"
-
-#: ../ubuntutweak/admins/scripts.py:64
-msgid "Link to Home"
-msgstr "Povezava do Domače mape"
-
-#: ../ubuntutweak/admins/scripts.py:65
-msgid "Open with your favourite text editor"
-msgstr "Odprite s svojim najljubšim urejevalnikom besedila"
-
-#: ../ubuntutweak/admins/scripts.py:66
-msgid "Open with your favourite text editor (as root)"
-msgstr "Odprite s svojim najljubšim urejevalnikom besedila (kot skrbnik)"
-
-#: ../ubuntutweak/admins/scripts.py:67
-msgid "Browse as root"
-msgstr "Prebrskaj kot skrbnik"
-
-#: ../ubuntutweak/admins/scripts.py:68
-msgid "Search in current folder"
-msgstr "Išči v trenutni mapi"
-
-#: ../ubuntutweak/admins/scripts.py:69
+#: ../ubuntutweak/admins/scripts.py:53
 msgid "Convert image to JPG"
 msgstr "Pretvori sliko v JPG"
 
-#: ../ubuntutweak/admins/scripts.py:70
+#: ../ubuntutweak/admins/scripts.py:54
 msgid "Convert image to PNG"
 msgstr "Pretvori sliko v PNG"
 
-#: ../ubuntutweak/admins/scripts.py:71
+#: ../ubuntutweak/admins/scripts.py:55
 msgid "Convert image to GIF"
 msgstr "Pretvori sliko v GIF"
 
-#: ../ubuntutweak/admins/scripts.py:72
-msgid "Set image as wallpaper"
-msgstr "Nastavi sliko kot tapeto namizja"
+#: ../ubuntutweak/admins/scripts.py:56
+msgid "Create Launcher ..."
+msgstr "Ustvari zaganjalnik ..."
 
-#: ../ubuntutweak/admins/scripts.py:73
+#: ../ubuntutweak/admins/scripts.py:57
+msgid "Copy to ..."
+msgstr "Kopiraj v ..."
+
+#: ../ubuntutweak/admins/scripts.py:58
+msgid "Copy to Desktop"
+msgstr "Kopiraj na Namizje"
+
+#: ../ubuntutweak/admins/scripts.py:59
+msgid "Copy to Download"
+msgstr "Kopiraj v Prejeto"
+
+#: ../ubuntutweak/admins/scripts.py:60
+msgid "Copy to Home"
+msgstr "Kopiraj v Domačo mapo"
+
+#: ../ubuntutweak/admins/scripts.py:61
+msgid "Create hardlink to ..."
+msgstr "Ustvari trdo povezavo do ..."
+
+#: ../ubuntutweak/admins/scripts.py:62
+msgid "Link to ..."
+msgstr "Povezava do ..."
+
+#: ../ubuntutweak/admins/scripts.py:63
+msgid "Link to Desktop"
+msgstr "Povezava do mape Namizje"
+
+#: ../ubuntutweak/admins/scripts.py:64
+msgid "Link to Download"
+msgstr "Povezava do mape Prejemi"
+
+#: ../ubuntutweak/admins/scripts.py:65
+msgid "Link to Home"
+msgstr "Povezava do Domače mape"
+
+#: ../ubuntutweak/admins/scripts.py:66
 msgid "Make hard shadow to image"
 msgstr "Naredi trdo senco slike"
 
-#: ../ubuntutweak/admins/scripts.py:101
+#: ../ubuntutweak/admins/scripts.py:67
+msgid "Move to ..."
+msgstr "Premakni v ..."
+
+#: ../ubuntutweak/admins/scripts.py:68
+msgid "Move to Desktop"
+msgstr "Premakni na Namizje"
+
+#: ../ubuntutweak/admins/scripts.py:69
+msgid "Move to Download"
+msgstr "Premakni v Prejeto"
+
+#: ../ubuntutweak/admins/scripts.py:70
+msgid "Move to Home"
+msgstr "Premakni v Domačo mapo"
+
+#: ../ubuntutweak/admins/scripts.py:71
+msgid "Open with your favourite text editor"
+msgstr "Odprite s svojim najljubšim urejevalnikom besedila"
+
+#: ../ubuntutweak/admins/scripts.py:72
+msgid "Open with your favourite text editor (as root)"
+msgstr "Odprite s svojim najljubšim urejevalnikom besedila (kot skrbnik)"
+
+#: ../ubuntutweak/admins/scripts.py:73
+msgid "Browse as root"
+msgstr "Prebrskaj kot skrbnik"
+
+#: ../ubuntutweak/admins/scripts.py:74
+msgid "Search in current folder"
+msgstr "Išči v trenutni mapi"
+
+#: ../ubuntutweak/admins/scripts.py:75
+msgid "Set image as wallpaper"
+msgstr "Nastavi sliko kot tapeto namizja"
+
+#: ../ubuntutweak/admins/scripts.py:103
 msgid "Enabled Scripts"
 msgstr "Omogočeni skripti"
 
-#: ../ubuntutweak/admins/scripts.py:132
+#: ../ubuntutweak/admins/scripts.py:134
 msgid "Disabled Scripts"
 msgstr "Onemogočeni skripti"
 
-#: ../ubuntutweak/admins/scripts.py:139
+#: ../ubuntutweak/admins/scripts.py:141
 msgid "Scripts"
 msgstr "Skripti"
 
-#: ../ubuntutweak/admins/scripts.py:140
+#: ../ubuntutweak/admins/scripts.py:142
 msgid ""
 "Scripts can be used to complete all kinds of tasks.\n"
 "You can drag and drop scripts here from File Manager.\n"
@@ -1509,11 +1516,11 @@ msgstr ""
 "Sem lahko povlečete in spustite skripte iz Upravljalnika datotek.\n"
 "'Skripti' bodo nato dodani v vsebinski meni."
 
-#: ../ubuntutweak/admins/scripts.py:168
+#: ../ubuntutweak/admins/scripts.py:170
 msgid "Rebuild System Scripts"
 msgstr "Ponovno izgradi sistemske skripte"
 
-#: ../ubuntutweak/admins/scripts.py:182
+#: ../ubuntutweak/admins/scripts.py:184
 msgid ""
 "This will delete all disabled scripts.\n"
 "Do you wish to continue?"
@@ -1541,8 +1548,7 @@ msgstr ""
 msgid "Command %d"
 msgstr "Ukaz %d"
 
-#: ../ubuntutweak/admins/shortcuts.py:89
-#: ../ubuntutweak/admins/shortcuts.py:201
+#: ../ubuntutweak/admins/shortcuts.py:89 ../ubuntutweak/admins/shortcuts.py:201
 #: ../ubuntutweak/admins/filetypemanager.py:178
 #: ../ubuntutweak/admins/filetypemanager.py:202
 #: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:87
@@ -1552,8 +1558,7 @@ msgstr "Ukaz %d"
 msgid "None"
 msgstr "Brez"
 
-#: ../ubuntutweak/admins/shortcuts.py:94
-#: ../ubuntutweak/admins/shortcuts.py:146
+#: ../ubuntutweak/admins/shortcuts.py:94 ../ubuntutweak/admins/shortcuts.py:146
 msgid "disabled"
 msgstr "onemogočeno"
 
@@ -2484,8 +2489,7 @@ msgstr ""
 #: ../ubuntutweak/clips/updateinfo.py:59
 #, python-format
 msgid "The package information was last updated %(days_ago)s day ago."
-msgid_plural ""
-"The package information was last updated %(days_ago)s days ago."
+msgid_plural "The package information was last updated %(days_ago)s days ago."
 msgstr[0] "Podatki o paketih so bili posodobljeni pred %(days_ago)s dnevi."
 msgstr[1] "Podatki o paketih so bili posodobljeni pred %(days_ago)s dnevom."
 msgstr[2] "Podatki o paketih so bili posodobljeni pred %(days_ago)s dnevoma."
@@ -2503,8 +2507,7 @@ msgstr[3] "Podatki o paketih so bili posodobljeni pred %(hours_ago)s urami."
 
 #: ../ubuntutweak/clips/updateinfo.py:67
 msgid "The package information was last updated less than one hour ago."
-msgstr ""
-"Podatki o paketih so bili zadnjič posodobljeni pred manj kot eno uro."
+msgstr "Podatki o paketih so bili zadnjič posodobljeni pred manj kot eno uro."
 
 #: ../ubuntutweak/gui/widgets.py:161
 #, python-format
@@ -2671,6 +2674,10 @@ msgstr "Ali želite odstraniti in ponovno namestiti?"
 #, python-format
 msgid "\"%s\" has already installed"
 msgstr "\"%s\" je že nameščen"
+
+#, fuzzy
+#~ msgid "Link to..."
+#~ msgstr "Povezava do ..."
 
 #~ msgid "Show Widgets"
 #~ msgstr "Prikaži gradnike"
