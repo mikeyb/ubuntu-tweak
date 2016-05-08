@@ -46,18 +46,28 @@ class AbstractScripts(object):
 class DefaultScripts(AbstractScripts):
     '''This class use to create the default scripts'''
     scripts = {
+            'add-to-unity': _('Add to unity ...'),
+            'browse-as-root': _('Browse as root ...'),
+            'check-md5-sum': _('Check md5 sum'),
+            'compress-pdf': _('Compress PDF'),
+            'convert-image-to-jpg': _('Convert image to JPG'),
+            'convert-image-to-png': _('Convert image to PNG'),
+            'convert-image-to-gif': _('Convert image to GIF'),
             'create-launcher': _('Create Launcher ...'),
             'copy-to': _('Copy to ...'),
             'copy-to-desktop': _('Copy to Desktop'),
             'copy-to-download': _('Copy to Download'),
             'copy-to-home': _('Copy to Home'),
-            'check-md5-sum': _('Check md5 sum'),
-            'compress-pdf': _('Compress PDF'),
+            'hardlink-to': _('Create hardlink to ...'),
+            'link-to': _('Link to...'),
+            'link-to-desktop': _('Link to Desktop'),
+            'link-to-download': _('Link to Download'),
+            'link-to-home': _('Link to Home'),
+            'make-hard-shadow-to-image': _('Make hard shadow to image'),
             'move-to': _('Move to ...'),
             'move-to-desktop': _('Move to Desktop'),
             'move-to-download': _('Move to Download'),
             'move-to-home': _('Move to Home'),
-            'hardlink-to': _('Create hardlink to ...'),
             'link-to': _('Link to ...'),
             'link-to-desktop': _('Link to Desktop'),
             'link-to-download': _('Link to Download'),
@@ -66,11 +76,7 @@ class DefaultScripts(AbstractScripts):
             'open-with-your-favourite-text-editor-as-root': _('Open with your favourite text editor (as root)'),
             'browse-as-root': _('Browse as root'),
             'search-in-current': _('Search in current folder'),
-            'convert-image-to-jpg': _('Convert image to JPG'),
-            'convert-image-to-png': _('Convert image to PNG'),
-            'convert-image-to-gif': _('Convert image to GIF'),
             'set-image-as-wallpaper': _('Set image as wallpaper'),
-            'make-hard-shadow-to-image': _('Make hard shadow to image'),
             }
 
     def create(self):
