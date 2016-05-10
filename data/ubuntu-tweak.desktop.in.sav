@@ -16,6 +16,11 @@ _Name=Overview
 Exec=ubuntu-tweak -f overview
 TargetEnvironment=Unity
 
+[Apps Shortcut Group]
+_Name=Apps
+Exec=ubuntu-tweak -f apps
+TargetEnvironment=Unity
+
 [Tweaks Shortcut Group]
 _Name=Tweaks
 Exec=ubuntu-tweak -f tweaks
