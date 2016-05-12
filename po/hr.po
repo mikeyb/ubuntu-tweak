@@ -2441,7 +2441,7 @@ msgstr "Distribucija:"
 
 #: ../ubuntutweak/clips/systeminfo.py:23
 msgid "Desktop Environment:"
-msgstr "Radno okruženja:"
+msgstr "Radno okruženje:"
 
 #: ../ubuntutweak/clips/cleanerinfo.py:11
 msgid "Your system is clean"
